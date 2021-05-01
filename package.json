@@ -10,6 +10,7 @@
     "prestart": "yarn build:tailwind",
     "prebuild": "yarn rm && yarn build:tailwind",
     "rm": "rm -rf dist/",
+    "rm:extZip": "rm ext.zip",
     "start": "yarn dev",
     "dev": "webpack --watch --progress --colors --config webpack.config.js --mode=development",
     "build": "webpack --progress --colors --config webpack.config.js --mode=production",

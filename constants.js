@@ -4,7 +4,7 @@ const constants = {
   appConfig: {
     appName: "Image to Text Pro (OCR)",
     url:
-      "https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo",
+      "https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci",
     // put extension key here if required which would only be used in development mode
     key:
       "-----BEGIN PUBLIC KEY-----\n" +
@@ -37,7 +37,7 @@ const constants = {
   },
   support: {
     howToVideoLink: "https://www.youtube.com/watch?v=0BnUis2H_Kc",
-    uninstallFeedbackForm: "https://forms.gle/fmyBArGndYGxwS5V9",
+    uninstallFeedbackForm: "https://forms.gle/fe3aQmDZdg2gzZfA7",
   },
 };
 

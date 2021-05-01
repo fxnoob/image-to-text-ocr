@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import constants from "../../../constants";
+import firebaseService from "../../services/firebaseService";
+import dbService from "../../services/dbService";
+import Button from "@material-ui/core/Button";
+
 export default function Welcome() {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const login = async () => {
+    try {
+      const user = await firebaseService.getUser();
+      console.log({ user });
+      await dbService.set({ isAuthenticated: true });
+      setLoggedIn(true);
+    } catch (e) {
+      await dbService.set({ isAuthenticated: false });
+      setLoggedIn(false);
+    }
+  };
   return (
     <div
       className="h-screen pb-14 bg-right bg-cover"
@@ -40,7 +56,18 @@ export default function Welcome() {
             Extract text from any page/pdf on the internet
           </h1>
           <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
-            Lets go!
+            {loggedIn ? (
+              "Let's go!"
+            ) : (
+              <Button
+                style={{ background: "var(--main-color)" }}
+                onClick={login}
+                style={{ fontSize: "1.5rem", textDecoration: "underline" }}
+                className="btn-lite"
+              >
+                Login
+              </Button>
+            )}
           </p>
           <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
             <a

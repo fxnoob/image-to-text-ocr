@@ -3,6 +3,10 @@ import chromeService from "./services/chromeService";
 import Routes from "./routes";
 import messagePassing from "./services/messagePassing";
 import constants from "../constants";
+import db, { schema } from "./services/dbService";
+import authService from "./services/authService";
+import firebaseService from "./services/firebaseService";
+
 /**
  * Main extension functionality
  *
@@ -22,19 +26,38 @@ class Main {
     this.setFeedbackFormUrl();
   }
   init = async () => {
+    await this.initDb();
     await Routes();
     this.initContextMenu();
     this.popUpClickSetup();
   };
-  popUpClickSetup = () => {
-    chrome.browserAction.onClicked.addListener(async () => {
+  /**
+   * initialize db settings
+   * @method
+   * @memberof Main
+   */
+  initDb = async () => {
+    const res = await db.get("_loaded");
+    if (!res.hasOwnProperty("_loaded")) {
+      await db.set({ _loaded: true, ...schema.data });
+    }
+  };
+  openCropWindow = async () => {
+    const { isAuthenticated } = await db.get("isAuthenticated");
+    if (isAuthenticated) {
       const screenshotUrl = await chromeService.takeScreenShot();
       await messagePassing.sendMessageToActiveTab(
         "/show_popup",
         { screenshotUrl },
         () => {}
       );
-    });
+    } else {
+      await firebaseService.getUser();
+      await db.set({ isAuthenticated: true });
+    }
+  };
+  popUpClickSetup = () => {
+    chrome.browserAction.onClicked.addListener(this.openCropWindow);
   };
   /**
    * Context menu option initialization
@@ -63,19 +86,26 @@ class Main {
     });
   };
   onContextMenu1Click = async (info, tab) => {
-    const screenshotUrl = await chromeService.takeScreenShot();
-    await messagePassing.sendMessageToActiveTab(
-      "/show_popup",
-      { screenshotUrl },
-      () => {}
-    );
+    this.openCropWindow();
   };
-  onContextMenu2Click = (info, tab) => {
+  onContextMenu2Click = async (info, tab) => {
     const { srcUrl } = info;
-    chromeService.openHelpPage("home", encodeURIComponent(srcUrl));
+    const { isAuthenticated } = await db.get("isAuthenticated");
+    if (isAuthenticated) {
+      chromeService.openHelpPage("home", encodeURIComponent(srcUrl));
+    } else {
+      await firebaseService.getUser();
+      await db.set({ isAuthenticated: true });
+    }
   };
-  onContextMenu3Click = (info, tab) => {
-    chromeService.openHelpPage("pdf");
+  onContextMenu3Click = async (info, tab) => {
+    const { isAuthenticated } = await db.get("isAuthenticated");
+    if (isAuthenticated) {
+      chromeService.openHelpPage("pdf");
+    } else {
+      await firebaseService.getUser();
+      await db.set({ isAuthenticated: true });
+    }
   };
 
   /**

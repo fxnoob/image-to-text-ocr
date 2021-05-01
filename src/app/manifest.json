@@ -11,7 +11,14 @@
   "background": {
     "scripts": ["background.bundle.js"]
   },
-  "permissions": ["<all_urls>", "contextMenus", "activeTab", "tts"],
+  "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "activeTab",
+    "tts",
+    "identity",
+    "storage"
+  ],
   "browser_action": {
     "default_icon": {
       "16": "images/16x16.png",
@@ -26,8 +33,13 @@
       "run_at": "document_end"
     }
   ],
-  "web_accessible_resources": [
-    "js/worker.min.js"
-  ],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  "oauth2": {
+    "client_id": "911715420322-ertu6qj9hao95spkv504mkfmlm33uc8e.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "web_accessible_resources": ["js/worker.min.js"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
 }

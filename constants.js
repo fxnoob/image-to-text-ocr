@@ -6,7 +6,7 @@ const constants = {
     url:
       "https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo",
     // put extension key here if required which would only be used in development mode
-    "key ":
+    key:
       "-----BEGIN PUBLIC KEY-----\n" +
       "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDIDqs43GocJ9rQkIdi5\n" +
       "WEzj4vGkr/zATAqaOMEyxNrf05cOBDpkBmi+m4eCmvR+MRPG3dhFAopTGS23HFsx\n" +
@@ -20,7 +20,19 @@ const constants = {
   contentScript: {
     mountId: guid.generateGuid(),
   },
+
   google: {
+    firebase: {
+      config: {
+        apiKey: "AIzaSyC2ZzuonwqL8IpzaOTbhwe_r0PO0IrUVM8",
+        authDomain: "image-to-text-pro.firebaseapp.com",
+        projectId: "image-to-text-pro",
+        storageBucket: "image-to-text-pro.appspot.com",
+        messagingSenderId: "500214874087",
+        appId: "1:500214874087:web:2d41b42301ab04abd8c742",
+        measurementId: "G-ZK3S0NVC3F",
+      },
+    },
     visionApiKey: "AIzaSyC3y-Em42htSB8UEZPqptJ78rlvL58_h6Y", // temporary api key
   },
   support: {

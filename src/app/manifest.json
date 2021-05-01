@@ -1,0 +1,33 @@
+{
+  "name": "Image to Text Pro (OCR)",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Image to Text Pro (OCR) - OCR for multiple languages.",
+  "icons": {
+    "16": "images/16x16.png",
+    "48": "images/48x48.png",
+    "128": "images/128x128.png"
+  },
+  "background": {
+    "scripts": ["background.bundle.js"]
+  },
+  "permissions": ["<all_urls>", "contextMenus", "activeTab", "tts"],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/16x16.png",
+      "48": "images/48x48.png",
+      "128": "images/128x128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.bundle.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "js/worker.min.js"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

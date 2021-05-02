@@ -4,8 +4,8 @@ import Routes from "./routes";
 import messagePassing from "./services/messagePassing";
 import constants from "../constants";
 import db, { schema } from "./services/dbService";
-import authService from "./services/authService";
 import firebaseService from "./services/firebaseService";
+import { isGoogleChrome } from "./services/helper";
 
 /**
  * Main extension functionality
@@ -14,6 +14,7 @@ import firebaseService from "./services/firebaseService";
  */
 class Main {
   constructor() {
+    console.log({ isGoogleChrome });
     this.ctxMenuId1 = null;
     this.ctxMenuId2 = null;
     this.ctxMenuId3 = null;
@@ -37,9 +38,9 @@ class Main {
    * @memberof Main
    */
   initDb = async () => {
-    const res = await db.get("_loaded");
-    if (!res.hasOwnProperty("_loaded")) {
-      await db.set({ _loaded: true, ...schema.data });
+    const res = await db.get("___loaded");
+    if (!res.hasOwnProperty("___loaded")) {
+      await db.set({ ___loaded: true, ...schema.data });
     }
   };
   openCropWindow = async () => {

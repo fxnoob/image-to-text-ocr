@@ -56,5 +56,32 @@ const extractHostname = (url) => {
 
   return hostname;
 };
-
-export { http, loadImage, urlWithoutQueryParameters, extractHostname };
+/**
+ * return browser name. if it's google chrome than return false.
+ * */
+const isBadBrowser =
+  window.navigator.userAgent.indexOf("Edg") > -1
+    ? "Microsoft Edge"
+    : window.navigator.userAgent.indexOf("Firefox") > -1
+    ? "Firefox"
+    : void 0 !== window.navigator.brave
+    ? "Brave"
+    : void 0 !== window.safari
+    ? "Safari"
+    : !!(function () {
+        for (let a = 0; a < navigator.plugins.length; a += 1)
+          if (
+            null != navigator.plugins[a].name &&
+            -1 !== navigator.plugins[a].name.indexOf("Chromium")
+          )
+            return !0;
+        return !1;
+      })() && "Chromium";
+const isGoogleChrome = isBadBrowser == false;
+export {
+  http,
+  loadImage,
+  urlWithoutQueryParameters,
+  extractHostname,
+  isGoogleChrome,
+};

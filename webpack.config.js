@@ -9,18 +9,18 @@ module.exports = (env, options) => {
       content_script: "./src/content-scripts/index.js",
       background: "./src/background.js",
       popup: "./src/popup-page/index.js",
-      option: "./src/option-page/index.js"
+      option: "./src/option-page/index.js",
     },
     module: {
       rules: [
         {
-          test: /\.(js|jsx)$/,
+          test: /\.js$|jsx/,
           exclude: /node_modules/,
-          use: ["babel-loader"]
+          use: ["babel-loader"],
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"]
+          use: ["style-loader", "css-loader"],
         },
         {
           test: /\.(gif|png|jpe?g|svg)$/i,
@@ -30,20 +30,20 @@ module.exports = (env, options) => {
               loader: "image-webpack-loader",
               options: {
                 bypassOnDebug: true, // webpack@1.x
-                disable: true // webpack@2.x and newer
-              }
-            }
-          ]
-        }
-      ]
+                disable: true, // webpack@2.x and newer
+              },
+            },
+          ],
+        },
+      ],
     },
     resolve: {
-      extensions: ["*", ".js", ".jsx", ".json"]
+      extensions: ["*", ".js", ".jsx", ".json"],
     },
     output: {
       path: __dirname + "/dist",
       publicPath: "/",
-      filename: "[name].bundle.js"
+      filename: "[name].bundle.js",
     },
     devtool: "inline-sourcemap",
     plugins: [
@@ -51,12 +51,12 @@ module.exports = (env, options) => {
         [
           { from: "./src/popup-page/popup.html", force: true },
           { from: "./src/option-page/option.html", force: true },
-          { from: "./src/app/", force: true }
+          { from: "./src/app/", force: true },
         ],
         {}
       ),
       new webpack.DefinePlugin({
-        "process.env": dotenv.parsed
+        "process.env": dotenv.parsed,
       }),
       new CopyWebpackPlugin([
         {
@@ -64,14 +64,14 @@ module.exports = (env, options) => {
           force: true,
           transform(content, path) {
             return manifestTransform(content, path, options);
-          }
-        }
+          },
+        },
       ]),
-      new webpack.HotModuleReplacementPlugin()
+      new webpack.HotModuleReplacementPlugin(),
     ],
     devServer: {
       contentBase: "./dist",
-      hot: true
-    }
+      hot: true,
+    },
   };
 };

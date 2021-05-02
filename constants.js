@@ -20,7 +20,6 @@ const constants = {
   contentScript: {
     mountId: guid.generateGuid(),
   },
-
   google: {
     firebase: {
       config: {

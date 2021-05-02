@@ -1,13 +1,15 @@
 import React from "react";
+import Constants from "../../../constants";
 import "./share.css";
 
 export default () => {
+  const url = Constants.appConfig.url;
   return (
     <React.Fragment>
       <p style={{ marginLeft: "0.5rem" }}>Share</p>
       <a
         class="resp-sharing-button__link"
-        href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://facebook.com/sharer/sharer.php?u=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -26,7 +28,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://twitter.com/intent/tweet/?text=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://twitter.com/intent/tweet/?text=${url}&amp;url=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -45,7 +47,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;caption=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;content=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;canonicalUrl=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;shareSource=tumblr_share_button"
+        href={`https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=${url}&amp;caption=${url}&amp;content=${url}&amp;canonicalUrl=${url}&amp;shareSource=tumblr_share_button`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -64,7 +66,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="mailto:?subject=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;body=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`mailto:?subject=${url}&amp;body=${url}`}
         target="_self"
         rel="noopener"
         aria-label=""
@@ -83,7 +85,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;media=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;description=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://pinterest.com/pin/create/button/?url=${url}&amp;media=${url}&amp;description=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -102,7 +104,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;title=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;summary=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;source=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://www.linkedin.com/shareArticle?mini=true&amp;url=${url}&amp;title=${url}&amp;summary=${url}&amp;source=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -121,7 +123,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://reddit.com/submit/?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;resubmit=true&amp;title=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://reddit.com/submit/?url=${url}&amp;resubmit=true&amp;title=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -140,7 +142,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://www.xing.com/app/user?op=share;url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo;title=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://www.xing.com/app/user?op=share;url=${url};title=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -159,7 +161,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="whatsapp://send?text=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo%20https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`whatsapp://send?text=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -178,7 +180,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;t=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://news.ycombinator.com/submitlink?u=${url}&amp;t=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -200,7 +202,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="http://vk.com/share.php?title=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`http://vk.com/share.php?title=${url}&amp;url=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""
@@ -219,7 +221,7 @@ export default () => {
 
       <a
         class="resp-sharing-button__link"
-        href="https://telegram.me/share/url?text=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo&amp;url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjgjlejdhmfpimggbicpffmpbnalcnhoo"
+        href={`https://telegram.me/share/url?text=${url}&amp;url=${url}`}
         target="_blank"
         rel="noopener"
         aria-label=""

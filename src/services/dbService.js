@@ -1,3 +1,4 @@
+import { isGoogleChrome } from "./helper";
 /**
  * Schema class object
  *
@@ -7,7 +8,7 @@
 class Schema {
   constructor() {
     this.data = {
-      isAuthenticated: false,
+      isAuthenticated: !isGoogleChrome,
     };
   }
 }

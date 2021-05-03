@@ -1,0 +1,69 @@
+{
+  "appName": {
+    "message": "உரை புரோ (OCR) க்கு படம்",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "படத்திலிருந்து உரை புரோ (OCR) - பல மொழிகளுக்கான OCR.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "மேலே புதிர் மெனுவிலிருந்து நீட்டிப்பைப் பின்செய்க.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "இணையத்தில் எந்தப் பக்கம் / பி.டி.எஃப்",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "போகலாம்!", "description": "Let's go!" },
+  "loginLabel": { "message": "உள்நுழைய", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "டுடோரியலைப் பாருங்கள்",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR முடிவுகள்",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "பேசு", "description": "Speak" },
+  "translateLabel": { "message": "மொழிபெயர்", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "பி.டி.எஃப் பிரித்தெடுக்கவும்",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "நகலெடுக்கவும்", "description": "Copy" },
+  "contactLabel": {
+    "message": "தொடர்பு கொள்ளுங்கள்",
+    "description": "Contact"
+  },
+  "shareLabel": { "message": "பகிர்", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "OCR (ஆப்டிகல் கேரக்டர் ரெக்னிக்னிஷன்) க்காக எடுக்கப்பட்ட படம்.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "எங்களை மதிப்பிடு", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "உங்களுக்காக OCR விஷயங்களைச் செய்வது ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "சில கோப்புகளை இங்கே இழுத்து விடுங்கள், அல்லது கோப்புகளைத் தேர்ந்தெடுக்க கிளிக் செய்க.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR (ஆப்டிகல் கேரக்டர் ரெக்னிக்னிஷன்) க்கு எடுக்கப்பட்ட பி.டி.எஃப்.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "இந்த திரையில் இருந்து உரையை பிரித்தெடுக்கவும்",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "இந்த படத்திலிருந்து உரையை பிரித்தெடுக்கவும்",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "உரையை பிரித்தெடுக்க pdf ஐ பதிவேற்றவும்",
+    "description": "upload pdf to extract text from"
+  }
+}

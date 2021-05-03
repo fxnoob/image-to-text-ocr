@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "Изображение в текст Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR за множество езици.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Закачете разширението от менюто с пъзели по-горе.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Извличане на текст от всяка страница / pdf в интернет",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Да тръгваме!", "description": "Let's go!" },
+  "loginLabel": { "message": "Влизам", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Гледайте урок",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "Резултати от OCR",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Говорете", "description": "Speak" },
+  "translateLabel": { "message": "Превод", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Извлечете Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "копие", "description": "Copy" },
+  "contactLabel": { "message": "Контакт", "description": "Contact" },
+  "shareLabel": { "message": "Дял", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Изображение, направено за OCR (оптично разпознаване на символи).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Оцени ни", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Правейки неща за OCR за вас ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Плъзнете и пуснете някои файлове тук или щракнете, за да изберете файлове.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf взето за OCR (оптично разпознаване на символи).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Извличане на текст от този екран",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Извличане на текст от това изображение",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "качи pdf, за да извлечеш текст от",
+    "description": "upload pdf to extract text from"
+  }
+}

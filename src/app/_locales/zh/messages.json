@@ -1,0 +1,60 @@
+{
+  "appName": {
+    "message": "图像到文本专业版（OCR）",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "图像到文本专业版（OCR）-多种语言的OCR。",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "从上方的拼图菜单固定扩展名。",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "从互联网上的任何页面/ pdf中提取文本",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "我们走吧！", "description": "Let's go!" },
+  "loginLabel": { "message": "登录", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "观看教程",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "OCR结果", "description": "OCR Results" },
+  "speakLabel": { "message": "说话", "description": "Speak" },
+  "translateLabel": { "message": "翻译", "description": "Translate" },
+  "extractPdfLabel": { "message": "提取Pdf", "description": "Extract Pdf" },
+  "copyLabel": { "message": "复制", "description": "Copy" },
+  "contactLabel": { "message": "接触", "description": "Contact" },
+  "shareLabel": { "message": "分享", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "为OCR（光学字符识别）拍摄的图像。",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "评价我们", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "为您做OCR的东西。",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "将“ n”拖放到此处，或单击以选择文件。",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "用于OCR（光学字符识别）的Pdf。",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "从此屏幕提取文本",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "从该图像中提取文本",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "上载pdf以从中提取文本",
+    "description": "upload pdf to extract text from"
+  }
+}

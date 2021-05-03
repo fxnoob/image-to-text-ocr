@@ -1,0 +1,63 @@
+{
+  "appName": {
+    "message": "ઇમેજ ટુ ટેક્સ્ટ પ્રો (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "ઇમેજ ટુ ટેક્સ્ટ પ્રો (OCR) - બહુવિધ ભાષાઓ માટે OCR.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "ઉપરના પઝલ મેનૂમાંથી એક્સ્ટેંશનને પિન કરો.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "ઇન્ટરનેટ પર કોઈપણ પૃષ્ઠ / પીડીએફમાંથી ટેક્સ્ટ કાractો",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "ચાલો જઇએ!", "description": "Let's go!" },
+  "loginLabel": { "message": "પ્રવેશ કરો", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "ટ્યુટોરિયલ જુઓ",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "OCR પરિણામો", "description": "OCR Results" },
+  "speakLabel": { "message": "બોલો", "description": "Speak" },
+  "translateLabel": { "message": "ભાષાંતર", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "અર્ક કા Pવા પી.ડી.એફ.",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "નકલ કરો", "description": "Copy" },
+  "contactLabel": { "message": "સંપર્ક કરો", "description": "Contact" },
+  "shareLabel": { "message": "શેર કરો", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "OCR (icalપ્ટિકલ કેરેક્ટર ઓળખાણ) માટે લેવામાં આવેલી છબી.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "અમારો દર", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "તમારા માટે ઓસીઆર સામગ્રી કરી રહ્યા છીએ ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "અહીં કેટલીક ફાઇલોને છોડો 'એન' ખેંચો અથવા ફાઇલો પસંદ કરવા ક્લિક કરો.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "ઓડીઆર (fપ્ટિકલ કેરેક્ટર રેકગ્નિશન) માટે પીડીએફ લીધેલ.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "આ સ્ક્રીનમાંથી ટેક્સ્ટ કા Extો",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "આ છબીમાંથી ટેક્સ્ટ કા Extો",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "માંથી ટેક્સ્ટ કાractવા માટે પીડીએફ અપલોડ કરો",
+    "description": "upload pdf to extract text from"
+  }
+}

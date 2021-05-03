@@ -5,9 +5,7 @@ import Share from "./Share";
 import chromeService from "../../services/chromeService";
 import messagePassing from "../../services/messagePassing";
 import constants from "../../../constants";
-
 const extUrl = constants.appConfig.url;
-
 let canvas = null;
 export default function PdfCard() {
   const [pdfSettings, setPdfSettings] = React.useState({
@@ -22,6 +20,14 @@ export default function PdfCard() {
   const [copied, setCopied] = React.useState(false);
   const [playing, togglePlay] = React.useState(false);
   const [pdfLoaded, setPdfLoaded] = React.useState(false);
+  const appName = chromeService.getI18nMessage("appName"); // Image to Text pro (OCR).
+  const ocrResultsLabel = chromeService.getI18nMessage("ocrResultsLabel"); // OCR Results
+  const speakLabel = chromeService.getI18nMessage("speakLabel"); // Speak
+  const translateLabel = chromeService.getI18nMessage("translateLabel"); // Translate
+  const copyLabel = chromeService.getI18nMessage("copyLabel"); // Copy
+  const contactLabel = chromeService.getI18nMessage("contactLabel"); // Contact
+  const littleInfoPdfLabel = chromeService.getI18nMessage("littleInfoPdfLabel"); //Pdf taken for OCR (Optical Character Recognition).
+  const pdfDragInfoLabel = chromeService.getI18nMessage("pdfDragInfoLabel"); // Drag 'n' drop some files here, or click to select files
   const renderPdf = (pdf, num) => {
     pdf.getPage(num).then((page) => {
       const scale = 0.8;
@@ -128,7 +134,6 @@ export default function PdfCard() {
       setCopied(false);
     }, 2000);
   };
-
   return (
     <React.Fragment>
       {loaderExtractText && <div id="spinner-1"></div>}
@@ -142,10 +147,10 @@ export default function PdfCard() {
               href={extUrl}
               target="_blank"
             >
-              {constants.appConfig.appName}
+              {appName}
             </a>
             <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-              OCR Results
+              {ocrResultsLabel}
             </h1>
           </div>
           <div className="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -192,10 +197,7 @@ export default function PdfCard() {
                       >
                         <div {...getRootProps({ className: "dropzone" })}>
                           <input {...getInputProps()} />
-                          <p>
-                            Drag 'n' drop some files here, or click to select
-                            files
-                          </p>
+                          <p>{pdfDragInfoLabel}</p>
                         </div>
                       </section>
                     ) : (
@@ -246,7 +248,7 @@ export default function PdfCard() {
                         clipRule="evenodd"
                       />
                     </svg>
-                    Pdf taken for OCR (Optical Character Recognition)
+                    {littleInfoPdfLabel}
                   </figcaption>
                 </figure>
               </div>
@@ -257,7 +259,7 @@ export default function PdfCard() {
                   onClick={toggleTTS}
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
                 >
-                  {playing ? "Speaking" : "Speak"}
+                  {playing ? "Speaking" : speakLabel}
                 </button>
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
@@ -267,7 +269,7 @@ export default function PdfCard() {
                   target="_blank"
                   style={{ marginLeft: "1rem" }}
                 >
-                  Translate
+                  {translateLabel}
                 </a>
                 <button
                   onClick={() => {
@@ -276,7 +278,7 @@ export default function PdfCard() {
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn-lite"
                   style={{ marginLeft: "1rem" }}
                 >
-                  Copy
+                  {copyLabel}
                 </button>
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn-lite"
@@ -284,7 +286,7 @@ export default function PdfCard() {
                   target="_blank"
                   style={{ marginLeft: "1rem" }}
                 >
-                  Contact
+                  {contactLabel}
                 </a>
                 {copied && <span style={{ marginLeft: "1rem" }}>Copied!</span>}
               </div>

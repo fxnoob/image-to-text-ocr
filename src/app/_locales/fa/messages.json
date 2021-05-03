@@ -1,0 +1,63 @@
+{
+  "appName": {
+    "message": "تصویر به متن طرفدار (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR برای چندین زبان.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "برنامه افزودنی را از فهرست پازل بالا پین کنید.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "متن را از هر صفحه / pdf موجود در اینترنت استخراج کنید",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "بیا بریم!", "description": "Let's go!" },
+  "loginLabel": { "message": "وارد شدن", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "آموزش تماشا کنید",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "نتایج OCR", "description": "OCR Results" },
+  "speakLabel": { "message": "صحبت", "description": "Speak" },
+  "translateLabel": { "message": "ترجمه کردن", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "استخراج پی دی اف",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "کپی 🀄", "description": "Copy" },
+  "contactLabel": { "message": "مخاطب", "description": "Contact" },
+  "shareLabel": { "message": "اشتراک گذاری", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "تصویر گرفته شده برای OCR (تشخیص نوری شخصیت).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "به ما رای دهید", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "انجام کارهای OCR برای شما ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "برخی از پرونده ها را در اینجا بکشید یا برای انتخاب پرونده ها کلیک کنید.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "پی دی اف برای OCR (تشخیص شخصیت نوری) گرفته شده است.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "استخراج متن از این صفحه",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "استخراج متن از این تصویر",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "برای استخراج متن از pdf بارگذاری کنید",
+    "description": "upload pdf to extract text from"
+  }
+}

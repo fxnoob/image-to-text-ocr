@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "Larawan sa Text Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Imahe sa Text Pro (OCR) - OCR para sa maraming wika.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "I-pin ang extension mula sa menu ng puzzle sa itaas.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Mag-extract ng teksto mula sa anumang pahina / pdf sa internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Tara na!", "description": "Let's go!" },
+  "loginLabel": { "message": "Mag log in", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Manood ng Tutorial",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "Mga Resulta ng OCR",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Magsalita", "description": "Speak" },
+  "translateLabel": { "message": "Isalin", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "I-extract ang Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Kopya", "description": "Copy" },
+  "contactLabel": { "message": "Makipag-ugnay", "description": "Contact" },
+  "shareLabel": { "message": "Magbahagi", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Kuha ang larawan para sa OCR (Pagkilala sa Optical Character).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "I-rate Mo Kami", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Paggawa ng mga bagay na OCR para sa Iyo ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "I-drag 'n' ang drop ng ilang mga file dito, o mag-click upang pumili ng mga file.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Ang Pdf ay kinuha para sa OCR (Optical Character Recognition).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "I-extract ang Teksto mula sa screen na ito",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "I-extract ang Teksto mula sa imaheng ito",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "mag-upload ng pdf upang kumuha ng teksto mula sa",
+    "description": "upload pdf to extract text from"
+  }
+}

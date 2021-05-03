@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "Bild till text Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR för flera språk.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Fäst tillägget från pusselmenyn ovan.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Extrahera text från vilken sida / pdf som helst på internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Nu går vi!", "description": "Let's go!" },
+  "loginLabel": { "message": "Logga in", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Titta på handledning",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR-resultat",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Tala", "description": "Speak" },
+  "translateLabel": { "message": "Översätt", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Extrahera Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Kopiera", "description": "Copy" },
+  "contactLabel": { "message": "Kontakt", "description": "Contact" },
+  "shareLabel": { "message": "Dela med sig", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Bilden tagen för OCR (Optical Character Recognition).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Gradera oss", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Gör OCR-grejer åt dig ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Dra och släpp några filer här, eller klicka för att välja filer.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf tagit för OCR (Optical Character Recognition).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Extrahera text från den här skärmen",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Extrahera text från den här bilden",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "ladda upp pdf för att extrahera text från",
+    "description": "upload pdf to extract text from"
+  }
+}

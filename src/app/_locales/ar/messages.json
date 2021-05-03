@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "صورة إلى نص احترافي (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - التعرف الضوئي على الحروف للغات متعددة.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "قم بتثبيت الامتداد من قائمة اللغز أعلاه.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "استخرج النص من أي صفحة / ملف pdf على الإنترنت",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "هيا بنا!", "description": "Let's go!" },
+  "loginLabel": { "message": "تسجيل الدخول", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "مشاهدة البرنامج التعليمي",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "نتائج التعرف الضوئي على الحروف",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "يتكلم", "description": "Speak" },
+  "translateLabel": { "message": "يترجم", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "استخراج ملف PDF",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "ينسخ", "description": "Copy" },
+  "contactLabel": { "message": "اتصال", "description": "Contact" },
+  "shareLabel": { "message": "يشارك", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "تم التقاط الصورة لـ OCR (التعرف البصري على الأحرف).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "قيمنا", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "القيام بأشياء OCR من أجلك ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "اسحب وأفلت بعض الملفات هنا ، أو انقر لتحديد الملفات.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf مأخوذ من أجل التعرف الضوئي على الحروف (OCR).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "استخراج النص من هذه الشاشة",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "استخرج النص من هذه الصورة",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "تحميل ملف pdf لاستخراج النص منه",
+    "description": "upload pdf to extract text from"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "ಇಮೇಜ್ ಟು ಟೆಕ್ಸ್ಟ್ ಪ್ರೊ (ಒಸಿಆರ್)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "ಇಮೇಜ್ ಟು ಟೆಕ್ಸ್ಟ್ ಪ್ರೊ (ಒಸಿಆರ್) - ಅನೇಕ ಭಾಷೆಗಳಿಗೆ ಒಸಿಆರ್.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "ಮೇಲಿನ ಪ menu ಲ್ ಮೆನುವಿನಿಂದ ವಿಸ್ತರಣೆಯನ್ನು ಪಿನ್ ಮಾಡಿ.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "ಅಂತರ್ಜಾಲದಲ್ಲಿ ಯಾವುದೇ ಪುಟ / ಪಿಡಿಎಫ್‌ನಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "ಹೋಗೋಣ!", "description": "Let's go!" },
+  "loginLabel": { "message": "ಲಾಗಿನ್ ಮಾಡಿ", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "ಟ್ಯುಟೋರಿಯಲ್ ವೀಕ್ಷಿಸಿ",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "ಒಸಿಆರ್ ಫಲಿತಾಂಶಗಳು",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "ಮಾತನಾಡಿ", "description": "Speak" },
+  "translateLabel": { "message": "ಅನುವಾದಿಸು", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "ಪಿಡಿಎಫ್ ಹೊರತೆಗೆಯಿರಿ",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "ನಕಲಿಸಿ", "description": "Copy" },
+  "contactLabel": { "message": "ಸಂಪರ್ಕಿಸಿ", "description": "Contact" },
+  "shareLabel": { "message": "ಹಂಚಿಕೊಳ್ಳಿ", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "ಒಸಿಆರ್ (ಆಪ್ಟಿಕಲ್ ಕ್ಯಾರೆಕ್ಟರ್ ರೆಕಗ್ನಿಷನ್) ಗಾಗಿ ತೆಗೆದ ಚಿತ್ರ.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "ನಮ್ಮನ್ನು ರೇಟ್ ಮಾಡಿ", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "ನಿಮಗಾಗಿ ಒಸಿಆರ್ ವಿಷಯವನ್ನು ಮಾಡುವುದು ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "ಕೆಲವು ಫೈಲ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಎಳೆಯಿರಿ, ಅಥವಾ ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "ಒಸಿಆರ್ (ಆಪ್ಟಿಕಲ್ ಕ್ಯಾರೆಕ್ಟರ್ ರೆಕಗ್ನಿಷನ್) ಗಾಗಿ ಪಿಡಿಎಫ್ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "ಈ ಪರದೆಯಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "ಈ ಚಿತ್ರದಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಲು ಪಿಡಿಎಫ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "upload pdf to extract text from"
+  }
+}

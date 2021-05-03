@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "Pilt tekstiks (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - mitme keele jaoks mõeldud OCR.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Kinnitage laiendus mõistatuste menüüst ülal.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Eemaldage tekst igalt Interneti-lehelt / pdf-lt",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Lähme!", "description": "Let's go!" },
+  "loginLabel": { "message": "Logi sisse", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Vaadake õpetust",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR-i tulemused",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Räägi", "description": "Speak" },
+  "translateLabel": { "message": "Tõlgi", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Väljavõte Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Kopeeri", "description": "Copy" },
+  "contactLabel": { "message": "Võta ühendust", "description": "Contact" },
+  "shareLabel": { "message": "Jaga", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Pilt on tehtud OCR-i (optiline märkide tuvastamine) jaoks.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Hinnake meid", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Teile OCR-i loomine ...",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Lohistage mõned failid siia või klõpsake failide valimiseks.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf on võetud OCR-i (optiline märkide tuvastamine) jaoks.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Ekstrakti ekraani sellest ekraanilt",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Ekstrakti sellest pildist",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "üleslaadimiseks laadige pdf üles",
+    "description": "upload pdf to extract text from"
+  }
+}

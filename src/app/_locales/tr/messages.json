@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "Görüntüden Metin Pro'ya (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - Birden çok dil için OCR.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Uzantıyı yukarıdaki bulmaca menüsünden sabitleyin.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "İnternetteki herhangi bir sayfadan / pdf'den metin çıkarın",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Hadi gidelim!", "description": "Let's go!" },
+  "loginLabel": { "message": "Oturum aç", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Eğitimi izleyin",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR Sonuçları",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Konuş", "description": "Speak" },
+  "translateLabel": { "message": "Çevirmek", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Pdf'i Çıkarın",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Kopyala", "description": "Copy" },
+  "contactLabel": { "message": "İletişim", "description": "Contact" },
+  "shareLabel": { "message": "Paylaş", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "OCR (Optik Karakter Tanıma) için alınan görüntü.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Bizi değerlendirin", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Sizin için OCR işleri yapmak ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Bazı dosyaları buraya sürükleyip bırakın veya dosyaları seçmek için tıklayın.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR (Optik Karakter Tanıma) için alınan Pdf.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Bu ekrandan Metni Çıkarın",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Bu görüntüden Metni Çıkarın",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "metinden çıkarmak için pdf yükleyin",
+    "description": "upload pdf to extract text from"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appName": {
+    "message": "ఇమేజ్ టు టెక్స్ట్ ప్రో (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "ఇమేజ్ టు టెక్స్ట్ ప్రో (OCR) - బహుళ భాషల కోసం OCR.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "ఎగువ పజిల్ మెను నుండి పొడిగింపును పిన్ చేయండి.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "ఇంటర్నెట్‌లోని ఏదైనా పేజీ / పిడిఎఫ్ నుండి వచనాన్ని సంగ్రహించండి",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "వెళ్దాం!", "description": "Let's go!" },
+  "loginLabel": { "message": "ప్రవేశించండి", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "ట్యుటోరియల్ చూడండి",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "OCR ఫలితాలు", "description": "OCR Results" },
+  "speakLabel": { "message": "మాట్లాడండి", "description": "Speak" },
+  "translateLabel": { "message": "అనువదించండి", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "పిడిఎఫ్ సంగ్రహించండి",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "కాపీ", "description": "Copy" },
+  "contactLabel": { "message": "సంప్రదించండి", "description": "Contact" },
+  "shareLabel": { "message": "భాగస్వామ్యం చేయండి", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "OCR (ఆప్టికల్ క్యారెక్టర్ రికగ్నిషన్) కోసం తీసిన చిత్రం.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": {
+    "message": "మమ్మల్ని రేట్ చేయండి",
+    "description": "Rate Us"
+  },
+  "ocrLoadingLabel": {
+    "message": "మీ కోసం OCR స్టఫ్ చేయడం ....",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "'N' లాగండి ఇక్కడ కొన్ని ఫైళ్ళను వదలండి లేదా ఫైళ్ళను ఎంచుకోవడానికి క్లిక్ చేయండి.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR (ఆప్టికల్ క్యారెక్టర్ రికగ్నిషన్) కోసం తీసుకున్న పిడిఎఫ్.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "ఈ స్క్రీన్ నుండి వచనాన్ని సంగ్రహించండి",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "ఈ చిత్రం నుండి వచనాన్ని సంగ్రహించండి",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "నుండి వచనాన్ని సేకరించేందుకు పిడిఎఫ్‌ను అప్‌లోడ్ చేయండి",
+    "description": "upload pdf to extract text from"
+  }
+}

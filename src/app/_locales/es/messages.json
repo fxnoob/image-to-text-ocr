@@ -1,0 +1,63 @@
+{
+  "appName": {
+    "message": "Imagen a texto Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR): OCR para varios idiomas.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Fija la extensión del menú de rompecabezas de arriba.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Extraiga texto de cualquier página / pdf en Internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "¡Vamos!", "description": "Let's go!" },
+  "loginLabel": { "message": "Acceso", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Ver el tutorial",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "Resultados de OCR",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Hablar", "description": "Speak" },
+  "translateLabel": { "message": "Traducir", "description": "Translate" },
+  "extractPdfLabel": { "message": "Extraer Pdf", "description": "Extract Pdf" },
+  "copyLabel": { "message": "Dupdo", "description": "Copy" },
+  "contactLabel": { "message": "Contacto", "description": "Contact" },
+  "shareLabel": { "message": "Cuota", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Imagen tomada para OCR (reconocimiento óptico de caracteres).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Nos califica", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Haciendo cosas de OCR por ti ...",
+    "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Arrastre y suelte algunos archivos aquí, o haga clic para seleccionar archivos.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf tomado para OCR (reconocimiento óptico de caracteres).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Extraer texto de esta pantalla",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Extraer texto de esta imagen",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "cargar pdf para extraer texto de",
+    "description": "upload pdf to extract text from"
+  }
+}

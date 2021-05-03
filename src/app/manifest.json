@@ -1,8 +1,8 @@
 {
-  "name": "Image to Text Pro (OCR)",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDescription__",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Image to Text Pro (OCR) - OCR for multiple languages.",
   "icons": {
     "16": "images/16x16.png",
     "48": "images/48x48.png",
@@ -11,6 +11,7 @@
   "background": {
     "scripts": ["background.bundle.js"]
   },
+  "default_locale": "en",
   "permissions": [
     "<all_urls>",
     "contextMenus",

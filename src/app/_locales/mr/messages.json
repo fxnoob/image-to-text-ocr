@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "आपल्यासाठी ओसीआर सामग्री करीत आहे ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "येथे काही फायली ड्रॉप 'एन' ड्रॅग करा किंवा फायली निवडण्यासाठी क्लिक करा.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "ओडीआर (ऑप्टिकल कॅरेक्टर रिकग्निशन) साठी घेतलेले पीडीएफ",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

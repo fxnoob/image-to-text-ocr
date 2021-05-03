@@ -45,5 +45,13 @@
   "ocrLoadingLabel": {
     "message": "നിങ്ങൾക്കായി OCR സ്റ്റഫ് ചെയ്യുന്നു ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "ചില ഫയലുകൾ ഇവിടെ വലിച്ചിടുക, അല്ലെങ്കിൽ ഫയലുകൾ തിരഞ്ഞെടുക്കാൻ ക്ലിക്കുചെയ്യുക.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "ഒ‌സി‌ആറിനായി എടുത്ത പി‌ഡി‌എഫ് (ഒപ്റ്റിക്കൽ ക്യാരക്ടർ റെക്കഗ്നിഷൻ).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

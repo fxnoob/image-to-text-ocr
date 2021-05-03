@@ -36,5 +36,13 @@
   "ocrLoadingLabel": {
     "message": "ทำ OCR ให้คุณ ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "ลาก 'n' วางไฟล์บางไฟล์ที่นี่หรือคลิกเพื่อเลือกไฟล์",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf สำหรับ OCR (Optical Character Recognition)",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

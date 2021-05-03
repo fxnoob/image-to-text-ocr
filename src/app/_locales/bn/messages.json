@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "আপনার জন্য ওসিআর স্টাফ করছেন ...",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "এখানে কিছু ফাইল ফেলে রেখে 'এন' টেনে আনুন বা ফাইল নির্বাচন করতে ক্লিক করুন।",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "ওডিআর (অপটিকাল চরিত্রের স্বীকৃতি) এর জন্য পিডিএফ নেওয়া হয়েছে।",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

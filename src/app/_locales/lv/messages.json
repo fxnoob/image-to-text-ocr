@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "Doing OCR stuff for you ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Velciet un nometiet dažus failus šeit vai noklikšķiniet, lai atlasītu failus.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf, kas paredzēts OCR (Optical Character Recognition).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

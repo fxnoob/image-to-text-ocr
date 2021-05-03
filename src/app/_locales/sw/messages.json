@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "Kufanya mambo ya OCR kwako ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Buruta 'n' dondosha faili hapa, au bofya kuchagua faili.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf imechukuliwa kwa OCR (Utambuzi wa Tabia ya Macho).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "మీ కోసం OCR స్టఫ్ చేయడం ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "'N' లాగండి ఇక్కడ కొన్ని ఫైళ్ళను వదలండి లేదా ఫైళ్ళను ఎంచుకోవడానికి క్లిక్ చేయండి.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR (ఆప్టికల్ క్యారెక్టర్ రికగ్నిషన్) కోసం తీసుకున్న పిడిఎఫ్.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

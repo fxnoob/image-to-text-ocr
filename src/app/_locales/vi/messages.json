@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "Làm công cụ OCR cho Bạn ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Kéo 'n' thả một số tệp vào đây hoặc nhấp để chọn tệp.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf được lấy cho OCR (Nhận dạng ký tự quang học).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

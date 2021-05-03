@@ -36,5 +36,13 @@
   "ocrLoadingLabel": {
     "message": "为您做OCR的东西。",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "将“ n”拖放到此处，或单击以选择文件。",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "用于OCR（光学字符识别）的Pdf。",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

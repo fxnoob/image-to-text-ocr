@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "Paggawa ng mga bagay na OCR para sa Iyo ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "I-drag 'n' ang drop ng ilang mga file dito, o mag-click upang pumili ng mga file.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Ang Pdf ay kinuha para sa OCR (Optical Character Recognition).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

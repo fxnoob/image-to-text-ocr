@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "انجام کارهای OCR برای شما ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "برخی از پرونده ها را در اینجا بکشید یا برای انتخاب پرونده ها کلیک کنید.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "پی دی اف برای OCR (تشخیص شخصیت نوری) گرفته شده است.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

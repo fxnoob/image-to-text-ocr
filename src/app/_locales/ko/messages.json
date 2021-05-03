@@ -36,5 +36,13 @@
   "ocrLoadingLabel": {
     "message": "당신을 위해 OCR 작업을하는 중 ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "여기에 일부 파일을 드래그 앤 드롭하거나 클릭하여 파일을 선택합니다.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR (광학 문자 인식)을 위해 찍은 PDF.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

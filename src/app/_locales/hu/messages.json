@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "OCR dolgokat csinálok neked ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Húzza az „n” elemet néhány fájl ide, vagy kattintson a fájlok kiválasztásához.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Az OCR-hez (optikai karakterfelismerés) készült PDF",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "Sizin için OCR işleri yapmak ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Bazı dosyaları buraya sürükleyip bırakın veya dosyaları seçmek için tıklayın.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR (Optik Karakter Tanıma) için alınan Pdf.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

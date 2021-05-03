@@ -36,5 +36,13 @@
   "ocrLoadingLabel": {
     "message": "የኦ.ሲ.አር.አር. ነገሮችን ለራስዎ ማድረግ ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "አንዳንድ ፋይሎችን እዚህ ይጎትቱ ፣ ወይም ፋይሎችን ለመምረጥ ጠቅ ያድርጉ።",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "ፒዲኤፍ ለ OCR ተወስዷል (የኦፕቲካል ባህርይ እውቅና) ፡፡",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "Делаем для вас OCR ...",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Перетащите сюда несколько файлов или щелкните, чтобы выбрать файлы.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf, принятый для OCR (оптического распознавания символов).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

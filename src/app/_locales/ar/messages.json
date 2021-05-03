@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "القيام بأشياء OCR من أجلك ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "اسحب وأفلت بعض الملفات هنا ، أو انقر لتحديد الملفات.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf مأخوذ من أجل التعرف الضوئي على الحروف (OCR).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

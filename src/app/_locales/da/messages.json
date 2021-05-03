@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "Gør OCR-ting til dig ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Træk 'n' slip nogle filer her, eller klik for at vælge filer.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf taget til OCR (Optical Character Recognition).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

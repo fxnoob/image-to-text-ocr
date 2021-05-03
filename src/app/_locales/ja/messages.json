@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "あなたのためにOCRの仕事をしています...",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "ここにいくつかのファイルをドラッグアンドドロップするか、クリックしてファイルを選択します。",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "OCR（光学式文字認識）用に取得されたPDF。",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

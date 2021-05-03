@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "Melakukan barangan OCR untuk Anda ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Seret 'n' jatuhkan beberapa fail di sini, atau klik untuk memilih fail.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf diambil untuk OCR (Pengiktirafan Karakter Optik).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

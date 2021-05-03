@@ -42,5 +42,13 @@
   "ocrLoadingLabel": {
     "message": "Teile OCR-i loomine ...",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Lohistage mõned failid siia või klõpsake failide valimiseks.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Pdf on võetud OCR-i (optiline märkide tuvastamine) jaoks.",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

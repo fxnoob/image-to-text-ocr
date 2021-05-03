@@ -39,5 +39,13 @@
   "ocrLoadingLabel": {
     "message": "Κάνοντας πράγματα OCR για εσάς ....",
     "description": "Doing OCR stuff for You...."
+  },
+  "pdfDragInfoLabel": {
+    "message": "Σύρετε 'n' ρίξτε μερικά αρχεία εδώ ή κάντε κλικ για να επιλέξετε αρχεία.",
+    "description": "Drag 'n' drop some files here, or click to select files."
+  },
+  "littleInfoPdfLabel": {
+    "message": "Το Pdf λήφθηκε για OCR (Οπτική αναγνώριση χαρακτήρων).",
+    "description": "Pdf taken for OCR (Optical Character Recognition)."
   }
 }

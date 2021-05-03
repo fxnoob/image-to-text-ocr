@@ -1,11 +1,10 @@
-import React from "react";
-import Home from "./App";
-import Pdf from "./Pdf";
-import Welcome from "./Welcome";
+import React, { Suspense } from "react";
+const Home = React.lazy(() => import("./App"));
+const Pdf = React.lazy(() => import("./Pdf"));
+const Welcome = React.lazy(() => import("./Welcome"));
 const queryString = require("query-string");
 const parsed = queryString.parse(location.search);
 const path = decodeURIComponent(parsed.path ? parsed.path : "home");
-
 const GetView = ({ path }) => {
   let view;
   switch (path) {
@@ -23,7 +22,10 @@ const GetView = ({ path }) => {
   }
   return view;
 };
-
 export default () => {
-  return <GetView path={path} />;
+  return (
+    <Suspense fallback={<div style={{ textAlign: "center" }}>Loading...</div>}>
+      <GetView path={path} />
+    </Suspense>
+  );
 };

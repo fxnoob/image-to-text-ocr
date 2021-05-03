@@ -132,19 +132,12 @@ export default function OCRCard(props) {
             </div>
             <div>
               <div class="text-base max-w-prose mx-auto lg:max-w-none">
-                <button
-                  onClick={toggleTTS}
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
-                >
-                  {playing ? "Speaking" : "Speak"}
-                </button>
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
                   href={`https://translate.google.com/#auto/en/${encodeURIComponent(
                     ocrText
                   )}`}
                   target="_blank"
-                  style={{ marginLeft: "1rem" }}
                 >
                   Translate
                 </a>

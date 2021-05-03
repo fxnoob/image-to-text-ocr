@@ -1,0 +1,43 @@
+{
+  "appName": {
+    "message": "Slika u tekst Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR za više jezika.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Prikvačite nastavak s gornjeg izbornika slagalice.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Izdvojite tekst s bilo koje stranice / pdf-a na Internetu",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Idemo!", "description": "Let's go!" },
+  "loginLabel": { "message": "Prijaviti se", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Pogledajte Vodič",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "Rezultati OCR-a",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Govoriti", "description": "Speak" },
+  "translateLabel": { "message": "Prevedi", "description": "Translate" },
+  "extractPdfLabel": { "message": "Izdvoji Pdf", "description": "Extract Pdf" },
+  "copyLabel": { "message": "Kopirati", "description": "Copy" },
+  "contactLabel": { "message": "Kontakt", "description": "Contact" },
+  "shareLabel": { "message": "Udio", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Slika snimljena za OCR (optičko prepoznavanje znakova).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Ocijeni nas", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Radim OCR stvari za vas ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

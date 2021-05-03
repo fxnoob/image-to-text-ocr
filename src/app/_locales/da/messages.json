@@ -1,0 +1,43 @@
+{
+  "appName": {
+    "message": "Image to Text Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR til flere sprog.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Fastgør udvidelsen fra puslespilmenuen ovenfor.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Uddrag tekst fra enhver side / pdf på internettet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Lad os gå!", "description": "Let's go!" },
+  "loginLabel": { "message": "Log på", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Se vejledning",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR-resultater",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Tale", "description": "Speak" },
+  "translateLabel": { "message": "Oversætte", "description": "Translate" },
+  "extractPdfLabel": { "message": "Uddrag Pdf", "description": "Extract Pdf" },
+  "copyLabel": { "message": "Kopi", "description": "Copy" },
+  "contactLabel": { "message": "Kontakt", "description": "Contact" },
+  "shareLabel": { "message": "Del", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Billedet taget til OCR (Optical Character Recognition).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Bedøm os", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Gør OCR-ting til dig ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

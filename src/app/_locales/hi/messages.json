@@ -1,0 +1,40 @@
+{
+  "appName": {
+    "message": "टेक्स्ट प्रो पर छवि (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "इमेज टू टेक्स्ट प्रो (ओसीआर) - कई भाषाओं के लिए ओसीआर।",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "ऊपर दिए गए पहेली मेनू से एक्सटेंशन को पिन करें।",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "इंटरनेट पर किसी भी पृष्ठ / पीडीएफ से पाठ निकालें",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "चल दर!", "description": "Let's go!" },
+  "loginLabel": { "message": "लॉग इन करें", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "शैक्षणिक - कार्यक्रम देखें",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "OCR परिणाम", "description": "OCR Results" },
+  "speakLabel": { "message": "बात क", "description": "Speak" },
+  "translateLabel": { "message": "अनुवाद करना", "description": "Translate" },
+  "extractPdfLabel": { "message": "Pdf निकालें", "description": "Extract Pdf" },
+  "copyLabel": { "message": "प्रतिलिपि", "description": "Copy" },
+  "contactLabel": { "message": "संपर्क करें", "description": "Contact" },
+  "shareLabel": { "message": "शेयर", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "छवि OCR (ऑप्टिकल कैरेक्टर रिकॉग्निशन) के लिए ली गई है।",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "हमें रेटिंग दें", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "तुम्हारे लिए ओसीआर सामान करना ...।",
+    "description": "Doing OCR stuff for You...."
+  }
+}

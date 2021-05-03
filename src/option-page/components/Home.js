@@ -6,6 +6,15 @@ const extUrl = constants.appConfig.url;
 export default function OCRCard(props) {
   const [copied, setCopied] = React.useState(false);
   const [playing, togglePlay] = React.useState(false);
+  const appName = chromeService.getI18nMessage("appName"); // Image to Text pro (OCR).
+  const ocrResultsLabel = chromeService.getI18nMessage("ocrResultsLabel"); // OCR Results
+  const speakLabel = chromeService.getI18nMessage("speakLabel"); // Speak
+  const translateLabel = chromeService.getI18nMessage("translateLabel"); // Translate
+  const extractPdfLabel = chromeService.getI18nMessage("extractPdfLabel"); // Extract Pdf
+  const copyLabel = chromeService.getI18nMessage("copyLabel"); // Copy
+  const contactLabel = chromeService.getI18nMessage("contactLabel"); // Contact
+  const littleInfoLabel = chromeService.getI18nMessage("littleInfoLabel"); //Image taken for OCR (Optical Character Recognition).
+  const rateUsLabel = chromeService.getI18nMessage("rateUsLabel"); // Rate Us
   const toggleTTS = () => {
     if (playing) {
       chromeService.stop();
@@ -45,10 +54,10 @@ export default function OCRCard(props) {
               href={extUrl}
               target="_blank"
             >
-              {constants.appConfig.appName}
+              {appName}
             </a>
             <h1 class="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-              OCR Results
+              {ocrResultsLabel}
             </h1>
           </div>
           <div class="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -108,7 +117,7 @@ export default function OCRCard(props) {
                         clip-rule="evenodd"
                       />
                     </svg>
-                    Image taken for OCR (Optical Character Recognition)
+                    {littleInfoLabel}
                   </figcaption>
                   <a
                     className="flex-none text-3xl"
@@ -125,7 +134,7 @@ export default function OCRCard(props) {
                     <span className="star"></span>
                     <span className="star"></span>
                     <span className="star"></span>
-                    <p>Rate us</p>
+                    <p>{rateUsLabel}</p>
                   </a>
                 </figure>
               </div>
@@ -136,7 +145,7 @@ export default function OCRCard(props) {
                   onClick={toggleTTS}
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
                 >
-                  {playing ? "Speaking" : "Speak"}
+                  {playing ? "Speaking" : speakLabel}
                 </button>
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
@@ -146,14 +155,14 @@ export default function OCRCard(props) {
                   target="_blank"
                   style={{ marginLeft: "1rem" }}
                 >
-                  Translate
+                  {translateLabel}
                 </a>
                 <button
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
                   onClick={openPdfPage}
                   style={{ marginLeft: "1rem" }}
                 >
-                  Extract Pdf
+                  {extractPdfLabel}
                 </button>
                 <button
                   onClick={() => {
@@ -162,7 +171,7 @@ export default function OCRCard(props) {
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn-lite"
                   style={{ marginLeft: "1rem" }}
                 >
-                  Copy
+                  {copyLabel}
                 </button>
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn-lite"
@@ -170,7 +179,7 @@ export default function OCRCard(props) {
                   target="_blank"
                   style={{ marginLeft: "1rem" }}
                 >
-                  Contact
+                  {contactLabel}
                 </a>
                 {copied && <span style={{ marginLeft: "1rem" }}>Copied!</span>}
               </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import Constants from "../../../constants";
 import "./share.css";
-
+import chromeService from "../../services/chromeService";
 export default () => {
   const url = Constants.appConfig.url;
+  const shareLabel = chromeService.getI18nMessage("shareLabel");
   return (
     <React.Fragment>
-      <p style={{ marginLeft: "0.5rem" }}>Share</p>
+      <p style={{ marginLeft: "0.5rem" }}>{shareLabel}</p>
       <a
         class="resp-sharing-button__link"
         href={`https://facebook.com/sharer/sharer.php?u=${url}`}

@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Imatge a Text Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR): OCR per a diversos idiomes.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Fixeu l'extensió del menú del trencaclosques a la part superior.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Extreu text de qualsevol pàgina / pdf a Internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Som-hi!", "description": "Let's go!" },
+  "loginLabel": { "message": "iniciar Sessió", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Veure Tutorial",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "Resultats OCR",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Parla", "description": "Speak" },
+  "translateLabel": { "message": "Tradueix", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Extreure Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Copia", "description": "Copy" },
+  "contactLabel": { "message": "Contacte", "description": "Contact" },
+  "shareLabel": { "message": "Compartir", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Imatge presa per a OCR (reconeixement òptic de caràcters).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Puntua'ns", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Fent coses d’OCR per a vosaltres ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

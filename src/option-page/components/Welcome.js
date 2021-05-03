@@ -1,15 +1,24 @@
 import React, { useState } from "react";
-import constants from "../../../constants";
 import firebaseService from "../../services/firebaseService";
 import dbService from "../../services/dbService";
 import Button from "@material-ui/core/Button";
 import Snackbar from "@material-ui/core/Snackbar";
 import PinImg from "./pin_ext.png";
 import { isGoogleChrome } from "../../services/helper";
+import constants from "../../../constants";
+import chromeService from "../../services/chromeService";
 
 export default function Welcome() {
   const [open, setOpen] = useState(true);
   const [loggedIn, setLoggedIn] = useState(!isGoogleChrome);
+  const appName = chromeService.getI18nMessage("appName"); // Image to Text pro (OCR).
+  const pinMenuMessageLabel = chromeService.getI18nMessage(
+    "pinMenuMessageLabel"
+  ); //Pin the extension from puzzle menu above.
+  const mainWelcomeHeading = chromeService.getI18nMessage("mainWelcomeHeading"); // Extract text from any page/pdf on the internet
+  const letsGoLabel = chromeService.getI18nMessage("letsGoLabel"); // Let's go!
+  const loginLabel = chromeService.getI18nMessage("loginLabel"); // Login
+  const watchTutorialLabel = chromeService.getI18nMessage("watchTutorialLabel"); // Watch Tutorial
   const login = async () => {
     try {
       const user = await firebaseService.getUser();
@@ -28,10 +37,7 @@ export default function Welcome() {
     <div>
       <img src={PinImg} />
       <br />
-      <h4 style={{ fontSize: "1.2rem" }}>
-        {" "}
-        Pin the extension from puzzle menu above.
-      </h4>
+      <h4 style={{ fontSize: "1.2rem" }}> {pinMenuMessageLabel}</h4>
     </div>
   );
   return (
@@ -55,7 +61,7 @@ export default function Welcome() {
               href="#"
               style={{ color: "var(--main-color)" }}
             >
-              {constants.appConfig.appName}
+              {appName}
             </a>
             <div className="flex w-1/2 justify-end content-center">
               <a className="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4">
@@ -78,11 +84,11 @@ export default function Welcome() {
               className="my-4 text-3xl md:text-5xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1"
               style={{ color: "var(--main-color)" }}
             >
-              Extract text from any page/pdf on the internet
+              {mainWelcomeHeading}
             </h1>
             <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
               {loggedIn ? (
-                "Let's go!"
+                letsGoLabel
               ) : (
                 <Button
                   style={{ background: "var(--main-color)" }}
@@ -90,7 +96,7 @@ export default function Welcome() {
                   style={{ fontSize: "1.5rem", textDecoration: "underline" }}
                   className="btn-lite"
                 >
-                  Login
+                  {loginLabel}
                 </Button>
               )}
             </p>
@@ -100,7 +106,7 @@ export default function Welcome() {
                 href={constants.support.howToVideoLink}
               >
                 {" "}
-                Watch Tutorial{" "}
+                {watchTutorialLabel}
               </a>
             </p>
           </div>

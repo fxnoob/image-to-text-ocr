@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Afbeelding naar tekst Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR voor meerdere talen.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Pin de extensie uit het bovenstaande puzzelmenu.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Extraheer tekst van elke pagina / pdf op internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Laten we gaan!", "description": "Let's go!" },
+  "loginLabel": { "message": "Log in", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Bekijk de tutorial",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR-resultaten",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Spreken", "description": "Speak" },
+  "translateLabel": { "message": "Vertalen", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Extraheer pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Kopiëren", "description": "Copy" },
+  "contactLabel": { "message": "Contact", "description": "Contact" },
+  "shareLabel": { "message": "Delen", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Afbeelding gemaakt voor OCR (optische tekenherkenning).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Beoordeel ons", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "OCR-dingen voor u doen ...",
+    "description": "Doing OCR stuff for You...."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "ছবিতে পাঠ্য প্রো (ওসিআর)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "চিত্র থেকে পাঠ্য প্রো (ওসিআর) - একাধিক ভাষার জন্য ওসিআর।",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "উপরের ধাঁধা মেনু থেকে এক্সটেনশনটি পিন করুন।",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "ইন্টারনেটে যে কোনও পৃষ্ঠা / পিডিএফ থেকে পাঠ্য আহরণ করুন",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "চলো যাই!", "description": "Let's go!" },
+  "loginLabel": { "message": "প্রবেশ করুন", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "টিউটোরিয়াল দেখুন",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "ওসিআর ফলাফল", "description": "OCR Results" },
+  "speakLabel": { "message": "কথা বলুন", "description": "Speak" },
+  "translateLabel": { "message": "অনুবাদ করা", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "এক্সট্র্যাক্ট পিডিএফ",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "কপি", "description": "Copy" },
+  "contactLabel": { "message": "যোগাযোগ", "description": "Contact" },
+  "shareLabel": { "message": "ভাগ করুন", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "ওসিআরের জন্য চিত্র নেওয়া হয়েছে (অপটিকাল চরিত্রের স্বীকৃতি)।",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": {
+    "message": "আমাদের ব্যাপারে আপনার মতামত দিন",
+    "description": "Rate Us"
+  },
+  "ocrLoadingLabel": {
+    "message": "আপনার জন্য ওসিআর স্টাফ করছেন ...",
+    "description": "Doing OCR stuff for You...."
+  }
+}

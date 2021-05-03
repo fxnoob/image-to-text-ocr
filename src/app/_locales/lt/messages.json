@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "„Image to Text Pro“ (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "„Image to Text Pro“ (OCR) - kelių kalbų OCR.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Prisekite pratęsimą iš galvosūkių meniu aukščiau.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Ištraukite tekstą iš bet kurio interneto puslapio / pdf",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Eime!", "description": "Let's go!" },
+  "loginLabel": { "message": "Prisijungti", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Žiūrėti pamoką",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR rezultatai",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Kalbėk", "description": "Speak" },
+  "translateLabel": { "message": "Išversti", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Ištrauka Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "Kopijuoti", "description": "Copy" },
+  "contactLabel": { "message": "kontaktas", "description": "Contact" },
+  "shareLabel": { "message": "Dalintis", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Vaizdas padarytas OCR (optinis simbolių atpažinimas).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Įvertinkite mus", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Daryk OCR medžiagą tau ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

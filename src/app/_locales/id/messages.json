@@ -1,0 +1,40 @@
+{
+  "appName": {
+    "message": "Gambar ke Teks Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR untuk berbagai bahasa.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Sematkan ekstensi dari menu teka-teki di atas.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Ekstrak teks dari halaman / pdf mana pun di internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Ayo pergi!", "description": "Let's go!" },
+  "loginLabel": { "message": "Gabung", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Tonton Tutorial",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": { "message": "Hasil OCR", "description": "OCR Results" },
+  "speakLabel": { "message": "Berbicara", "description": "Speak" },
+  "translateLabel": { "message": "Menterjemahkan", "description": "Translate" },
+  "extractPdfLabel": { "message": "Ekstrak Pdf", "description": "Extract Pdf" },
+  "copyLabel": { "message": "Salinan", "description": "Copy" },
+  "contactLabel": { "message": "Kontak", "description": "Contact" },
+  "shareLabel": { "message": "Bagikan", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Gambar diambil untuk OCR (Pengenalan Karakter Optik).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Beri Nilai Kami", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Melakukan hal-hal OCR untuk Anda ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

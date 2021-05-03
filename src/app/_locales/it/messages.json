@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Image to Text Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR per più lingue.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Pin l'estensione dal menu puzzle in alto.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Estrai il testo da qualsiasi pagina / pdf su Internet",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Andiamo!", "description": "Let's go!" },
+  "loginLabel": { "message": "Login", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Guarda il tutorial",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "Risultati OCR",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Parlare", "description": "Speak" },
+  "translateLabel": { "message": "Tradurre", "description": "Translate" },
+  "extractPdfLabel": {
+    "message": "Estratto Pdf",
+    "description": "Extract Pdf"
+  },
+  "copyLabel": { "message": "copia", "description": "Copy" },
+  "contactLabel": { "message": "Contatto", "description": "Contact" },
+  "shareLabel": { "message": "Condividere", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Immagine scattata per OCR (Optical Character Recognition).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Valutaci", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Fare cose OCR per te ...",
+    "description": "Doing OCR stuff for You...."
+  }
+}

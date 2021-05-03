@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Kuva tekstiksi Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Kuva tekstiksi Pro (OCR) - OCR useille kielille.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Kiinnitä laajennus palapelin valikosta yllä.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Pura teksti mille tahansa Internetin sivulle / pdf: lle",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "Mennään!", "description": "Let's go!" },
+  "loginLabel": { "message": "Kirjaudu sisään", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Katso opetusohjelma",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR-tulokset",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Puhua", "description": "Speak" },
+  "translateLabel": { "message": "Kääntää", "description": "Translate" },
+  "extractPdfLabel": { "message": "Pura PDF", "description": "Extract Pdf" },
+  "copyLabel": { "message": "Kopio", "description": "Copy" },
+  "contactLabel": { "message": "Ottaa yhteyttä", "description": "Contact" },
+  "shareLabel": { "message": "Jaa", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Kuva otettu OCR (Optical Character Recognition) -toimintoa varten.",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": {
+    "message": "Anna meille arvosana",
+    "description": "Rate Us"
+  },
+  "ocrLoadingLabel": {
+    "message": "OCR-juttujen tekeminen sinulle ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

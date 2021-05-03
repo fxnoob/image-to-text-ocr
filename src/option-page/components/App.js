@@ -6,11 +6,11 @@ import Home from "./Home";
 import WindTurbineAnimation from "../../assets/WindTurbine";
 import Loader from "./Loader";
 import ErrorComponent from "./Error";
-
+import chromeService from "../../services/chromeService";
 const queryString = require("query-string");
 const parsed = queryString.parse(location.search);
 const urlString = decodeURIComponent(parsed.url ? parsed.url : "");
-
+const ocrLoadingLabel = chromeService.getI18nMessage("ocrLoadingLabel"); // Doing OCR stuff for You....
 function App() {
   const [ocr, setOcr] = useState("Recognizing...");
   const [err, setError] = useState("");
@@ -18,19 +18,23 @@ function App() {
   const [loading, setLoading] = useState(true);
   const doOCR = async () => {
     setUrl(urlString);
-    messagePassingService.sendMessage("/recognize", { url: url }, response => {
-      console.log({ response });
-      const { status, error, data } = response;
-      if (url == response.url) {
-        if (status == "SUCCESS") {
-          setOcr(data);
-        } else {
-          setError("Error!");
-          setOcr("Error Occurred!");
+    messagePassingService.sendMessage(
+      "/recognize",
+      { url: url },
+      (response) => {
+        console.log({ response });
+        const { status, error, data } = response;
+        if (url == response.url) {
+          if (status == "SUCCESS") {
+            setOcr(data);
+          } else {
+            setError("Error!");
+            setOcr("Error Occurred!");
+          }
+          setLoading(false);
         }
-        setLoading(false);
       }
-    });
+    );
   };
   useEffect(() => {
     doOCR();
@@ -40,10 +44,7 @@ function App() {
       <CssBaseline />
       {loading ? (
         <Container maxWidth="sm">
-          <Loader
-            json={WindTurbineAnimation}
-            text="Doing OCR stuff for You...."
-          />
+          <Loader json={WindTurbineAnimation} text={ocrLoadingLabel} />
         </Container>
       ) : err != "" ? (
         <Container maxWidth="sm">

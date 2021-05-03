@@ -1,0 +1,43 @@
+{
+  "appName": {
+    "message": "Image to Text Pro (OCR)",
+    "description": "Image to Text Pro (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text Pro (OCR) - OCR for flere språk.",
+    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
+  },
+  "pinMenuMessageLabel": {
+    "message": "Fest utvidelsen fra puslespillmenyen ovenfor.",
+    "description": "Pin the extension from puzzle menu above."
+  },
+  "mainWelcomeHeading": {
+    "message": "Pakk ut tekst fra hvilken som helst side / pdf på internett",
+    "description": "Extract text from any page/pdf on the internet"
+  },
+  "letsGoLabel": { "message": "La oss gå!", "description": "Let's go!" },
+  "loginLabel": { "message": "Logg Inn", "description": "Login" },
+  "watchTutorialLabel": {
+    "message": "Se opplæringen",
+    "description": "Watch Tutorial"
+  },
+  "ocrResultsLabel": {
+    "message": "OCR-resultater",
+    "description": "OCR Results"
+  },
+  "speakLabel": { "message": "Snakke", "description": "Speak" },
+  "translateLabel": { "message": "Oversette", "description": "Translate" },
+  "extractPdfLabel": { "message": "Pakk ut Pdf", "description": "Extract Pdf" },
+  "copyLabel": { "message": "Kopiere", "description": "Copy" },
+  "contactLabel": { "message": "Ta kontakt med", "description": "Contact" },
+  "shareLabel": { "message": "Dele", "description": "Share" },
+  "littleInfoLabel": {
+    "message": "Bildet er tatt for OCR (Optical Character Recognition).",
+    "description": "Image taken for OCR (Optical Character Recognition)."
+  },
+  "rateUsLabel": { "message": "Rangere oss", "description": "Rate Us" },
+  "ocrLoadingLabel": {
+    "message": "Gjør OCR-ting for deg ....",
+    "description": "Doing OCR stuff for You...."
+  }
+}

@@ -44,5 +44,17 @@
   "littleInfoPdfLabel": {
     "message": "OCR (광학 문자 인식)을 위해 찍은 PDF.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "이 화면에서 텍스트 추출",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "이 이미지에서 텍스트 추출",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "PDF를 업로드하여 텍스트 추출",
+    "description": "upload pdf to extract text from"
   }
 }

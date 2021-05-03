@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf otettu OCR: ään (optinen merkintunnistus).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Pura teksti tältä näytöltä",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Pura teksti tästä kuvasta",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "lataa pdf poimia tekstiä",
+    "description": "upload pdf to extract text from"
   }
 }

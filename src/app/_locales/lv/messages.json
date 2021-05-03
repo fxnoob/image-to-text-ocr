@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf, kas paredzēts OCR (Optical Character Recognition).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Izvelciet tekstu no šī ekrāna",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Izvelciet tekstu no šī attēla",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "augšupielādēt pdf, lai no tā iegūtu tekstu",
+    "description": "upload pdf to extract text from"
   }
 }

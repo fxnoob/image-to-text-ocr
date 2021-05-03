@@ -44,5 +44,17 @@
   "littleInfoPdfLabel": {
     "message": "ፒዲኤፍ ለ OCR ተወስዷል (የኦፕቲካል ባህርይ እውቅና) ፡፡",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "ጽሑፍ ከዚህ ማያ ገጽ ያውጡ",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "ጽሑፍን ከዚህ ምስል ያውጡ",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "ጽሑፍን ለማውጣት ፒዲኤፍ ይስቀሉ",
+    "description": "upload pdf to extract text from"
   }
 }

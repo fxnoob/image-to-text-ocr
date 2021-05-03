@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "OCR (Optik Karakter Tanıma) için alınan Pdf.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Bu ekrandan Metni Çıkarın",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Bu görüntüden Metni Çıkarın",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "metinden çıkarmak için pdf yükleyin",
+    "description": "upload pdf to extract text from"
   }
 }

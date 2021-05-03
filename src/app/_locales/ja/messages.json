@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "OCR（光学式文字認識）用に取得されたPDF。",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "この画面からテキストを抽出する",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "この画像からテキストを抽出します",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "PDFをアップロードしてテキストを抽出します",
+    "description": "upload pdf to extract text from"
   }
 }

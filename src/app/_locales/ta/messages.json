@@ -53,5 +53,17 @@
   "littleInfoPdfLabel": {
     "message": "OCR (ஆப்டிகல் கேரக்டர் ரெக்னிக்னிஷன்) க்கு எடுக்கப்பட்ட பி.டி.எஃப்.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "இந்த திரையில் இருந்து உரையை பிரித்தெடுக்கவும்",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "இந்த படத்திலிருந்து உரையை பிரித்தெடுக்கவும்",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "உரையை பிரித்தெடுக்க pdf ஐ பதிவேற்றவும்",
+    "description": "upload pdf to extract text from"
   }
 }

@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf feito para OCR (Optical Character Recognition).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Extraia texto desta tela",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Extrair texto desta imagem",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "carregue o pdf para extrair o texto de",
+    "description": "upload pdf to extract text from"
   }
 }

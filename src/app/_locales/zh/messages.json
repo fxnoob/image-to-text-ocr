@@ -44,5 +44,17 @@
   "littleInfoPdfLabel": {
     "message": "用于OCR（光学字符识别）的Pdf。",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "从此屏幕提取文本",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "从该图像中提取文本",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "上载pdf以从中提取文本",
+    "description": "upload pdf to extract text from"
   }
 }

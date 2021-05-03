@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Пдф преузет за ОЦР (оптичко препознавање знакова).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Издвоји текст са овог екрана",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Издвоји текст са ове слике",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "уплоад пдф за извлачење текста из",
+    "description": "upload pdf to extract text from"
   }
 }

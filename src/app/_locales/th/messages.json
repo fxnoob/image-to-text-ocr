@@ -44,5 +44,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf สำหรับ OCR (Optical Character Recognition)",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "แยกข้อความจากหน้าจอนี้",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "แยกข้อความจากภาพนี้",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "อัปโหลด pdf เพื่อดึงข้อความจาก",
+    "description": "upload pdf to extract text from"
   }
 }

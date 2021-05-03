@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "PDF imtas OCR (Optical Character Recognition).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Išskleisti tekstą iš šio ekrano",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Ištraukite tekstą iš šio vaizdo",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "įkelti pdf išgauti tekstą iš",
+    "description": "upload pdf to extract text from"
   }
 }

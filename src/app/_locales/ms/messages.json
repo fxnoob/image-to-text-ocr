@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf diambil untuk OCR (Pengiktirafan Karakter Optik).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Ekstrak Teks dari skrin ini",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Ekstrak Teks dari gambar ini",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "muat naik pdf untuk mengekstrak teks dari",
+    "description": "upload pdf to extract text from"
   }
 }

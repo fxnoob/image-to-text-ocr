@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf imechukuliwa kwa OCR (Utambuzi wa Tabia ya Macho).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Toa Nakala kutoka skrini hii",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Toa Nakala kutoka kwa picha hii",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "pakia pdf ili kutoa maandishi kutoka",
+    "description": "upload pdf to extract text from"
   }
 }

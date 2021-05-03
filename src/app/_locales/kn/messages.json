@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "ಒಸಿಆರ್ (ಆಪ್ಟಿಕಲ್ ಕ್ಯಾರೆಕ್ಟರ್ ರೆಕಗ್ನಿಷನ್) ಗಾಗಿ ಪಿಡಿಎಫ್ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "ಈ ಪರದೆಯಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "ಈ ಚಿತ್ರದಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಲು ಪಿಡಿಎಫ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "upload pdf to extract text from"
   }
 }

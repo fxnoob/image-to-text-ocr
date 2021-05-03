@@ -53,5 +53,17 @@
   "littleInfoPdfLabel": {
     "message": "ഒ‌സി‌ആറിനായി എടുത്ത പി‌ഡി‌എഫ് (ഒപ്റ്റിക്കൽ ക്യാരക്ടർ റെക്കഗ്നിഷൻ).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "ഈ സ്ക്രീനിൽ നിന്ന് വാചകം എക്‌സ്‌ട്രാക്റ്റുചെയ്യുക",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "ഈ ചിത്രത്തിൽ നിന്ന് വാചകം എക്‌സ്‌ട്രാക്റ്റുചെയ്യുക",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "വാചകം എക്‌സ്‌ട്രാക്റ്റുചെയ്യുന്നതിന് പിഡിഎഫ് അപ്‌ലോഡുചെയ്യുക",
+    "description": "upload pdf to extract text from"
   }
 }

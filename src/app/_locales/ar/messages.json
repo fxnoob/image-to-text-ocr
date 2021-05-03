@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf مأخوذ من أجل التعرف الضوئي على الحروف (OCR).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "استخراج النص من هذه الشاشة",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "استخرج النص من هذه الصورة",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "تحميل ملف pdf لاستخراج النص منه",
+    "description": "upload pdf to extract text from"
   }
 }

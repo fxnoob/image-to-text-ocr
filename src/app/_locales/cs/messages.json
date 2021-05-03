@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf převzato pro OCR (optické rozpoznávání znaků).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Extrahujte text z této obrazovky",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Extrahujte text z tohoto obrázku",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "nahrát pdf a extrahovat text z",
+    "description": "upload pdf to extract text from"
   }
 }

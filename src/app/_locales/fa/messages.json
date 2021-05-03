@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "پی دی اف برای OCR (تشخیص شخصیت نوری) گرفته شده است.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "استخراج متن از این صفحه",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "استخراج متن از این تصویر",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "برای استخراج متن از pdf بارگذاری کنید",
+    "description": "upload pdf to extract text from"
   }
 }

@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "OCR (ఆప్టికల్ క్యారెక్టర్ రికగ్నిషన్) కోసం తీసుకున్న పిడిఎఫ్.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "ఈ స్క్రీన్ నుండి వచనాన్ని సంగ్రహించండి",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "ఈ చిత్రం నుండి వచనాన్ని సంగ్రహించండి",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "నుండి వచనాన్ని సేకరించేందుకు పిడిఎఫ్‌ను అప్‌లోడ్ చేయండి",
+    "description": "upload pdf to extract text from"
   }
 }

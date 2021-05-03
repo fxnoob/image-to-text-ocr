@@ -6,7 +6,6 @@ import constants from "../constants";
 import db, { schema } from "./services/dbService";
 import firebaseService from "./services/firebaseService";
 import { isGoogleChrome } from "./services/helper";
-
 /**
  * Main extension functionality
  *
@@ -68,20 +67,27 @@ class Main {
    */
   initContextMenu = () => {
     if (this.ctxMenuId1) return;
+    const extractTextFromScreenLabel = chromeService.getI18nMessage(
+      "extractTextFromScreenLabel"
+    ); // Extract Text from this screen
     this.ctxMenuId1 = chromeService.createContextMenu({
-      title: "Extract Text from this screen",
+      title: extractTextFromScreenLabel,
       contexts: ["all"],
       onclick: this.onContextMenu1Click,
     });
     if (this.ctxMenuId2) return;
+    const extractTextFromImageLabel = chromeService.getI18nMessage(
+      "extractTextFromImageLabel"
+    ); // Extract Text from this image
     this.ctxMenuId2 = chromeService.createContextMenu({
-      title: "Extract Text from this image",
+      title: extractTextFromImageLabel,
       contexts: ["image"],
       onclick: this.onContextMenu2Click,
     });
     if (this.ctxMenuId3) return;
+    const uploadPdfLabel = chromeService.getI18nMessage("uploadPdfLabel"); // upload pdf to extract text from
     this.ctxMenuId3 = chromeService.createContextMenu({
-      title: "upload pdf to extract text from",
+      title: uploadPdfLabel,
       contexts: ["all"],
       onclick: this.onContextMenu3Click,
     });

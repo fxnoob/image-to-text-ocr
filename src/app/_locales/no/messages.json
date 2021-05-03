@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf tatt for OCR (Optical Character Recognition).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Pakk ut tekst fra dette skjermbildet",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Trekk ut tekst fra dette bildet",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "last opp pdf for å hente ut tekst fra",
+    "description": "upload pdf to extract text from"
   }
 }

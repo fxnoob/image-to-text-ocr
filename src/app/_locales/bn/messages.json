@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "ওডিআর (অপটিকাল চরিত্রের স্বীকৃতি) এর জন্য পিডিএফ নেওয়া হয়েছে।",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "এই স্ক্রীন থেকে পাঠ্য উত্তোলন করুন",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "এই চিত্রটি থেকে পাঠ্য বের করুন",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "থেকে পাঠ্য নিষ্কাশন করতে পিডিএফ আপলোড করুন",
+    "description": "upload pdf to extract text from"
   }
 }

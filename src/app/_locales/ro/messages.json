@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf preluat pentru OCR (Recunoașterea Optică a Caracterelor).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Extrageți text din acest ecran",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Extrageți text din această imagine",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "încărcați pdf pentru a extrage text din",
+    "description": "upload pdf to extract text from"
   }
 }

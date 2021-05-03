@@ -44,5 +44,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf נלקח ל- OCR (זיהוי תווים אופטי).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "חלץ טקסט ממסך זה",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "חלץ טקסט מתמונה זו",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "העלה קובץ PDF לחילוץ טקסט ממנו",
+    "description": "upload pdf to extract text from"
   }
 }

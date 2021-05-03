@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "ઓડીઆર (fપ્ટિકલ કેરેક્ટર રેકગ્નિશન) માટે પીડીએફ લીધેલ.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "આ સ્ક્રીનમાંથી ટેક્સ્ટ કા Extો",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "આ છબીમાંથી ટેક્સ્ટ કા Extો",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "માંથી ટેક્સ્ટ કાractવા માટે પીડીએફ અપલોડ કરો",
+    "description": "upload pdf to extract text from"
   }
 }

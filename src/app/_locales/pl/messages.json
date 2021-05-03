@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Plik PDF pobrany do OCR (optyczne rozpoznawanie znaków).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Wyodrębnij tekst z tego ekranu",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Wyodrębnij tekst z tego obrazu",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "prześlij plik PDF, aby wyodrębnić tekst z",
+    "description": "upload pdf to extract text from"
   }
 }

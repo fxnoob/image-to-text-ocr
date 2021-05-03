@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "ओडीआर (ऑप्टिकल कॅरेक्टर रिकग्निशन) साठी घेतलेले पीडीएफ",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "या स्क्रीनवरून मजकूर काढा",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "या प्रतिमेतून मजकूर काढा",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "मजकूर काढण्यासाठी पीडीएफ अपलोड करा",
+    "description": "upload pdf to extract text from"
   }
 }

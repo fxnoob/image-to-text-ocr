@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Το Pdf λήφθηκε για OCR (Οπτική αναγνώριση χαρακτήρων).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Εξαγωγή κειμένου από αυτήν την οθόνη",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Εξαγωγή κειμένου από αυτήν την εικόνα",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "ανεβάστε το pdf για να εξαγάγετε κείμενο από",
+    "description": "upload pdf to extract text from"
   }
 }

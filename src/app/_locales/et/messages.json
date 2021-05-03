@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf on võetud OCR-i (optiline märkide tuvastamine) jaoks.",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Ekstrakti ekraani sellest ekraanilt",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Ekstrakti sellest pildist",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "üleslaadimiseks laadige pdf üles",
+    "description": "upload pdf to extract text from"
   }
 }

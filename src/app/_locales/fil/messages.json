@@ -50,5 +50,17 @@
   "littleInfoPdfLabel": {
     "message": "Ang Pdf ay kinuha para sa OCR (Optical Character Recognition).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "I-extract ang Teksto mula sa screen na ito",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "I-extract ang Teksto mula sa imaheng ito",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "mag-upload ng pdf upang kumuha ng teksto mula sa",
+    "description": "upload pdf to extract text from"
   }
 }

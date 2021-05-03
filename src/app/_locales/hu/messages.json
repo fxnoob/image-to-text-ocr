@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Az OCR-hez (optikai karakterfelismerés) készült PDF",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Szöveg kivonása erről a képernyőről",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Kivonat szöveget ebből a képből",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "töltsön fel pdf-t a szöveg kibontásához",
+    "description": "upload pdf to extract text from"
   }
 }

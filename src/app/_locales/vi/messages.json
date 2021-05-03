@@ -47,5 +47,17 @@
   "littleInfoPdfLabel": {
     "message": "Pdf được lấy cho OCR (Nhận dạng ký tự quang học).",
     "description": "Pdf taken for OCR (Optical Character Recognition)."
+  },
+  "extractTextFromScreenLabel": {
+    "message": "Trích xuất Văn bản từ màn hình này",
+    "description": "Extract Text from this screen"
+  },
+  "extractTextFromImageLabel": {
+    "message": "Trích xuất Văn bản từ hình ảnh này",
+    "description": "Extract Text from this image"
+  },
+  "uploadPdfLabel": {
+    "message": "tải lên pdf để trích xuất văn bản từ",
+    "description": "upload pdf to extract text from"
   }
 }

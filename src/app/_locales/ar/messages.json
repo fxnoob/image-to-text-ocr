@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "صورة إلى نص احترافي (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - التعرف الضوئي على الحروف للغات متعددة.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "قم بتثبيت الامتداد من قائمة اللغز أعلاه.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "تحميل ملف pdf لاستخراج النص منه",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "يتبرع", "description": "Donate" }
+  "donateLabel": { "message": "يتبرع", "description": "Donate" },
+  "appName": {
+    "message": "صورة إلى نص (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "صورة إلى نص (OCR) - التعرف الضوئي على الحروف للغات متعددة.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "ઇમેજ ટુ ટેક્સ્ટ પ્રો (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "ઇમેજ ટુ ટેક્સ્ટ પ્રો (OCR) - બહુવિધ ભાષાઓ માટે OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "ઉપરના પઝલ મેનૂમાંથી એક્સ્ટેંશનને પિન કરો.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "માંથી ટેક્સ્ટ કાractવા માટે પીડીએફ અપલોડ કરો",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "દાન કરો", "description": "Donate" }
+  "donateLabel": { "message": "દાન કરો", "description": "Donate" },
+  "appName": {
+    "message": "ઇમેજ ટુ ટેક્સ્ટ (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "ઇમેજ ટુ ટેક્સ્ટ (OCR) - બહુવિધ ભાષાઓ માટે OCR.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Imagem para Texto Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR para vários idiomas.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Fixe a extensão do menu de quebra-cabeça acima.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "carregue o pdf para extrair o texto de",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Doar", "description": "Donate" }
+  "donateLabel": { "message": "Doar", "description": "Donate" },
+  "appName": {
+    "message": "Imagem para texto (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Imagem em texto (OCR) - OCR para vários idiomas.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Kép-szöveg Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR több nyelvhez.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Rögzítse a kiterjesztést a fenti puzzle menüből.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "töltsön fel pdf-t a szöveg kibontásához",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Adományoz", "description": "Donate" }
+  "donateLabel": { "message": "Adományoz", "description": "Donate" },
+  "appName": {
+    "message": "Kép-szöveg (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Kép a szövegbe (OCR) - OCR több nyelvhez.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Εικόνα σε κείμενο Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR για πολλές γλώσσες.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Καρφιτσώστε την επέκταση από το μενού παζλ παραπάνω.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "ανεβάστε το pdf για να εξαγάγετε κείμενο από",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Προσφέρω", "description": "Donate" }
+  "donateLabel": { "message": "Προσφέρω", "description": "Donate" },
+  "appName": {
+    "message": "Εικόνα σε κείμενο (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Εικόνα σε κείμενο (OCR) - OCR για πολλές γλώσσες.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

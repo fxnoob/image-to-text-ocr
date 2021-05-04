@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Obrázok na text Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR pre viac jazykov.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Pripnúť rozšírenie z logickej ponuky vyššie.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "upload pdf na extrahovanie textu z",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Prispieť", "description": "Donate" }
+  "donateLabel": { "message": "Prispieť", "description": "Donate" },
+  "appName": {
+    "message": "Obrázok na text (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Obrázok na text (OCR) - OCR pre viac jazykov.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

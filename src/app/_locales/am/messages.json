@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "ምስል ለጽሑፍ ፕሮ (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "ምስል ለጽሑፍ ፕሮ (OCR) - OCR ለብዙ ቋንቋዎች ፡፡",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "ቅጥያውን ከላይ ካለው የእንቆቅልሽ ምናሌ ላይ ይሰኩ ፡፡",
     "description": "Pin the extension from puzzle menu above."
@@ -57,5 +49,13 @@
     "message": "ጽሑፍን ለማውጣት ፒዲኤፍ ይስቀሉ",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "ለግስ", "description": "Donate" }
+  "donateLabel": { "message": "ለግስ", "description": "Donate" },
+  "appName": {
+    "message": "ምስል ወደ ጽሑፍ (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "ምስል ወደ ጽሑፍ (OCR) - OCR ለብዙ ቋንቋዎች ፡፡",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

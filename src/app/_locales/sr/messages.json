@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Слика у текст Про (ОЦР)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Имаге то Тект Про (ОЦР) - ОЦР за више језика.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Прикачите додатак из горњег менија слагалице.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "уплоад пдф за извлачење текста из",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Донирајте", "description": "Donate" }
+  "donateLabel": { "message": "Донирајте", "description": "Donate" },
+  "appName": {
+    "message": "Слика у текст (ОЦР)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Слика у текст (ОЦР) - ОЦР за више језика.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

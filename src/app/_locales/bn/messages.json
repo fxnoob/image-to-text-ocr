@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "ছবিতে পাঠ্য প্রো (ওসিআর)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "চিত্র থেকে পাঠ্য প্রো (ওসিআর) - একাধিক ভাষার জন্য ওসিআর।",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "উপরের ধাঁধা মেনু থেকে এক্সটেনশনটি পিন করুন।",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "থেকে পাঠ্য নিষ্কাশন করতে পিডিএফ আপলোড করুন",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "দান করুন", "description": "Donate" }
+  "donateLabel": { "message": "দান করুন", "description": "Donate" },
+  "appName": {
+    "message": "ছবিতে পাঠ্য (ওসিআর)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "চিত্র থেকে পাঠ্য (ওসিআর) - একাধিক ভাষার জন্য ওসিআর।",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

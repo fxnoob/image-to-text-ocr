@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "ഇമേജ് ടു ടെക്സ്റ്റ് പ്രോ (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "ഇമേജ് ടു ടെക്സ്റ്റ് പ്രോ (OCR) - ഒന്നിലധികം ഭാഷകൾക്കുള്ള OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "മുകളിലുള്ള പസിൽ മെനുവിൽ നിന്ന് വിപുലീകരണം പിൻ ചെയ്യുക.",
     "description": "Pin the extension from puzzle menu above."
@@ -66,5 +58,13 @@
     "message": "വാചകം എക്‌സ്‌ട്രാക്റ്റുചെയ്യുന്നതിന് പിഡിഎഫ് അപ്‌ലോഡുചെയ്യുക",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "സംഭാവനചെയ്യുക", "description": "Donate" }
+  "donateLabel": { "message": "സംഭാവനചെയ്യുക", "description": "Donate" },
+  "appName": {
+    "message": "ഇമേജ് ടു ടെക്സ്റ്റ് (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "ഇമേജ് ടു ടെക്സ്റ്റ് (OCR) - ഒന്നിലധികം ഭാഷകൾക്കുള്ള OCR.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

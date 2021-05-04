@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Picha kwa Nakala Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Picha kwa Nakala Pro (OCR) - OCR kwa lugha nyingi.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Bandika kiendelezi kutoka kwa menyu ya fumbo hapo juu.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "pakia pdf ili kutoa maandishi kutoka",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Changia", "description": "Donate" }
+  "donateLabel": { "message": "Changia", "description": "Donate" },
+  "appName": {
+    "message": "Picha kwa Nakala (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Picha kwa Nakala (OCR) - OCR kwa lugha nyingi.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

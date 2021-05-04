@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Görüntüden Metin Pro'ya (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - Birden çok dil için OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Uzantıyı yukarıdaki bulmaca menüsünden sabitleyin.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "metinden çıkarmak için pdf yükleyin",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Bağış yap", "description": "Donate" }
+  "donateLabel": { "message": "Bağış yap", "description": "Donate" },
+  "appName": {
+    "message": "Metne Görüntü (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Metne Görüntü (OCR) - Birden çok dil için OCR.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

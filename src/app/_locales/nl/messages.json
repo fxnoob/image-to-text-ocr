@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Afbeelding naar tekst Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR voor meerdere talen.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Pin de extensie uit het bovenstaande puzzelmenu.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "upload pdf om tekst uit te halen",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Doneer", "description": "Donate" }
+  "donateLabel": { "message": "Doneer", "description": "Donate" },
+  "appName": {
+    "message": "Afbeelding naar tekst (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Afbeelding naar tekst (OCR) - OCR voor meerdere talen.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

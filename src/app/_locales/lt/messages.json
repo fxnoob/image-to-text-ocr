@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "„Image to Text Pro“ (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "„Image to Text Pro“ (OCR) - kelių kalbų OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Prisekite pratęsimą iš galvosūkių meniu aukščiau.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "įkelti pdf išgauti tekstą iš",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Paaukokite", "description": "Donate" }
+  "donateLabel": { "message": "Paaukokite", "description": "Donate" },
+  "appName": {
+    "message": "Vaizdas į tekstą (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Vaizdas į tekstą (OCR) - OCR kelioms kalboms.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

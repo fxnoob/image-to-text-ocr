@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Gambar ke Teks Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR untuk berbagai bahasa.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Sematkan ekstensi dari menu teka-teki di atas.",
     "description": "Pin the extension from puzzle menu above."
@@ -57,5 +49,13 @@
     "message": "unggah pdf untuk mengekstrak teks",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Menyumbangkan", "description": "Donate" }
+  "donateLabel": { "message": "Menyumbangkan", "description": "Donate" },
+  "appName": {
+    "message": "Gambar ke Teks (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text (OCR) - OCR untuk berbagai bahasa.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

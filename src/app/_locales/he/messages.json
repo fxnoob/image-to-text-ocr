@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "תמונה לטקסט פרו (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR למספר שפות.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "הצמד את התוסף מתפריט הפאזל למעלה.",
     "description": "Pin the extension from puzzle menu above."
@@ -57,5 +49,13 @@
     "message": "העלה קובץ PDF לחילוץ טקסט ממנו",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "לִתְרוֹם", "description": "Donate" }
+  "donateLabel": { "message": "לִתְרוֹם", "description": "Donate" },
+  "appName": {
+    "message": "תמונה לטקסט (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "תמונה לטקסט (OCR) - OCR למספר שפות.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

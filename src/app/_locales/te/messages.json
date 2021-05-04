@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "ఇమేజ్ టు టెక్స్ట్ ప్రో (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "ఇమేజ్ టు టెక్స్ట్ ప్రో (OCR) - బహుళ భాషల కోసం OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "ఎగువ పజిల్ మెను నుండి పొడిగింపును పిన్ చేయండి.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "నుండి వచనాన్ని సేకరించేందుకు పిడిఎఫ్‌ను అప్‌లోడ్ చేయండి",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "దానం చేయండి", "description": "Donate" }
+  "donateLabel": { "message": "దానం చేయండి", "description": "Donate" },
+  "appName": {
+    "message": "ఇమేజ్ టు టెక్స్ట్ (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "ఇమేజ్ టు టెక్స్ట్ (OCR) - బహుళ భాషల కోసం OCR.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

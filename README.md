@@ -14,7 +14,7 @@
 
 #### Chrome WebStore
 
-[https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci](https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci)
+[https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo](https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo)
 
 #### Firefox Store
 

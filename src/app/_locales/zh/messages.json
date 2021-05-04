@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "图像到文本专业版（OCR）",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "图像到文本专业版（OCR）-多种语言的OCR。",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "从上方的拼图菜单固定扩展名。",
     "description": "Pin the extension from puzzle menu above."
@@ -57,5 +49,13 @@
     "message": "上载pdf以从中提取文本",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "捐", "description": "Donate" }
+  "donateLabel": { "message": "捐", "description": "Donate" },
+  "appName": {
+    "message": "图片到文字（OCR）",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "图像到文本（OCR）-多种语言的OCR。",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

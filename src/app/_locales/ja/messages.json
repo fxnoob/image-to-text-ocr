@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Image to Text Pro（OCR）",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro（OCR）-複数の言語のOCR。",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "上のパズルメニューから拡張機能を固定します。",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "PDFをアップロードしてテキストを抽出します",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "寄付", "description": "Donate" }
+  "donateLabel": { "message": "寄付", "description": "Donate" },
+  "appName": {
+    "message": "画像からテキスト（OCR）",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text（OCR）-複数の言語のOCR。",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

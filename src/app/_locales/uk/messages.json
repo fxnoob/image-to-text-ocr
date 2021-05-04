@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Image to Text Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR для кількох мов.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Закріпіть розширення з меню головоломки вище.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "завантажити PDF для вилучення тексту з",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Пожертвувати", "description": "Donate" }
+  "donateLabel": { "message": "Пожертвувати", "description": "Donate" },
+  "appName": {
+    "message": "Зображення в текст (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Зображення в текст (OCR) - OCR для кількох мов.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

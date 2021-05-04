@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Image to Text Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR cho nhiều ngôn ngữ.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Ghim tiện ích mở rộng từ menu câu đố ở trên.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "tải lên pdf để trích xuất văn bản từ",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Quyên góp", "description": "Donate" }
+  "donateLabel": { "message": "Quyên góp", "description": "Donate" },
+  "appName": {
+    "message": "Hình ảnh thành Văn bản (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text (OCR) - OCR cho nhiều ngôn ngữ.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

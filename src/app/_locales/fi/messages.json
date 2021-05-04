@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Kuva tekstiksi Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Kuva tekstiksi Pro (OCR) - OCR useille kielille.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Kiinnitä laajennus palapelin valikosta yllä.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "lataa pdf poimia tekstiä",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Lahjoittaa", "description": "Donate" }
+  "donateLabel": { "message": "Lahjoittaa", "description": "Donate" },
+  "appName": {
+    "message": "Kuva tekstiksi (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Kuva tekstiksi (OCR) - OCR useille kielille.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

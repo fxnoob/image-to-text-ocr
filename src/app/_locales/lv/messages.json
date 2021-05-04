@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Attēls uz tekstu Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Attēls uz tekstu Pro (OCR) - OCR vairākām valodām.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Piespraudiet augšpusē esošo puzzle izvēlnes paplašinājumu.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "augšupielādēt pdf, lai no tā iegūtu tekstu",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Ziedo", "description": "Donate" }
+  "donateLabel": { "message": "Ziedo", "description": "Donate" },
+  "appName": {
+    "message": "Attēls uz tekstu (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Attēls uz tekstu (OCR) - OCR vairākām valodām.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

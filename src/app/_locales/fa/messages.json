@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "تصویر به متن طرفدار (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR برای چندین زبان.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "برنامه افزودنی را از فهرست پازل بالا پین کنید.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "برای استخراج متن از pdf بارگذاری کنید",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "اهدا کنید", "description": "Donate" }
+  "donateLabel": { "message": "اهدا کنید", "description": "Donate" },
+  "appName": {
+    "message": "تصویر به متن (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "تصویر به متن (OCR) - OCR برای چندین زبان.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

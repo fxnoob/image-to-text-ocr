@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Pilt tekstiks (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - mitme keele jaoks mõeldud OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Kinnitage laiendus mõistatuste menüüst ülal.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "üleslaadimiseks laadige pdf üles",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Anneta", "description": "Donate" }
+  "donateLabel": { "message": "Anneta", "description": "Donate" },
+  "appName": {
+    "message": "Pilt tekstiks (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Pilt tekstiks (OCR) - OCR mitme keele jaoks.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

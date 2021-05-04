@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "OCR (Image to Text Pro)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "OCR (Image to Text Pro)-다국어 용 OCR.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "위의 퍼즐 메뉴에서 확장 프로그램을 고정합니다.",
     "description": "Pin the extension from puzzle menu above."
@@ -57,5 +49,13 @@
     "message": "PDF를 업로드하여 텍스트 추출",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "기부", "description": "Donate" }
+  "donateLabel": { "message": "기부", "description": "Donate" },
+  "appName": {
+    "message": "이미지를 텍스트로 (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "OCR (Image to Text)-다국어 용 OCR.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

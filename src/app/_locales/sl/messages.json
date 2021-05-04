@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Slika v besedilo Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR za več jezikov.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Pripnite priponko iz zgornjega menija sestavljanke.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "naloži pdf, da iz njega izvlečeš besedilo",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Podarite", "description": "Donate" }
+  "donateLabel": { "message": "Podarite", "description": "Donate" },
+  "appName": {
+    "message": "Slika v besedilo (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Slika v besedilo (OCR) - OCR za več jezikov.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

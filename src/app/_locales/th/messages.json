@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "รูปภาพเป็นข้อความ Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR สำหรับหลายภาษา",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "ตรึงส่วนขยายจากเมนูปริศนาด้านบน",
     "description": "Pin the extension from puzzle menu above."
@@ -57,5 +49,13 @@
     "message": "อัปโหลด pdf เพื่อดึงข้อความจาก",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "บริจาค", "description": "Donate" }
+  "donateLabel": { "message": "บริจาค", "description": "Donate" },
+  "appName": {
+    "message": "รูปภาพเป็นข้อความ (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "รูปภาพเป็นข้อความ (OCR) - OCR สำหรับหลายภาษา",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

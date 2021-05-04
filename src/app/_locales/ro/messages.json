@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "Image to Text Pro (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "Image to Text Pro (OCR) - OCR pentru mai multe limbi.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "Fixați extensia din meniul puzzle de mai sus.",
     "description": "Pin the extension from puzzle menu above."
@@ -63,5 +55,13 @@
     "message": "încărcați pdf pentru a extrage text din",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "Donează", "description": "Donate" }
+  "donateLabel": { "message": "Donează", "description": "Donate" },
+  "appName": {
+    "message": "Imagine către text (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "Image to Text (OCR) - OCR pentru mai multe limbi.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

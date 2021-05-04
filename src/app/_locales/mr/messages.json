@@ -1,12 +1,4 @@
 {
-  "appName": {
-    "message": "मजकूर ते मजकूर प्रो (OCR)",
-    "description": "Image to Text Pro (OCR)"
-  },
-  "appDescription": {
-    "message": "प्रतिमा ते मजकूर प्रो (ओसीआर) - एकाधिक भाषांसाठी ओसीआर.",
-    "description": "Image to Text Pro (OCR) - OCR for multiple languages."
-  },
   "pinMenuMessageLabel": {
     "message": "वरील कोडे मेनूमधून विस्तार पिन करा.",
     "description": "Pin the extension from puzzle menu above."
@@ -60,5 +52,13 @@
     "message": "मजकूर काढण्यासाठी पीडीएफ अपलोड करा",
     "description": "upload pdf to extract text from"
   },
-  "donateLabel": { "message": "दान करा", "description": "Donate" }
+  "donateLabel": { "message": "दान करा", "description": "Donate" },
+  "appName": {
+    "message": "मजकूर ते मजकूर (OCR)",
+    "description": "Image to Text (OCR)"
+  },
+  "appDescription": {
+    "message": "इमेज टू टेक्स्ट (ओसीआर) - एकाधिक भाषांसाठी ओसीआर.",
+    "description": "Image to Text (OCR) - OCR for multiple languages."
+  }
 }

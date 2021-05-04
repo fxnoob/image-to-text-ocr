@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import firebaseService from "../../services/firebaseService";
 import dbService from "../../services/dbService";
 import Button from "@material-ui/core/Button";
@@ -10,6 +10,14 @@ import chromeService from "../../services/chromeService";
 export default function Welcome() {
   const [open, setOpen] = useState(true);
   const [loggedIn, setLoggedIn] = useState(!isGoogleChrome);
+  const [authLoading, setAuthLoading] = useState(false);
+  useEffect(() => {
+    init().catch(() => {});
+  }, []);
+  const init = async () => {
+    const { isAuthenticated } = await dbService.get("isAuthenticated");
+    setLoggedIn(isAuthenticated);
+  };
   const appName = chromeService.getI18nMessage("appName"); // Image to Text pro (OCR).
   const pinMenuMessageLabel = chromeService.getI18nMessage(
     "pinMenuMessageLabel"
@@ -20,15 +28,16 @@ export default function Welcome() {
   const watchTutorialLabel = chromeService.getI18nMessage("watchTutorialLabel"); // Watch Tutorial
   const donateLabel = chromeService.getI18nMessage("donateLabel"); // Donate
   const login = async () => {
+    setAuthLoading(true);
     try {
       const user = await firebaseService.getUser();
-      console.log({ user });
       await dbService.set({ isAuthenticated: true });
       setLoggedIn(true);
     } catch (e) {
       await dbService.set({ isAuthenticated: false });
       setLoggedIn(false);
     }
+    setAuthLoading(false);
   };
   const handleClose = () => {
     setOpen(true);
@@ -95,10 +104,13 @@ export default function Welcome() {
                 <Button
                   style={{ background: "var(--main-color)" }}
                   onClick={login}
-                  style={{ fontSize: "1.5rem", textDecoration: "underline" }}
+                  style={{ fontSize: "1.5rem" }}
                   className="btn-lite"
+                  variant="contained"
+                  color="secondary"
+                  disabled={authLoading}
                 >
-                  {loginLabel}
+                  {authLoading ? "Logging In..." : loginLabel}
                 </Button>
               )}
             </p>

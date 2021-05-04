@@ -1,8 +1,8 @@
 import React from "react";
 import Share from "./Share";
 import chromeService from "../../services/chromeService";
-import constants from "../../../constants";
-const extUrl = constants.appConfig.url;
+import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
+const extUrl = getExtensionStoreLink();
 export default function OCRCard(props) {
   const [copied, setCopied] = React.useState(false);
   const [playing, togglePlay] = React.useState(false);
@@ -141,19 +141,21 @@ export default function OCRCard(props) {
             </div>
             <div>
               <div class="text-base max-w-prose mx-auto lg:max-w-none">
-                <button
-                  onClick={toggleTTS}
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
-                >
-                  {playing ? "Speaking" : speakLabel}
-                </button>
+                {isGoogleChrome && (
+                  <button
+                    onClick={toggleTTS}
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
+                  >
+                    {playing ? "Speaking" : speakLabel}
+                  </button>
+                )}
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
                   href={`https://translate.google.com/#auto/en/${encodeURIComponent(
                     ocrText
                   )}`}
                   target="_blank"
-                  style={{ marginLeft: "1rem" }}
+                  style={{ marginLeft: isGoogleChrome ? "1rem" : "0rem" }}
                 >
                   {translateLabel}
                 </a>
@@ -189,6 +191,7 @@ export default function OCRCard(props) {
                   border: "1px solid",
                   padding: "1rem",
                   whiteSpace: "pre",
+                  overflow: "scroll",
                 }}
                 class="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
               >

@@ -1,8 +1,14 @@
-const guid = require("./src/services/guid");
-
+const { generateGuid } = require("./src/services/guid");
 const constants = {
   appConfig: {
     appName: "Image to Text Pro (OCR)",
+    urls: {
+      chrome:
+        "https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci",
+      firefox: "https://addons.mozilla.org/addon/image-to-text-pro-ocr/",
+      edge:
+        "https://microsoftedge.microsoft.com/addons/detail/icgbomdceijejlokdmjpmgkojiliphma",
+    },
     url:
       "https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci",
     // put extension key here if required which would only be used in development mode
@@ -18,7 +24,19 @@ const constants = {
       "-----END PUBLIC KEY-----",
   },
   contentScript: {
-    mountId: guid.generateGuid(),
+    mountId: generateGuid(),
+  },
+  browser: {
+    firefox: {
+      manifest: {
+        browser_specific_settings: {
+          gecko: {
+            id: "fxnoob71@gmail.com",
+            strict_min_version: "42.0",
+          },
+        },
+      },
+    },
   },
   google: {
     firebase: {

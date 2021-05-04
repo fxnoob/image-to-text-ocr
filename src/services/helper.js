@@ -1,3 +1,16 @@
+import constants from "../../constants";
+const generateGuid = () => {
+  var result, i, j;
+  result = "";
+  for (j = 0; j < 32; j++) {
+    if (j == 8 || j == 12 || j == 16 || j == 20) result = result + "-";
+    i = Math.floor(Math.random() * 16)
+      .toString(16)
+      .toUpperCase();
+    result = result + i;
+  }
+  return result;
+};
 const http = async (method, url, data) => {
   const response = await fetch(url, {
     method: method, // *GET, POST, PUT, DELETE, etc.
@@ -78,10 +91,31 @@ const isBadBrowser =
         return !1;
       })() && "Chromium";
 const isGoogleChrome = isBadBrowser == false;
+const isFirefox = isBadBrowser == "Firefox";
+const isMicrosoftEdge = isBadBrowser == "Microsoft Edge";
+const isChromium = isBadBrowser == "Chromium";
+const getExtensionStoreLink = () => {
+  let link;
+  if (isFirefox) {
+    link = constants.appConfig.urls.firefox;
+  } else if (isMicrosoftEdge) {
+    link = constants.appConfig.urls.edge;
+  } else if (isGoogleChrome || isChromium) {
+    link = constants.appConfig.urls.chrome;
+  } else {
+    link = constants.appConfig.urls.chrome;
+  }
+  return link;
+};
 export {
+  generateGuid,
   http,
   loadImage,
   urlWithoutQueryParameters,
   extractHostname,
   isGoogleChrome,
+  isFirefox,
+  isMicrosoftEdge,
+  isChromium,
+  getExtensionStoreLink,
 };

@@ -44,6 +44,7 @@ module.exports = (env, options) => {
       path: __dirname + "/dist",
       publicPath: "/",
       filename: "[name].bundle.js",
+      globalObject: "this",
     },
     devtool: "inline-sourcemap",
     plugins: [

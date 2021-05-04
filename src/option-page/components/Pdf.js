@@ -4,8 +4,8 @@ import { useDropzone } from "react-dropzone";
 import Share from "./Share";
 import chromeService from "../../services/chromeService";
 import messagePassing from "../../services/messagePassing";
-import constants from "../../../constants";
-const extUrl = constants.appConfig.url;
+import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
+const extUrl = getExtensionStoreLink();
 let canvas = null;
 export default function PdfCard() {
   const [pdfSettings, setPdfSettings] = React.useState({
@@ -42,7 +42,7 @@ export default function PdfCard() {
         viewport: viewport,
       };
       var renderTask = page.render(renderContext);
-
+      let pageRendering, pageNumPending;
       // Wait for rendering to finish
       renderTask.promise.then(function () {
         pageRendering = false;
@@ -255,19 +255,21 @@ export default function PdfCard() {
             </div>
             <div>
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <button
-                  onClick={toggleTTS}
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
-                >
-                  {playing ? "Speaking" : speakLabel}
-                </button>
+                {isGoogleChrome && (
+                  <button
+                    onClick={toggleTTS}
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
+                  >
+                    {playing ? "Speaking" : speakLabel}
+                  </button>
+                )}
                 <a
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn"
                   href={`https://translate.google.com/#auto/en/${encodeURIComponent(
                     ocrText
                   )}`}
                   target="_blank"
-                  style={{ marginLeft: "1rem" }}
+                  style={{ marginLeft: isGoogleChrome ? "1rem" : "0rem" }}
                 >
                   {translateLabel}
                 </a>
@@ -295,6 +297,8 @@ export default function PdfCard() {
                   marginTop: "2rem",
                   border: "1px solid",
                   padding: "1rem",
+                  whiteSpace: "pre",
+                  overflow: "scroll",
                 }}
                 className="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
               >

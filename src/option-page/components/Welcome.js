@@ -7,7 +7,6 @@ import PinImg from "./pin_ext.png";
 import { isGoogleChrome } from "../../services/helper";
 import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
-
 export default function Welcome() {
   const [open, setOpen] = useState(true);
   const [loggedIn, setLoggedIn] = useState(!isGoogleChrome);
@@ -42,13 +41,15 @@ export default function Welcome() {
   );
   return (
     <>
-      <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
-        open={open}
-        onClose={handleClose}
-        message={SnackBarMessage}
-        key="topright"
-      />
+      {isGoogleChrome && (
+        <Snackbar
+          anchorOrigin={{ vertical: "top", horizontal: "right" }}
+          open={open}
+          onClose={handleClose}
+          message={SnackBarMessage}
+          key="topright"
+        />
+      )}
       <div
         className="h-screen pb-14 bg-right bg-cover"
         style={{ backgroundImage: "url('images/bg.svg')" }}

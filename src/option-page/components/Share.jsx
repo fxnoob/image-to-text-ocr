@@ -1,9 +1,9 @@
 import React from "react";
-import Constants from "../../../constants";
+import { getExtensionStoreLink } from "../../services/helper";
 import "./share.css";
 import chromeService from "../../services/chromeService";
 export default () => {
-  const url = Constants.appConfig.url;
+  const url = getExtensionStoreLink();
   const shareLabel = chromeService.getI18nMessage("shareLabel");
   return (
     <React.Fragment>

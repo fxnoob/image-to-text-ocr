@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn build"
+      "pre-commit": "pretty-quick --staged && yarn build:chromium && yarn build:firefox && yarn rm"
     }
   },
   "keywords": [],

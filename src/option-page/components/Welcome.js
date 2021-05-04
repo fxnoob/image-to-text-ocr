@@ -4,7 +4,7 @@ import dbService from "../../services/dbService";
 import Button from "@material-ui/core/Button";
 import Snackbar from "@material-ui/core/Snackbar";
 import PinImg from "./pin_ext.png";
-import { isGoogleChrome } from "../../services/helper";
+import { isGoogleChrome, isBrave } from "../../services/helper";
 import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
 export default function Welcome() {
@@ -18,6 +18,7 @@ export default function Welcome() {
   const letsGoLabel = chromeService.getI18nMessage("letsGoLabel"); // Let's go!
   const loginLabel = chromeService.getI18nMessage("loginLabel"); // Login
   const watchTutorialLabel = chromeService.getI18nMessage("watchTutorialLabel"); // Watch Tutorial
+  const donateLabel = chromeService.getI18nMessage("donateLabel"); // Donate
   const login = async () => {
     try {
       const user = await firebaseService.getUser();
@@ -41,7 +42,7 @@ export default function Welcome() {
   );
   return (
     <>
-      {isGoogleChrome && (
+      {(isBrave || isGoogleChrome) && (
         <Snackbar
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
           open={open}
@@ -108,6 +109,15 @@ export default function Welcome() {
               >
                 {" "}
                 {watchTutorialLabel}
+              </a>
+            </p>
+            <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
+              <a
+                style={{ textDecoration: "underline" }}
+                href={constants.support.donate}
+              >
+                {" "}
+                {donateLabel}
               </a>
             </p>
           </div>

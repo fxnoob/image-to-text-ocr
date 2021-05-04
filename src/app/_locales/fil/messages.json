@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "mag-upload ng pdf upang kumuha ng teksto mula sa",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Magbigay", "description": "Donate" }
 }

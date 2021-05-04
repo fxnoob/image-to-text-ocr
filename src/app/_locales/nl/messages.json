@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "upload pdf om tekst uit te halen",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Doneer", "description": "Donate" }
 }

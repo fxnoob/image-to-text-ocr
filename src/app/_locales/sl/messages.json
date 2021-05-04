@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "naloži pdf, da iz njega izvlečeš besedilo",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Podarite", "description": "Donate" }
 }

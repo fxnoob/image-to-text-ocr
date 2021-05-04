@@ -4,13 +4,11 @@ const constants = {
     appName: "Image to Text Pro (OCR)",
     urls: {
       chrome:
-        "https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci",
+        "https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo",
       firefox: "https://addons.mozilla.org/addon/image-to-text-pro-ocr/",
       edge:
         "https://microsoftedge.microsoft.com/addons/detail/icgbomdceijejlokdmjpmgkojiliphma",
     },
-    url:
-      "https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci",
     // put extension key here if required which would only be used in development mode
     key:
       "-----BEGIN PUBLIC KEY-----\n" +
@@ -50,11 +48,11 @@ const constants = {
         measurementId: "G-ZK3S0NVC3F",
       },
     },
-    visionApiKey: "AIzaSyC3y-Em42htSB8UEZPqptJ78rlvL58_h6Y", // temporary api key
   },
   support: {
+    donate: "https://www.patreon.com/fxnoob",
     howToVideoLink: "https://www.youtube.com/watch?v=0BnUis2H_Kc",
-    uninstallFeedbackForm: "https://forms.gle/fe3aQmDZdg2gzZfA7",
+    uninstallFeedbackForm: "https://forms.gle/iaFrarBtMp2YDFhB6",
   },
 };
 

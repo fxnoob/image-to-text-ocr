@@ -59,5 +59,6 @@
   "uploadPdfLabel": {
     "message": "માંથી ટેક્સ્ટ કાractવા માટે પીડીએફ અપલોડ કરો",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "દાન કરો", "description": "Donate" }
 }

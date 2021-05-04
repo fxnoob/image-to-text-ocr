@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "నుండి వచనాన్ని సేకరించేందుకు పిడిఎఫ్‌ను అప్‌లోడ్ చేయండి",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "దానం చేయండి", "description": "Donate" }
 }

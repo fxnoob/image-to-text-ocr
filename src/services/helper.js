@@ -91,6 +91,7 @@ const isBadBrowser =
         return !1;
       })() && "Chromium";
 const isGoogleChrome = isBadBrowser == false;
+const isBrave = isBadBrowser == "Brave";
 const isFirefox = isBadBrowser == "Firefox";
 const isMicrosoftEdge = isBadBrowser == "Microsoft Edge";
 const isChromium = isBadBrowser == "Chromium";
@@ -100,7 +101,7 @@ const getExtensionStoreLink = () => {
     link = constants.appConfig.urls.firefox;
   } else if (isMicrosoftEdge) {
     link = constants.appConfig.urls.edge;
-  } else if (isGoogleChrome || isChromium) {
+  } else if (isGoogleChrome || isChromium || isBrave) {
     link = constants.appConfig.urls.chrome;
   } else {
     link = constants.appConfig.urls.chrome;
@@ -114,6 +115,7 @@ export {
   urlWithoutQueryParameters,
   extractHostname,
   isGoogleChrome,
+  isBrave,
   isFirefox,
   isMicrosoftEdge,
   isChromium,

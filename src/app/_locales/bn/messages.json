@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "থেকে পাঠ্য নিষ্কাশন করতে পিডিএফ আপলোড করুন",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "দান করুন", "description": "Donate" }
 }

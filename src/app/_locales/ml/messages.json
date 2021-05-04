@@ -65,5 +65,6 @@
   "uploadPdfLabel": {
     "message": "വാചകം എക്‌സ്‌ട്രാക്റ്റുചെയ്യുന്നതിന് പിഡിഎഫ് അപ്‌ലോഡുചെയ്യുക",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "സംഭാവനചെയ്യുക", "description": "Donate" }
 }

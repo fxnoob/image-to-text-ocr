@@ -65,5 +65,6 @@
   "uploadPdfLabel": {
     "message": "உரையை பிரித்தெடுக்க pdf ஐ பதிவேற்றவும்",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "நன்கொடை", "description": "Donate" }
 }

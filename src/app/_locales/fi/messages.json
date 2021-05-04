@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "lataa pdf poimia tekstiä",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Lahjoittaa", "description": "Donate" }
 }

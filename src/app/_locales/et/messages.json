@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "üleslaadimiseks laadige pdf üles",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Anneta", "description": "Donate" }
 }

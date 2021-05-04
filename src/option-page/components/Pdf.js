@@ -2,6 +2,7 @@ import React, { useCallback, useRef } from "react";
 import pdfService from "../../services/pdfService";
 import { useDropzone } from "react-dropzone";
 import Share from "./Share";
+import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
 import messagePassing from "../../services/messagePassing";
 import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
@@ -28,6 +29,8 @@ export default function PdfCard() {
   const contactLabel = chromeService.getI18nMessage("contactLabel"); // Contact
   const littleInfoPdfLabel = chromeService.getI18nMessage("littleInfoPdfLabel"); //Pdf taken for OCR (Optical Character Recognition).
   const pdfDragInfoLabel = chromeService.getI18nMessage("pdfDragInfoLabel"); // Drag 'n' drop some files here, or click to select files
+  const rateUsLabel = chromeService.getI18nMessage("rateUsLabel"); // Rate Us
+  const donateLabel = chromeService.getI18nMessage("donateLabel"); // Donate
   const renderPdf = (pdf, num) => {
     pdf.getPage(num).then((page) => {
       const scale = 0.8;
@@ -250,6 +253,39 @@ export default function PdfCard() {
                     </svg>
                     {littleInfoPdfLabel}
                   </figcaption>
+                  <a
+                    className="flex-none text-3xl"
+                    href={extUrl}
+                    style={{
+                      lineHeight: "2rem",
+                      marginLeft: "0rem",
+                      textDecoration: "underline",
+                      color: "#00a774 !important",
+                    }}
+                  >
+                    <span className="star"></span>
+                    <span className="star"></span>
+                    <span className="star"></span>
+                    <span className="star"></span>
+                    <span className="star"></span>
+                  </a>
+                  <div
+                    style={{
+                      lineHeight: "2rem",
+                      marginLeft: "0rem",
+                      textDecoration: "underline",
+                      color: "#00a774 !important",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    <a href={extUrl}>{rateUsLabel}</a>
+                    <a
+                      style={{ marginLeft: "2rem" }}
+                      href={constants.support.donate}
+                    >
+                      {donateLabel}
+                    </a>
+                  </div>
                 </figure>
               </div>
             </div>

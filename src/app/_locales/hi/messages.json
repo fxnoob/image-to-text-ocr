@@ -56,5 +56,6 @@
   "uploadPdfLabel": {
     "message": "से पाठ निकालने के लिए pdf अपलोड करें",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "दान करना", "description": "Donate" }
 }

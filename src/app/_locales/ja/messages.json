@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "PDFをアップロードしてテキストを抽出します",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "寄付", "description": "Donate" }
 }

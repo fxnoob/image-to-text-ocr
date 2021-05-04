@@ -56,5 +56,6 @@
   "uploadPdfLabel": {
     "message": "העלה קובץ PDF לחילוץ טקסט ממנו",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "לִתְרוֹם", "description": "Donate" }
 }

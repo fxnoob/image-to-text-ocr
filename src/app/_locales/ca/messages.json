@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "pengeu pdf per extreure text de",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Donar", "description": "Donate" }
 }

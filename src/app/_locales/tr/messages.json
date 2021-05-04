@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "metinden çıkarmak için pdf yükleyin",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Bağış yap", "description": "Donate" }
 }

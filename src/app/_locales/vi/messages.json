@@ -59,5 +59,6 @@
   "uploadPdfLabel": {
     "message": "tải lên pdf để trích xuất văn bản từ",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Quyên góp", "description": "Donate" }
 }

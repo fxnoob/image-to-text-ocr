@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "augšupielādēt pdf, lai no tā iegūtu tekstu",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Ziedo", "description": "Donate" }
 }

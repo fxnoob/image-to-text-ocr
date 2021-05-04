@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಲು ಪಿಡಿಎಫ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "ದಾನ", "description": "Donate" }
 }

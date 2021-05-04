@@ -1,5 +1,6 @@
 import React from "react";
 import Share from "./Share";
+import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
 import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
 const extUrl = getExtensionStoreLink();
@@ -15,6 +16,7 @@ export default function OCRCard(props) {
   const contactLabel = chromeService.getI18nMessage("contactLabel"); // Contact
   const littleInfoLabel = chromeService.getI18nMessage("littleInfoLabel"); //Image taken for OCR (Optical Character Recognition).
   const rateUsLabel = chromeService.getI18nMessage("rateUsLabel"); // Rate Us
+  const donateLabel = chromeService.getI18nMessage("donateLabel"); // Donate
   const toggleTTS = () => {
     if (playing) {
       chromeService.stop();
@@ -134,8 +136,24 @@ export default function OCRCard(props) {
                     <span className="star"></span>
                     <span className="star"></span>
                     <span className="star"></span>
-                    <p>{rateUsLabel}</p>
                   </a>
+                  <div
+                    style={{
+                      lineHeight: "2rem",
+                      marginLeft: "0rem",
+                      textDecoration: "underline",
+                      color: "#00a774 !important",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    <a href={extUrl}>{rateUsLabel}</a>
+                    <a
+                      style={{ marginLeft: "2rem" }}
+                      href={constants.support.donate}
+                    >
+                      {donateLabel}
+                    </a>
+                  </div>
                 </figure>
               </div>
             </div>

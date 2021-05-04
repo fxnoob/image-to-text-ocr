@@ -56,5 +56,6 @@
   "uploadPdfLabel": {
     "message": "ጽሑፍን ለማውጣት ፒዲኤፍ ይስቀሉ",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "ለግስ", "description": "Donate" }
 }

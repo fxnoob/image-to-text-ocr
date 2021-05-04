@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "încărcați pdf pentru a extrage text din",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "Donează", "description": "Donate" }
 }

@@ -62,5 +62,6 @@
   "uploadPdfLabel": {
     "message": "تحميل ملف pdf لاستخراج النص منه",
     "description": "upload pdf to extract text from"
-  }
+  },
+  "donateLabel": { "message": "يتبرع", "description": "Donate" }
 }

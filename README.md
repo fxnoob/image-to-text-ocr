@@ -12,9 +12,17 @@
 > - Play extracted text as an Audio(tts)
 > - PDF text extraction from any language.
 
-#### WebStore
+#### Chrome WebStore
 
 [https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci](https://chrome.google.com/webstore/detail/conhdoedbhajlpaiiepgmfcdhhmkalci)
+
+#### Firefox Store
+
+[https://addons.mozilla.org/en-US/firefox/addon/image-to-text-pro-ocr/](https://addons.mozilla.org/en-US/firefox/addon/image-to-text-pro-ocr/)
+
+#### Edge Store
+
+[https://microsoftedge.microsoft.com/addons/detail/icgbomdceijejlokdmjpmgkojiliphma](https://microsoftedge.microsoft.com/addons/detail/icgbomdceijejlokdmjpmgkojiliphma)
 
 ## Prerequisites
 
@@ -25,14 +33,32 @@
 
 #### For Local Development
 
+#### For Chromium Development Build
+
 ```
 yarn
-yarn start
+yarn dev:chromium
+```
+
+#### For Firefox Development Build
+
+```
+yarn
+yarn dev:firefox
 ```
 
 #### For Production Release
 
+#### For Chromium Build
+
 ```
 yarn
-yarn build
+yarn build:chromium
+```
+
+#### For Firefox Build
+
+```
+yarn
+yarn build:firefox
 ```

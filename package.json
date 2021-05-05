@@ -1,8 +1,8 @@
 {
   "name": "text-to-image-pro",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
-  "homepage": "https://fxnoob.github.io/chrome-extension-boilerplate",
+  "homepage": "https://fxnoob.github.io/image-to-text-landing",
   "scripts": {
     "build:tailwind": "tailwindcss build src/styles/style.css -o dist/style.css",
     "watch:tailwind": "chokidar 'src/styles/*.css' -c 'yarn build:tailwind'",

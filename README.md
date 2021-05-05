@@ -18,7 +18,7 @@
 
 #### Firefox Store
 
-[https://addons.mozilla.org/en-US/firefox/addon/image-to-text-pro-ocr/](https://addons.mozilla.org/en-US/firefox/addon/image-to-text-pro-ocr/)
+[https://addons.mozilla.org/en-US/firefox/addon/image-to-text-pro-ocr/](https://addons.mozilla.org/en-US/firefox/addon/image-to-text-ocr/)
 
 #### Edge Store
 

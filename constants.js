@@ -11,15 +11,7 @@ const constants = {
     },
     // put extension key here if required which would only be used in development mode
     key:
-      "-----BEGIN PUBLIC KEY-----\n" +
-      "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDIDqs43GocJ9rQkIdi5\n" +
-      "WEzj4vGkr/zATAqaOMEyxNrf05cOBDpkBmi+m4eCmvR+MRPG3dhFAopTGS23HFsx\n" +
-      "QH/ke/4ClvxIfcM3G6QYalMZTIM+qoPr59WQUQgirSJvgszO/RxyUyTOXeh7u7z3\n" +
-      "8UffFl7JZ3gPrOIIYed/VkAfrFg2IfivgW+GkrWXfuztj8MndIfEfqFKWomgiOx1\n" +
-      "BAXkrM8GzaMtiPRiV9CECK4zDJvzIC3KKsnuHZn/dDD8VVFg3/17fgMVd+SX++EC\n" +
-      "XSII42yAxwaEbNEc+JGCIXC2vdclXgDoa982cOLzJA0KDrplKODDT16nzemq5O94\n" +
-      "4wIDAQAB\n" +
-      "-----END PUBLIC KEY-----",
+      "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhnjCHD79hDbWfqjnP9SW\nN0AXmXHh5eVk2D0oMILadmj/2uRQm/jNpnlvjVHY+899gdYRH/k7v4f+qF6gV3Yh\nwb/2PnW9PEo2VksgiixSesccvcwRXEJSngtxNWOARYSOTqTCCum9rjFVPZL+voh7\ndUsTN45D+RBLQORYbu5NtSM6RcGhUbYvhAosKwo+lsOAjM5niQDLJi//dZ9R32tc\n6tht4XrP59CTWBo8JCpIcHT6edN2HQ2vRiO5CHVb2jfT1hrO82WZ9LWsErzo/gCr\nXyIvnnXjg1wif7++WTi5mQl05Ohv3vKazNLeFpl/2XxvJ1xw4Pfh7m2qMaBJd7ll\n3QIDAQAB\n-----END PUBLIC KEY-----",
   },
   contentScript: {
     mountId: generateGuid(),
@@ -39,13 +31,12 @@ const constants = {
   google: {
     firebase: {
       config: {
-        apiKey: "AIzaSyC2ZzuonwqL8IpzaOTbhwe_r0PO0IrUVM8",
-        authDomain: "image-to-text-pro.firebaseapp.com",
-        projectId: "image-to-text-pro",
-        storageBucket: "image-to-text-pro.appspot.com",
-        messagingSenderId: "500214874087",
-        appId: "1:500214874087:web:2d41b42301ab04abd8c742",
-        measurementId: "G-ZK3S0NVC3F",
+        apiKey: "AIzaSyC3VS7MKRMiPcCxcey-LgfSdWSV7GaWo70",
+        authDomain: "chrome-extension-dev-229111.firebaseapp.com",
+        projectId: "chrome-extension-dev-229111",
+        storageBucket: "chrome-extension-dev-229111.appspot.com",
+        messagingSenderId: "546869382919",
+        appId: "1:546869382919:web:e95aaba9e8d137f4bfffa2",
       },
     },
   },

@@ -22,7 +22,6 @@ function App() {
       "/recognize",
       { url: url },
       (response) => {
-        console.log({ response });
         const { status, error, data } = response;
         if (url == response.url) {
           if (status == "SUCCESS") {

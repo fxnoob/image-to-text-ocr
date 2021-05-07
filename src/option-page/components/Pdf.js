@@ -1,4 +1,6 @@
 import React, { useCallback, useRef } from "react";
+import ArrowLeftICon from "@material-ui/icons/KeyboardBackspace";
+import ArrowRightICon from "@material-ui/icons/ArrowRightAlt";
 import pdfService from "../../services/pdfService";
 import { useDropzone } from "react-dropzone";
 import Share from "./Share";
@@ -6,6 +8,7 @@ import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
 import messagePassing from "../../services/messagePassing";
 import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
+import pdf from "../../services/pdfService";
 const extUrl = getExtensionStoreLink();
 let canvas = null;
 export default function PdfCard() {
@@ -33,25 +36,23 @@ export default function PdfCard() {
   const donateLabel = chromeService.getI18nMessage("donateLabel"); // Donate
   const renderPdf = (pdf, num) => {
     pdf.getPage(num).then((page) => {
-      const scale = 0.8;
+      const scale = 1;
       const viewport = page.getViewport({ scale: scale });
       canvas = canvasRef.current;
       canvas.height = viewport.height;
       canvas.width = viewport.width;
       const ctx = canvas.getContext("2d");
       // Render PDF page into canvas context
-      var renderContext = {
+      const renderContext = {
         canvasContext: ctx,
         viewport: viewport,
       };
-      var renderTask = page.render(renderContext);
+      const renderTask = page.render(renderContext);
       let pageRendering, pageNumPending;
       // Wait for rendering to finish
       renderTask.promise.then(function () {
         pageRendering = false;
         if (pageNumPending !== null) {
-          // New page rendering is pending
-          renderPage(pageNumPending);
           pageNumPending = null;
         }
       });
@@ -92,6 +93,13 @@ export default function PdfCard() {
     setPdfSettings({ ...pdfSettings, currentPage });
     renderPdf(pdfSettings.pdf, currentPage);
   };
+  const handlePdfPageChange = (event) => {
+    const pageNum = parseInt(event.target.value);
+    if (pageNum > -1 && pageNum <= pdfSettings.pageCount) {
+      setPdfSettings({ ...pdfSettings, currentPage: pageNum });
+      renderPdf(pdfSettings.pdf, pageNum);
+    }
+  };
   const onDrop = useCallback((acceptedFiles) => {
     acceptedFiles.forEach((file) => {
       const reader = new FileReader();
@@ -107,7 +115,6 @@ export default function PdfCard() {
             pageCount: pdf.numPages,
           });
           renderPdf(pdf, 1);
-          console.log(pdf.numPages);
         });
       };
       reader.readAsArrayBuffer(file);
@@ -210,18 +217,29 @@ export default function PdfCard() {
                             onClick={onPrevPage}
                             className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn-lite"
                           >
-                            {"<-"}
+                            <ArrowLeftICon />
                           </button>
                           <button
                             onClick={onNextPage}
                             style={{ marginLeft: "1rem" }}
                             className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white focus:outline-none transition duration-150 ease-in-out btn-lite"
                           >
-                            {"->"}
+                            <ArrowRightICon />
                           </button>
                           <span style={{ marginLeft: "1rem" }}>
-                            Page: {pdfSettings.currentPage}/
-                            {pdfSettings.pageCount}
+                            Page:{" "}
+                            <input
+                              type="number"
+                              onChange={handlePdfPageChange}
+                              style={{
+                                width: "4rem",
+                                textAlign: "end",
+                                border: "1px solid var(--main-color)",
+                                borderRadius: "1rem",
+                              }}
+                              value={pdfSettings.currentPage}
+                            />
+                            /{pdfSettings.pageCount}
                           </span>
                           <button
                             onClick={extractText}

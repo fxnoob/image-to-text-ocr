@@ -10,7 +10,7 @@ export default class Index extends React.Component {
     super(props);
     this.state = {
       imgSrc: "",
-      isModalOpen: false
+      isModalOpen: false,
     };
   }
   componentDidMount() {
@@ -28,9 +28,10 @@ export default class Index extends React.Component {
     });
   }
   handleClose = () => {
+    mediaControl.unmutePage();
     this.setState({ isModalOpen: false });
   };
-  onCropEnd = imgSrc => {
+  onCropEnd = (imgSrc) => {
     messagePassing.sendMessage("/open_tab", { imgSrc });
     this.handleClose();
   };

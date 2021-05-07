@@ -1,7 +1,7 @@
 const { generateGuid } = require("./src/services/guid");
 const constants = {
   appConfig: {
-    appName: "Image to Text Pro (OCR)",
+    appName: "Image to Text (OCR)",
     urls: {
       chrome:
         "https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo",

@@ -5,7 +5,6 @@ import messagePassing from "./services/messagePassing";
 import constants from "../constants";
 import db, { schema } from "./services/dbService";
 import firebaseService from "./services/firebaseService";
-import { isGoogleChrome } from "./services/helper";
 /**
  * Main extension functionality
  *
@@ -13,15 +12,12 @@ import { isGoogleChrome } from "./services/helper";
  */
 class Main {
   constructor() {
-    console.log({ isGoogleChrome });
     this.ctxMenuId1 = null;
     this.ctxMenuId2 = null;
     this.ctxMenuId3 = null;
     this.init().catch((e) => {
       console.log("Error loading extension", { e });
     });
-    // on install listener callback
-    this.onInstallListener();
     // set feedback form url
     this.setFeedbackFormUrl();
   }
@@ -40,6 +36,7 @@ class Main {
     const res = await db.get("___loaded");
     if (!res.hasOwnProperty("___loaded")) {
       await db.set({ ___loaded: true, ...schema.data });
+      chromeService.openHelpPage("welcome");
     }
   };
   openCropWindow = async () => {
@@ -114,17 +111,6 @@ class Main {
       await db.set({ isAuthenticated: true });
     }
   };
-
-  /**
-   *On install extension event
-   * */
-  onInstallListener = () => {
-    chrome.runtime.onInstalled.addListener((details) => {
-      // details.reason for install method
-      chromeService.openHelpPage("welcome");
-    });
-  };
-
   /**
    *set feedback form url shown while uninstalling
    * */

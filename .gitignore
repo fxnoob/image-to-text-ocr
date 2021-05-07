@@ -6,3 +6,4 @@ dist/
 out/
 .env
 ext.zip
+dist.zip

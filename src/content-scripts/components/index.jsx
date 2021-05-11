@@ -14,6 +14,10 @@ export default class Index extends React.Component {
     };
   }
   componentDidMount() {
+    /** Check for content script mount acknowledgement from background script */
+    messagePassing.on("/cs_mounted", async (req, res) => {
+      res({ mounted: true });
+    });
     messagePassing.on("/show_popup", (req, res, options) => {
       const { path, screenshotUrl } = req;
       if (path == "/show_popup") {

@@ -1,5 +1,6 @@
 import React from "react";
 import Share from "./Share";
+import Promotion from "./Promotion";
 import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
 import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
@@ -46,6 +47,7 @@ export default function OCRCard(props) {
   const { url, ocrText } = props;
   return (
     <React.Fragment>
+      <Promotion />
       <div class="bg-white overflow-hidden">
         <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"></div>

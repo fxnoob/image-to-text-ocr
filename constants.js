@@ -45,6 +45,10 @@ const constants = {
     howToVideoLink: "https://www.youtube.com/watch?v=0BnUis2H_Kc",
     uninstallFeedbackForm: "https://forms.gle/iaFrarBtMp2YDFhB6",
   },
+  promotion: {
+    voiceTypingExtension:
+      "https://chrome.google.com/webstore/detail/voice-typing/hmpihaioaacpehkghnkmnmgmihalkmdf",
+  },
 };
 
 module.exports = constants;

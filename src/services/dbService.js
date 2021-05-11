@@ -9,6 +9,7 @@ class Schema {
   constructor() {
     this.data = {
       isAuthenticated: !isGoogleChrome,
+      promotionalTileShown: false,
     };
   }
 }

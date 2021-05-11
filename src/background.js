@@ -37,6 +37,7 @@ class Main {
     if (!res.hasOwnProperty("___loaded")) {
       await db.set({ ___loaded: true, ...schema.data });
       chromeService.openHelpPage("welcome");
+      this.mountCSOnPreviouslyOpenedTabs().catch(() => {});
     }
   };
   openCropWindow = async () => {
@@ -52,6 +53,29 @@ class Main {
       await firebaseService.getUser();
       await db.set({ isAuthenticated: true });
     }
+  };
+  /**
+   * mount content script on previously opened tabs
+   * @method
+   * @memberof Main
+   */
+  mountCSOnPreviouslyOpenedTabs = async () => {
+    chrome.tabs.query({}, (result) => {
+      result.map((tabInfo) => {
+        messagePassing.sendMessageToTab(
+          "/cs_mounted",
+          tabInfo.id,
+          {},
+          async (res) => {
+            if (!res) {
+              chrome.tabs.executeScript(tabInfo.id, {
+                file: "content_script.bundle.js",
+              });
+            }
+          }
+        );
+      });
+    });
   };
   popUpClickSetup = () => {
     chrome.browserAction.onClicked.addListener(this.openCropWindow);

@@ -33,6 +33,7 @@ const constants = {
       config: {
         apiKey: "AIzaSyC3VS7MKRMiPcCxcey-LgfSdWSV7GaWo70",
         authDomain: "chrome-extension-dev-229111.firebaseapp.com",
+        databaseURL: "https://chrome-extension-dev-229111.firebaseio.com",
         projectId: "chrome-extension-dev-229111",
         storageBucket: "chrome-extension-dev-229111.appspot.com",
         messagingSenderId: "546869382919",

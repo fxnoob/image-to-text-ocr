@@ -7,6 +7,8 @@ import WindTurbineAnimation from "../../assets/WindTurbine";
 import Loader from "./Loader";
 import ErrorComponent from "./Error";
 import chromeService from "../../services/chromeService";
+import { isGoogleChrome } from "../../services/helper";
+import firebaseService from "../../services/firebaseService";
 const queryString = require("query-string");
 const parsed = queryString.parse(location.search);
 const urlString = decodeURIComponent(parsed.url ? parsed.url : "");
@@ -16,6 +18,13 @@ function App() {
   const [err, setError] = useState("");
   const [url, setUrl] = useState(urlString);
   const [loading, setLoading] = useState(true);
+  const createEntry = async () => {
+    try {
+      firebaseService.firebase.auth().onAuthStateChanged((user) => {
+        firebaseService.createEntry("usage", user.uid);
+      });
+    } catch (e) {}
+  };
   const doOCR = async () => {
     setUrl(urlString);
     messagePassingService.sendMessage(
@@ -26,6 +35,10 @@ function App() {
         if (url == response.url) {
           if (status == "SUCCESS") {
             setOcr(data);
+            // Create Entry
+            if (isGoogleChrome) {
+              createEntry().catch(() => {});
+            }
           } else {
             setError("Error!");
             setOcr("Error Occurred!");
@@ -37,7 +50,7 @@ function App() {
   };
   useEffect(() => {
     doOCR();
-  });
+  }, []);
   return (
     <React.Fragment>
       <CssBaseline />

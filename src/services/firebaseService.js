@@ -63,32 +63,30 @@ class firebaseServiceClass {
       throw new Error("AUTH_ERROR");
     }
   };
-
-  /**
-   * Save messages of user into firestore
-   * @method
-   * @memberOf firebaseServiceClass
-   */
-  saveMessageToFirestore = (channel, details) => {
-    console.log("saveMessageToFirestore called", details);
-    const { userId, userName, text, profilePicUrl, url } = details;
-    // Add a new message entry to the database.
-    return firebase
+  createEntry = async (collection, userId) => {
+    let document = await firebase
       .firestore()
-      .collection(channel)
-      .add({
-        userId: userId,
-        url: urlWithoutQueryParameters(url),
-        userName: userName,
-        text: text,
-        profilePicUrl: profilePicUrl,
-        timestamp: this.firebase.firestore.FieldValue.serverTimestamp(),
-      })
-      .catch(function (error) {
-        console.error("Error writing new message to database", error);
+      .collection(collection)
+      .doc(userId)
+      .get();
+    if (document && document.exists) {
+      const increaseBy = firebase.firestore.FieldValue.increment(1);
+      await document.ref.update({
+        updated: new Date().toISOString(),
+        counter: increaseBy,
       });
+    } else {
+      await document.ref.set(
+        {
+          id: userId,
+          counter: 0,
+          created: new Date().toISOString(),
+          updated: new Date().toISOString(),
+        },
+        { merge: true }
+      );
+    }
   };
-
   /**
    *  Load stored messages from firestore
    *@method

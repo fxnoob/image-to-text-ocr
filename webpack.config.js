@@ -46,7 +46,7 @@ module.exports = (env, options) => {
       filename: "[name].bundle.js",
       globalObject: "this",
     },
-    devtool: "inline-sourcemap",
+    devtool: options.mode == "development" ? "inline-sourcemap" : "none",
     plugins: [
       new CopyWebpackPlugin(
         [

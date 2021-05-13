@@ -1,6 +1,6 @@
 {
   "name": "text-to-image-pro",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "",
   "homepage": "https://fxnoob.github.io/image-to-text-landing",
   "scripts": {
@@ -70,6 +70,7 @@
     "@tailwindcss/ui": "^0.5.0",
     "array-contains": "^0.0.1",
     "firebase": "^8.4.3",
+    "linkifyjs": "^3.0.0-beta.3",
     "lottie-react-web": "^2.1.4",
     "pdfjs-dist": "2.5.207",
     "prop-types": "^15.7.2",

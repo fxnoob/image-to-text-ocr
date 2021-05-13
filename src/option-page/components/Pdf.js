@@ -1,6 +1,7 @@
 import React, { useCallback, useRef } from "react";
 import ArrowLeftICon from "@material-ui/icons/KeyboardBackspace";
 import ArrowRightICon from "@material-ui/icons/ArrowRightAlt";
+import Linkify from "linkifyjs/react";
 import pdfService from "../../services/pdfService";
 import { useDropzone } from "react-dropzone";
 import Share from "./Share";
@@ -9,6 +10,11 @@ import chromeService from "../../services/chromeService";
 import messagePassing from "../../services/messagePassing";
 import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
 import pdf from "../../services/pdfService";
+const options = {
+  target: {
+    url: "_blank",
+  },
+};
 const extUrl = getExtensionStoreLink();
 let canvas = null;
 export default function PdfCard() {
@@ -356,7 +362,9 @@ export default function PdfCard() {
                 }}
                 className="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
               >
-                {ocrText}
+                <Linkify tagName="p" options={options}>
+                  {ocrText}
+                </Linkify>
               </div>
               <hr style={{ marginTop: "2rem" }} />
               <div

@@ -1,10 +1,16 @@
 import React from "react";
+import Linkify from "linkifyjs/react";
 import Share from "./Share";
 import Promotion from "./Promotion";
 import constants from "../../../constants";
 import chromeService from "../../services/chromeService";
 import { getExtensionStoreLink, isGoogleChrome } from "../../services/helper";
 const extUrl = getExtensionStoreLink();
+const options = {
+  target: {
+    url: "_blank",
+  },
+};
 export default function OCRCard(props) {
   const [copied, setCopied] = React.useState(false);
   const [playing, togglePlay] = React.useState(false);
@@ -215,7 +221,9 @@ export default function OCRCard(props) {
                 }}
                 class="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
               >
-                {ocrText}
+                <Linkify tagName="p" options={options}>
+                  {ocrText}
+                </Linkify>
               </div>
               <hr style={{ marginTop: "2rem" }} />
               <div

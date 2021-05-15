@@ -1,6 +1,6 @@
 {
   "name": "text-to-image-pro",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "",
   "homepage": "https://fxnoob.github.io/image-to-text-landing",
   "scripts": {
@@ -76,6 +76,7 @@
     "prop-types": "^15.7.2",
     "query-string": "^6.10.1",
     "react": "^16.8.6",
+    "react-cropper": "^2.1.7",
     "react-dom": "^16.8.6",
     "react-dropzone": "^11.2.0",
     "react-frame-component": "5.0.0",

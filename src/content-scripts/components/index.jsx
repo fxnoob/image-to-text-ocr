@@ -1,7 +1,7 @@
 import React from "react";
 import Dialog from "@material-ui/core/Dialog";
-import FrameCropper from "./FrameCropper";
-import initialContent from "./initialIframeContent";
+
+import IFrame from "./IFrame";
 import messagePassing from "../../services/messagePassing";
 import mediaControl from "../../services/MediaControl";
 
@@ -49,12 +49,7 @@ export default class Index extends React.Component {
         aria-labelledby="draggable-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <FrameCropper
-          onCropEnd={this.onCropEnd}
-          src={this.state.imgSrc}
-          initialContent={initialContent()}
-          style={{ width: "100%", height: "100%", border: "none" }}
-        />
+        <IFrame imgSrc={this.state.imgSrc} onCropEnd={this.onCropEnd} />
       </Dialog>
     );
   }

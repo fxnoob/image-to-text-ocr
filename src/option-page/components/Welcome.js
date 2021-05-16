@@ -88,18 +88,28 @@ export default function Welcome() {
               <ul className="list-reset lg:flex justify-end flex-1 items-center">
                 <li className="mr-3">
                   <a
-                    className="inline-block py-2 px-4 text-black font-bold no-underline"
-                    href="privacy-policy.html"
+                    className="text-base inline-block py-2 px-4 text-black font-bold no-underline"
+                    target="_blank"
+                    href="/privacy-policy.html"
                   >
                     Privacy
                   </a>
                 </li>
                 <li className="mr-3">
                   <a
-                    className="inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
+                    className="text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
                     href="https://forms.gle/iaFrarBtMp2YDFhB6"
                   >
                     Support
+                  </a>
+                </li>
+                <li className="mr-3">
+                  <a
+                    className="text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
+                    target="_blank"
+                    href="https://www.patreon.com/fxnoob"
+                  >
+                    Donate
                   </a>
                 </li>
               </ul>
@@ -124,7 +134,7 @@ export default function Welcome() {
                 </span>
                 <a
                   href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
-                  className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-2"
+                  className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 px-2"
                 >
                   Watch Tutorial
                 </a>
@@ -799,7 +809,8 @@ export default function Welcome() {
                 <ul className="list-reset mb-6">
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="terms-of-service.html"
+                      href="/terms-of-service.html"
+                      target="_blank"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
                       Terms
@@ -807,7 +818,8 @@ export default function Welcome() {
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="privacy-policy.html"
+                      href="/privacy-policy.html"
+                      target="_blank"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
                       Privacy

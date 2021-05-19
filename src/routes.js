@@ -56,6 +56,16 @@ const Routes = async () => {
       }
     }
   );
+  MessagePassingService.on("/get_image_data", async (req, res, options) => {
+    const { id } = req;
+    const imgData = DataStore.get(id);
+    if (imgData) {
+      const imageb64Data = await loadImage(imgData);
+      res(imageb64Data);
+    } else {
+      res(null);
+    }
+  });
   MessagePassingExternalService.on("/clear_image_data", (req, res, options) => {
     const { id } = req;
     if (DataStore[id]) {

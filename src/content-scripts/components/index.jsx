@@ -4,6 +4,7 @@ import Dialog from "@material-ui/core/Dialog";
 import IFrame from "./IFrame";
 import messagePassing from "../../services/messagePassing";
 import mediaControl from "../../services/MediaControl";
+import { isFirefox } from "../../services/helper";
 
 export default class Index extends React.Component {
   constructor(props) {
@@ -14,6 +15,26 @@ export default class Index extends React.Component {
     };
   }
   componentDidMount() {
+    /** logic specific to firefox browser */
+    if (
+      isFirefox &&
+      window.location.href.startsWith("https://imagetext.xyz/screen?id=")
+    ) {
+      const uId = window.location.href.replace(
+        "https://imagetext.xyz/screen?id=",
+        ""
+      );
+      messagePassing.sendMessage(
+        "/get_image_data",
+        { id: uId },
+        (imageb64Data) => {
+          const event = new CustomEvent("CROPPEDIMAGEDATA", {
+            detail: imageb64Data,
+          });
+          window.dispatchEvent(event);
+        }
+      );
+    }
     /** Check for content script mount acknowledgement from background script */
     messagePassing.on("/cs_mounted", async (req, res) => {
       res({ mounted: true });

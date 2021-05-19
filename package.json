@@ -1,6 +1,6 @@
 {
   "name": "text-to-image-pro",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "",
   "homepage": "http://imagetext.xyz/",
   "scripts": {
@@ -69,20 +69,13 @@
     "@material-ui/icons": "^4.2.1",
     "@tailwindcss/ui": "^0.5.0",
     "array-contains": "^0.0.1",
-    "firebase": "^8.4.3",
-    "linkifyjs": "^3.0.0-beta.3",
     "lottie-react-web": "^2.1.4",
-    "pdfjs-dist": "2.5.207",
     "prop-types": "^15.7.2",
     "query-string": "^7.0.0",
     "react": "^16.8.6",
     "react-cropper": "^2.1.7",
     "react-dom": "^16.8.6",
-    "react-dropzone": "^11.2.0",
     "react-frame-component": "5.0.0",
-    "react-router-dom": "^5.2.0",
-    "react-share": "^4.3.0",
-    "tailwindcss": "^1.8.3",
-    "worker-loader": "^3.0.8"
+    "tailwindcss": "^1.8.3"
   }
 }

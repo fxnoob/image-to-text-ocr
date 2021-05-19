@@ -12,14 +12,7 @@
     "scripts": ["background.bundle.js"]
   },
   "default_locale": "en",
-  "permissions": [
-    "<all_urls>",
-    "contextMenus",
-    "activeTab",
-    "tts",
-    "identity",
-    "storage"
-  ],
+  "permissions": ["<all_urls>", "contextMenus", "activeTab", "tts", "storage"],
   "browser_action": {
     "default_icon": {
       "16": "images/16x16.png",
@@ -41,13 +34,5 @@
       "run_at": "document_end"
     }
   ],
-  "oauth2": {
-    "client_id": "546869382919-nuou5v1aomq29sg1i2urk3734c1eab21.apps.googleusercontent.com",
-    "scopes": [
-      "https://www.googleapis.com/auth/userinfo.email",
-      "https://www.googleapis.com/auth/userinfo.profile"
-    ]
-  },
-  "web_accessible_resources": ["js/worker.min.js"],
-  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://www.googleapis.com; object-src 'self'"
 }

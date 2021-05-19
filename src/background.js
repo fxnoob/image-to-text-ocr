@@ -4,7 +4,6 @@ import Routes from "./routes";
 import messagePassing from "./services/messagePassing";
 import constants from "../constants";
 import db, { schema } from "./services/dbService";
-import firebaseService from "./services/firebaseService";
 import Constants from "../constants";
 import { DataStore, generateGuid } from "./services/helper";
 /**
@@ -43,18 +42,12 @@ class Main {
     }
   };
   openCropWindow = async () => {
-    const { isAuthenticated } = await db.get("isAuthenticated");
-    if (isAuthenticated) {
-      const screenshotUrl = await chromeService.takeScreenShot();
-      await messagePassing.sendMessageToActiveTab(
-        "/show_popup",
-        { screenshotUrl },
-        () => {}
-      );
-    } else {
-      await firebaseService.getUser();
-      await db.set({ isAuthenticated: true });
-    }
+    const screenshotUrl = await chromeService.takeScreenShot();
+    await messagePassing.sendMessageToActiveTab(
+      "/show_popup",
+      { screenshotUrl },
+      () => {}
+    );
   };
   /**
    * mount content script on previously opened tabs
@@ -120,33 +113,21 @@ class Main {
   };
   onContextMenu2Click = async (info, tab) => {
     const { srcUrl } = info;
-    const { isAuthenticated } = await db.get("isAuthenticated");
-    if (isAuthenticated) {
-      const uid = generateGuid();
-      DataStore.set(uid, srcUrl);
-      const url = `${Constants.appConfig.endpoint}/screen?id=${uid}`;
-      chrome.tabs.query({ url: "https://imagetext.xyz/*" }, (tabs) => {
-        const [tab] = tabs;
-        if (tab) {
-          chrome.tabs.update(tab.id, { url, active: true });
-        } else {
-          chrome.tabs.create({ url }, () => {});
-        }
-      });
-    } else {
-      await firebaseService.getUser();
-      await db.set({ isAuthenticated: true });
-    }
+    const uid = generateGuid();
+    DataStore.set(uid, srcUrl);
+    const url = `${Constants.appConfig.endpoint}/screen?id=${uid}`;
+    chrome.tabs.query({ url: "https://imagetext.xyz/*" }, (tabs) => {
+      const [tab] = tabs;
+      if (tab) {
+        chrome.tabs.update(tab.id, { url, active: true });
+      } else {
+        chrome.tabs.create({ url }, () => {});
+      }
+    });
   };
   onContextMenu3Click = async (info, tab) => {
-    const { isAuthenticated } = await db.get("isAuthenticated");
-    if (isAuthenticated) {
-      const url = `${Constants.appConfig.endpoint}/pdfs`;
-      chrome.tabs.create({ url }, () => {});
-    } else {
-      await firebaseService.getUser();
-      await db.set({ isAuthenticated: true });
-    }
+    const url = `${Constants.appConfig.endpoint}/pdfs`;
+    chrome.tabs.create({ url }, () => {});
   };
   /**
    *set feedback form url shown while uninstalling

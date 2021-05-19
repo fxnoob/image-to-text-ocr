@@ -8,7 +8,6 @@ module.exports = (env, options) => {
     entry: {
       content_script: "./src/content-scripts/index.js",
       background: "./src/background.js",
-      popup: "./src/popup-page/index.js",
       option: "./src/option-page/index.js",
     },
     module: {
@@ -50,7 +49,6 @@ module.exports = (env, options) => {
     plugins: [
       new CopyWebpackPlugin(
         [
-          { from: "./src/popup-page/popup.html", force: true },
           { from: "./src/option-page/option.html", force: true },
           { from: "./src/app/", force: true },
         ],

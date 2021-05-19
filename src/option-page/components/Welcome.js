@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { isBrave, isGoogleChrome } from "../../services/helper";
-import dbService from "../../services/dbService";
-import firebaseService from "../../services/firebaseService";
 import chromeService from "../../services/chromeService";
 import constants from "../../../constants";
 import Snackbar from "@material-ui/core/Snackbar";
@@ -12,33 +10,10 @@ const privacyPolicyURL = constants.support.privacyPolicy;
 
 export default function Welcome() {
   const [open, setOpen] = useState(true);
-  const [loggedIn, setLoggedIn] = useState(!isGoogleChrome);
-  const [authLoading, setAuthLoading] = useState(false);
   const letsGoLabel = chromeService.getI18nMessage("letsGoLabel"); // Let's go!
   const pinMenuMessageLabel = chromeService.getI18nMessage(
     "pinMenuMessageLabel"
   ); //Pin the extension from puzzle menu above.
-  const init = async () => {
-    const { isAuthenticated } = await dbService.get("isAuthenticated");
-    if (isGoogleChrome) {
-      setLoggedIn(isAuthenticated);
-    }
-  };
-  useEffect(() => {
-    init().catch(() => {});
-  }, []);
-  const login = async () => {
-    setAuthLoading(true);
-    try {
-      const user = await firebaseService.getUser();
-      await dbService.set({ isAuthenticated: true });
-      setLoggedIn(true);
-    } catch (e) {
-      await dbService.set({ isAuthenticated: false });
-      setLoggedIn(false);
-    }
-    setAuthLoading(false);
-  };
   const handleClose = () => {
     setOpen(false);
   };
@@ -131,28 +106,15 @@ export default function Welcome() {
               A Fast and simple document scanner app with high quality text
               output
             </p>
-
-            {loggedIn ? (
-              <>
-                <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
-                  {letsGoLabel}
-                </span>
-                <a
-                  href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
-                  className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 px-2"
-                >
-                  Watch Tutorial
-                </a>
-              </>
-            ) : (
-              <button
-                onClick={login}
-                disabled={authLoading}
-                className="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
-              >
-                {authLoading ? "Logging In..." : "Sign in"}
-              </button>
-            )}
+            <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
+              {letsGoLabel}
+            </span>
+            <a
+              href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
+              className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 px-2"
+            >
+              Watch Tutorial
+            </a>
           </div>
 
           <div
@@ -749,27 +711,15 @@ export default function Welcome() {
           <h3 className="my-4 text-3xl font-extrabold" spellCheck="true">
             Sign in to get it All Free
           </h3>
-          {loggedIn ? (
-            <>
-              <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
-                {letsGoLabel}
-              </span>
-              <a
-                href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
-                className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-2"
-              >
-                Watch Tutorial
-              </a>
-            </>
-          ) : (
-            <button
-              onClick={login}
-              disabled={authLoading}
-              className="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
-            >
-              {authLoading ? "Logging In..." : "Sign in"}
-            </button>
-          )}
+          <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
+            {letsGoLabel}
+          </span>
+          <a
+            href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
+            className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-2"
+          >
+            Watch Tutorial
+          </a>
         </section>
 
         <footer className="bg-white">

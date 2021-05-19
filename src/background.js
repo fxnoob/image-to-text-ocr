@@ -5,6 +5,8 @@ import messagePassing from "./services/messagePassing";
 import constants from "../constants";
 import db, { schema } from "./services/dbService";
 import firebaseService from "./services/firebaseService";
+import Constants from "../constants";
+import { DataStore, generateGuid } from "./services/helper";
 /**
  * Main extension functionality
  *
@@ -120,7 +122,17 @@ class Main {
     const { srcUrl } = info;
     const { isAuthenticated } = await db.get("isAuthenticated");
     if (isAuthenticated) {
-      chromeService.openHelpPage("home", encodeURIComponent(srcUrl));
+      const uid = generateGuid();
+      DataStore.set(uid, srcUrl);
+      const url = `${Constants.appConfig.endpoint}/screen?id=${uid}`;
+      chrome.tabs.query({ url: "https://imagetext.xyz/*" }, (tabs) => {
+        const [tab] = tabs;
+        if (tab) {
+          chrome.tabs.update(tab.id, { url, active: true });
+        } else {
+          chrome.tabs.create({ url }, () => {});
+        }
+      });
     } else {
       await firebaseService.getUser();
       await db.set({ isAuthenticated: true });
@@ -129,7 +141,8 @@ class Main {
   onContextMenu3Click = async (info, tab) => {
     const { isAuthenticated } = await db.get("isAuthenticated");
     if (isAuthenticated) {
-      chromeService.openHelpPage("pdf");
+      const url = `${Constants.appConfig.endpoint}/pdfs`;
+      chrome.tabs.create({ url }, () => {});
     } else {
       await firebaseService.getUser();
       await db.set({ isAuthenticated: true });

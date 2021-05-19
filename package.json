@@ -1,8 +1,8 @@
 {
   "name": "text-to-image-pro",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "",
-  "homepage": "https://fxnoob.github.io/image-to-text-landing",
+  "homepage": "http://imagetext.xyz/",
   "scripts": {
     "build:tailwind": "tailwindcss build src/styles/style.css -o dist/style.css",
     "watch:tailwind": "chokidar 'src/styles/*.css' -c 'yarn build:tailwind'",
@@ -74,7 +74,7 @@
     "lottie-react-web": "^2.1.4",
     "pdfjs-dist": "2.5.207",
     "prop-types": "^15.7.2",
-    "query-string": "^6.10.1",
+    "query-string": "^7.0.0",
     "react": "^16.8.6",
     "react-cropper": "^2.1.7",
     "react-dom": "^16.8.6",

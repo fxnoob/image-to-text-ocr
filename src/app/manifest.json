@@ -27,6 +27,13 @@
       "128": "images/128x128.png"
     }
   },
+  "externally_connectable": {
+    "matches": [
+      "*://localhost/*",
+      "*://imagetext.xyz/*",
+      "*://*.imagetext.xyz/*"
+    ]
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

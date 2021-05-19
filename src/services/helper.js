@@ -108,6 +108,28 @@ const getExtensionStoreLink = () => {
   }
   return link;
 };
+
+/***
+ * Little runtime Data Storage utility
+ */
+class DataUtility {
+  data = {};
+  get(key) {
+    this.cleanDataExceptKey(key);
+    return this.data[key];
+  }
+  cleanDataExceptKey(key) {
+    Object.keys(this.data).map((prop) => {
+      if (key != prop) {
+        delete this.data[prop];
+      }
+    });
+  }
+  set(key, value) {
+    this.data[key] = value;
+  }
+}
+const DataStore = new DataUtility();
 export {
   generateGuid,
   http,
@@ -120,4 +142,5 @@ export {
   isMicrosoftEdge,
   isChromium,
   getExtensionStoreLink,
+  DataStore,
 };

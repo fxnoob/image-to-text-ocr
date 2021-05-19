@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Routes from "./components/Routes";
+import Welcome from "./components/Welcome";
 
 const Element = document.createElement("div");
 Element.setAttribute("id", "dfghbnjmERHJKFGHNMVBNMFBNMbmvvxnbdgf");
 document.body.appendChild(Element);
 ReactDOM.render(
-  <Routes />,
+  <Welcome />,
   document.getElementById("dfghbnjmERHJKFGHNMVBNMFBNMbmvvxnbdgf")
 );

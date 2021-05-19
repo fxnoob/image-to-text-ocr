@@ -3,8 +3,13 @@ import { isBrave, isGoogleChrome } from "../../services/helper";
 import dbService from "../../services/dbService";
 import firebaseService from "../../services/firebaseService";
 import chromeService from "../../services/chromeService";
+import constants from "../../../constants";
 import Snackbar from "@material-ui/core/Snackbar";
 import PinImg from "./pin_ext.png";
+
+const termsURL = constants.support.terms;
+const privacyPolicyURL = constants.support.privacyPolicy;
+
 export default function Welcome() {
   const [open, setOpen] = useState(true);
   const [loggedIn, setLoggedIn] = useState(!isGoogleChrome);
@@ -90,7 +95,7 @@ export default function Welcome() {
                   <a
                     className="text-base inline-block py-2 px-4 text-black font-bold no-underline"
                     target="_blank"
-                    href="/privacy-policy.html"
+                    href={privacyPolicyURL}
                   >
                     Privacy
                   </a>
@@ -773,7 +778,6 @@ export default function Welcome() {
               <div className="flex-1 mb-6">
                 <a
                   className="text-black-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-                  href="http://localhost:63342/image-to-text-pro/src/option-page/components/test.html?_ijt=m541j3lv0rm09ubcjrm5h6riv2#"
                   spellCheck="true"
                 >
                   Image to Text (OCR)
@@ -809,7 +813,7 @@ export default function Welcome() {
                 <ul className="list-reset mb-6">
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="/terms-of-service.html"
+                      href={termsURL}
                       target="_blank"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
@@ -818,7 +822,7 @@ export default function Welcome() {
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="/privacy-policy.html"
+                      href={privacyPolicyURL}
                       target="_blank"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >

@@ -1,12 +1,8 @@
-class MessagePassing {
+class MessagePassingExternal {
   constructor() {
     this.routes = {};
     this.options = {};
-    this.listenerMode = true;
-    this.addListener();
-  }
-  setListenerMode(mode) {
-    this.listenerMode = mode;
+    this.addEventListenerExternal();
   }
   setOptions(options) {
     this.options = options;
@@ -25,8 +21,8 @@ class MessagePassing {
       });
     });
   };
-  addListener() {
-    chrome.runtime.onMessage.addListener((req, sender, res) => {
+  addEventListenerExternal() {
+    chrome.runtime.onMessageExternal.addListener((req, sender, res) => {
       try {
         this.routes[req.path](req, res, this.options);
       } catch (e) {
@@ -65,5 +61,5 @@ class MessagePassing {
     return true;
   }
 }
-const mp = new MessagePassing();
+const mp = new MessagePassingExternal();
 export default mp;

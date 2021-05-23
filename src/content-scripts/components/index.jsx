@@ -6,6 +6,8 @@ import messagePassing from "../../services/messagePassing";
 import mediaControl from "../../services/MediaControl";
 import { isFirefox } from "../../services/helper";
 
+const queryString = require("query-string");
+
 export default class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -18,12 +20,10 @@ export default class Index extends React.Component {
     /** logic specific to firefox browser */
     if (
       isFirefox &&
-      window.location.href.startsWith("https://imagetext.xyz/screen?id=")
+      window.location.href.startsWith("https://imagetext.xyz/screen")
     ) {
-      const uId = window.location.href.replace(
-        "https://imagetext.xyz/screen?id=",
-        ""
-      );
+      const parsed = queryString.parse(window.location.search);
+      const uId = decodeURIComponent(parsed.id ? parsed.id : "");
       messagePassing.sendMessage(
         "/get_image_data",
         { id: uId },

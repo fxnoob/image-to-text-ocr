@@ -11,7 +11,6 @@ const t = chromeService.getI18nMessage;
 
 export default function Welcome() {
   const [open, setOpen] = useState(true);
-  const letsGoLabel = t("letsGoLabel"); // Let's go!
   const pinMenuMessageLabel = t("pinMenuMessageLabel"); //Pin the extension from puzzle menu above.
   const appName = t("appName"); // Image to Text (OCR)
   const getStarted = t("getStarted"); // Get Started for Free
@@ -128,12 +127,9 @@ export default function Welcome() {
             <p className="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8">
               {appDescription}
             </p>
-            <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
-              {letsGoLabel}
-            </span>
             <a
-              href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
-              className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 px-2"
+              className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+              href={constants.support.howToVideoLink}
             >
               {labelWatchTutorial}
             </a>
@@ -725,12 +721,9 @@ export default function Welcome() {
           <h3 className="my-4 text-3xl font-extrabold" spellCheck="true">
             {getStarted}
           </h3>
-          <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
-            {letsGoLabel}
-          </span>
           <a
-            href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
-            className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-2"
+            className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+            href={constants.support.howToVideoLink}
           >
             {labelWatchTutorial}
           </a>
@@ -754,7 +747,7 @@ export default function Welcome() {
                 <ul className="list-reset mb-6">
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                     <a
-                      href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
+                      href={constants.support.howToVideoLink}
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
                       {linkTutorial}

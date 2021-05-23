@@ -54,8 +54,76 @@
     "message": "Gambar ke Teks (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Mulailah secara Gratis",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Image to Text (OCR) - OCR untuk berbagai bahasa.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "Aplikasi pemindai dokumen yang cepat dan sederhana dengan keluaran teks berkualitas tinggi.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "Pribadi", "description": "Privacy" },
+  "linkSupport": { "message": "Dukung", "description": "Support" },
+  "linkDonate": { "message": "Menyumbangkan", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Unduh untuk Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Tutorial", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Syarat dan ketentuan",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Fitur Utama",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "fitur", "description": "Features" },
+  "subHeadOne": {
+    "message": "Pindai Gambar dari folder atau Internet Anda.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Lakukan pemindaian Gambar di halaman web mana pun [menggunakan ekstensi browser Anda] di internet atau unggah gambar Anda di situs web kami untuk mendapatkan teks menggunakan teknologi OCR akurasi terbaik kami.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Dukungan Berbagai Bahasa.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Mendukung 100+ bahasa dan variannya. Pindai dokumen dalam bahasa apa pun dan dapatkan Teks menggunakan aplikasi Image to Text (OCR) kami.",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Mulai",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "Pindai PDF.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "Pangkas dan Pindai Layar.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Bermain. Menterjemahkan.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Klik pada opsi \"unggah pdf untuk melakukan OCR\" dari menu konteks untuk melakukan pemindaian Dokumen pada Pdfs dan mendapatkan Teks.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Klik pada ikon ekstensi dari Pemangkas layar akan muncul. kemudian Klik tombol +, layar yang dipotong akan dipindai dan Anda akan mendapatkan Teks.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Mainkan Teks OCR menggunakan Teknologi Text to Speech kami. Terjemahkan Teks OCR dalam bahasa apa pun yang Anda inginkan.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Tautan", "description": "Links" },
+  "labelLegal": { "message": "Hukum", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Tonton Tutorial",
+    "description": "Watch Tutorial"
   }
 }

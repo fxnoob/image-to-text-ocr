@@ -57,8 +57,76 @@
     "message": "Imej ke Teks (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Bermula secara Percuma",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Imej ke Teks (OCR) - OCR untuk pelbagai bahasa.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "Aplikasi pengimbas dokumen yang pantas dan ringkas dengan output teks berkualiti tinggi.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "Privasi", "description": "Privacy" },
+  "linkSupport": { "message": "Sokongan", "description": "Support" },
+  "linkDonate": { "message": "Sumbang", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Muat turun untuk Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Tutorial", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Terma dan syarat",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Ciri-ciri utama",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "ciri-ciri", "description": "Features" },
+  "subHeadOne": {
+    "message": "Imbas Imej dari folder atau Internet anda.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Lakukan imbasan Imej di mana-mana laman web [menggunakan pelanjutan penyemak imbas anda] di internet atau muat naik gambar anda di laman web kami untuk mendapatkan teks menggunakan teknologi OCR ketepatan terbaik kami.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Sokongan Pelbagai Bahasa.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Menyokong 100+ bahasa dan variannya. Imbas dokumen mana-mana bahasa dan dapatkan Teks menggunakan aplikasi Imej ke Teks (OCR) kami.",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Bermula",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "Imbas Pdfs.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "Skrin Pangkas dan Imbas.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Main. Terjemahkan.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Klik pada pilihan \"muat naik pdf untuk melakukan OCR\" dari menu konteks untuk melakukan Imbasan dokumen pada Pdf dan mendapatkan Teks.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Klik pada ikon pelanjutan dari Screen cropper akan muncul. kemudian Klik pada butang +, skrin yang dipotong akan diimbas dan anda akan mendapat Teks.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Mainkan Teks OCR menggunakan Teknologi Teks ke Pertuturan kami. Terjemahkan Teks OCR dalam bahasa yang anda mahukan.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Pautan", "description": "Links" },
+  "labelLegal": { "message": "Undang-undang", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Tonton Tutorial",
+    "description": "Watch Tutorial"
   }
 }

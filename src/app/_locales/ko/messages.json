@@ -54,8 +54,73 @@
     "message": "이미지를 텍스트로 (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "무료로 시작",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "OCR (Image to Text)-다국어 용 OCR.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "고품질 텍스트 출력을 제공하는 빠르고 간단한 문서 스캐너 앱입니다.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "은둔", "description": "Privacy" },
+  "linkSupport": { "message": "지원하다", "description": "Support" },
+  "linkDonate": { "message": "기부", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Chrome 용 다운로드",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "지도 시간", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "이용 약관",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "주요 특징들",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "풍모", "description": "Features" },
+  "subHeadOne": {
+    "message": "폴더 또는 인터넷에서 이미지를 스캔합니다.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "인터넷의 [브라우저 확장 프로그램을 사용하여] 모든 웹 페이지에서 이미지 스캔을 수행하거나 당사 웹 사이트에 이미지를 업로드하여 최상의 정확도 OCR 기술을 사용하여 텍스트를 얻으십시오.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "다국어 지원.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "100 개 이상의 언어와 그 변형을 지원합니다. 모든 언어의 문서를 스캔하고 OCR (Image to Text) 앱을 사용하여 텍스트를 가져옵니다.",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "시작하기",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "PDF 스캔.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "자르기 및 스캔 화면.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": { "message": "플레이. 옮기다.", "description": "Play. Translate." },
+  "headF1Desc": {
+    "message": "상황에 맞는 메뉴에서 \"PDF 업로드로 OCR 업로드\"옵션을 클릭하여 PDF에서 문서 스캔을 수행하고 텍스트를 가져옵니다.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "화면 자르기에서 확장 아이콘을 클릭하면 나타납니다. 그런 다음 + 버튼을 클릭하면 잘린 화면이 스캔되고 텍스트가 표시됩니다.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Text to Speech 기술을 사용하여 OCR 텍스트를 재생합니다. 원하는 언어로 OCR 텍스트를 번역합니다.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "연결", "description": "Links" },
+  "labelLegal": { "message": "적법한", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "튜토리얼보기",
+    "description": "Watch Tutorial"
   }
 }

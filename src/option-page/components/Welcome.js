@@ -7,13 +7,36 @@ import PinImg from "./pin_ext.png";
 
 const termsURL = constants.support.terms;
 const privacyPolicyURL = constants.support.privacyPolicy;
+const t = chromeService.getI18nMessage;
 
 export default function Welcome() {
   const [open, setOpen] = useState(true);
-  const letsGoLabel = chromeService.getI18nMessage("letsGoLabel"); // Let's go!
-  const pinMenuMessageLabel = chromeService.getI18nMessage(
-    "pinMenuMessageLabel"
-  ); //Pin the extension from puzzle menu above.
+  const letsGoLabel = t("letsGoLabel"); // Let's go!
+  const pinMenuMessageLabel = t("pinMenuMessageLabel"); //Pin the extension from puzzle menu above.
+  const appName = t("appName"); // Image to Text (OCR)
+  const getStarted = t("getStarted"); // Get Started for Free
+  const appDescription = t("appDescription"); // A Fast and simple document scanner app with high quality text output
+  const linkPrivacy = t("linkPrivacy"); // Privacy
+  const linkSupport = t("linkSupport"); // Support
+  const linkDonate = t("linkDonate"); // Donate
+  const linkTutorial = t("linkTutorial"); // Tutorial
+  const labelWatchTutorial = t("labelWatchTutorial"); // Watch Tutorial
+  const linkTermsAndConditions = t("linkTermsAndConditions"); // Terms and Conditions
+  const headKeyFeatures = t("headKeyFeatures"); // Key Features
+  const headFeatures = t("headFeatures"); // Features
+  const subHeadOne = t("subHeadOne"); // Scan Image from your folder or Internet.
+  const subHeadOneDesc = t("subHeadOneDesc"); // Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology.
+  const subHeadTwo = t("subHeadTwo"); // Multiple Language Support.
+  const subHeadTwoDesc = t("subHeadTwoDesc"); // Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app.
+  const labelGettingStarted = t("labelGettingStarted"); // Getting Started
+  const headF1 = t("headF1"); // Scan Pdfs.
+  const headF2 = t("headF2"); // Crop and Scan Screen.
+  const headF3 = t("headF3"); // Play. Translate.
+  const headF1Desc = t("headF1Desc"); // Click on the option "upload pdf to do OCR" from context menu to do Document scan on Pdfs and get Text.
+  const headF2Desc = t("headF2Desc"); // Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text.
+  const headF3Desc = t("headF3Desc"); // Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want.
+  const labelLinks = t("labelLinks"); // Links
+  const labelLegal = t("labelLegal"); // Legal
   const handleClose = () => {
     setOpen(false);
   };
@@ -43,7 +66,7 @@ export default function Welcome() {
                 className="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
                 href=""
               >
-                Image to Text (OCR)
+                {appName}
               </a>
             </div>
             <div className="block lg:hidden pr-4">
@@ -72,7 +95,7 @@ export default function Welcome() {
                     target="_blank"
                     href={privacyPolicyURL}
                   >
-                    Privacy
+                    {linkPrivacy}
                   </a>
                 </li>
                 <li className="mr-3">
@@ -80,7 +103,7 @@ export default function Welcome() {
                     className="text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
                     href="https://forms.gle/iaFrarBtMp2YDFhB6"
                   >
-                    Support
+                    {linkSupport}
                   </a>
                 </li>
                 <li className="mr-3">
@@ -89,7 +112,7 @@ export default function Welcome() {
                     target="_blank"
                     href="https://www.patreon.com/fxnoob"
                   >
-                    Donate
+                    {linkDonate}
                   </a>
                 </li>
               </ul>
@@ -100,11 +123,10 @@ export default function Welcome() {
         <div className="container mx-auto h-screen">
           <div className="text-center px-3 lg:px-0">
             <h1 className="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight">
-              Image to Text (OCR)
+              {appName}
             </h1>
             <p className="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8">
-              A Fast and simple document scanner app with high quality text
-              output
+              {appDescription}
             </p>
             <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
               {letsGoLabel}
@@ -113,7 +135,7 @@ export default function Welcome() {
               href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
               className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 px-2"
             >
-              Watch Tutorial
+              {labelWatchTutorial}
             </a>
           </div>
 
@@ -128,7 +150,7 @@ export default function Welcome() {
         <section className="bg-gray-100 border-b py-8">
           <div className="container max-w-5xl mx-auto m-8">
             <h2 className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800">
-              Key Features
+              {headKeyFeatures}
             </h2>
             <div className="w-full mb-4">
               <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -137,12 +159,9 @@ export default function Welcome() {
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 p-6">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                  Scan Images on any Webpage
+                  {subHeadOne}
                 </h3>
-                <p className="text-gray-600 mb-8 text-base">
-                  Do Image scan on any webpage on the internet and get text
-                  using our best accuracy OCR technology.
-                </p>
+                <p className="text-gray-600 mb-8 text-base">{subHeadOneDesc}</p>
                 <p className="text-gray-600 mb-8"></p>
               </div>
               <div className="w-full sm:w-1/2 p-6">
@@ -611,11 +630,10 @@ export default function Welcome() {
               <div className="w-full sm:w-1/2 p-6 mt-6">
                 <div className="align-middle">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                    Multi-Language Support
+                    {subHeadTwo}
                   </h3>
                   <p className="text-gray-600 mb-8 text-base">
-                    Scan document of any language and get Text using our Image
-                    to Text (OCR) app.
+                    {subHeadTwoDesc}
                   </p>
                   <div>
                     <br />
@@ -634,7 +652,7 @@ export default function Welcome() {
             spellCheck="true"
           >
             <h2 className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800">
-              Features
+              {headFeatures}
             </h2>
             <div className="w-full mb-4">
               <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -644,14 +662,13 @@ export default function Welcome() {
               <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                 <a className="flex flex-wrap no-underline hover:no-underline">
                   <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                    GETTING STARTED
+                    {labelGettingStarted}
                   </p>
                   <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Scan Pdfs.
+                    {headF1}
                   </div>
                   <p className="text-gray-600 text-sm px-6 mb-5">
-                    Click on the option "upload pdf to do OCR" from context menu
-                    to do Document scan on Pdfs and get Text.
+                    {headF1Desc}
                   </p>
                 </a>
               </div>
@@ -660,18 +677,16 @@ export default function Welcome() {
               <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                 <a className="flex flex-wrap no-underline hover:no-underline">
                   <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                    GETTING STARTED
+                    {labelGettingStarted}
                   </p>
                   <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Crop and Scan Screen.
+                    {headF2}
                   </div>
                   <p
                     className="text-gray-600 text-sm px-6 mb-5"
                     spellCheck="true"
                   >
-                    Click on the extension icon from Screen cropper will appear.
-                    then Click on the + button, cropped screen will be scanned
-                    and you will get the Text.
+                    {headF2Desc}
                   </p>
                 </a>
               </div>
@@ -680,17 +695,16 @@ export default function Welcome() {
               <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                 <a className="flex flex-wrap no-underline hover:no-underline">
                   <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                    GETTING STARTED
+                    {labelGettingStarted}
                   </p>
                   <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Play. Translate.
+                    {headF3}
                   </div>
                   <p
                     className="text-gray-600 text-sm px-6 mb-5"
                     spellCheck="true"
                   >
-                    Play the the OCR Text using our Text to Speech Technology.
-                    Translate OCR Text in any language you want.
+                    {headF3Desc}
                   </p>
                   <p className="text-gray-600 text-base px-6 mb-5"></p>
                 </a>
@@ -703,13 +717,13 @@ export default function Welcome() {
             className="w-full my-2 text-5xl font-black leading-tight text-center text-white"
             spellCheck="true"
           >
-            Image to Text (OCR)
+            {appName}
           </h2>
           <div className="w-full mb-4">
             <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
           <h3 className="my-4 text-3xl font-extrabold" spellCheck="true">
-            Sign in to get it All Free
+            {getStarted}
           </h3>
           <span className="inline-block hover:underline bg-transparent text-gray-600 font-extrabold  md:my-6 text-xl">
             {letsGoLabel}
@@ -718,7 +732,7 @@ export default function Welcome() {
             href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
             className="inline-block  text-xl underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-2"
           >
-            Watch Tutorial
+            {labelWatchTutorial}
           </a>
         </section>
 
@@ -730,12 +744,12 @@ export default function Welcome() {
                   className="text-black-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
                   spellCheck="true"
                 >
-                  Image to Text (OCR)
+                  {appName}
                 </a>
               </div>
               <div className="flex-1">
                 <p className="uppercase font-extrabold text-gray-500 md:mb-6">
-                  Links
+                  {labelLinks}
                 </p>
                 <ul className="list-reset mb-6">
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -743,7 +757,7 @@ export default function Welcome() {
                       href="https://www.youtube.com/watch?v=0BnUis2H_Kc"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
-                      Tutorial
+                      {linkTutorial}
                     </a>
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -751,14 +765,14 @@ export default function Welcome() {
                       href="https://forms.gle/iaFrarBtMp2YDFhB6"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
-                      Support
+                      {linkSupport}
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="flex-1">
                 <p className="uppercase font-extrabold text-gray-500 md:mb-6">
-                  Legal
+                  {labelLegal}
                 </p>
                 <ul className="list-reset mb-6">
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -767,7 +781,7 @@ export default function Welcome() {
                       target="_blank"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
-                      Terms
+                      {linkTermsAndConditions}
                     </a>
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -776,7 +790,7 @@ export default function Welcome() {
                       target="_blank"
                       className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                     >
-                      Privacy
+                      {linkPrivacy}
                     </a>
                   </li>
                 </ul>

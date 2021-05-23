@@ -60,8 +60,76 @@
     "message": "Imagine către text (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Începeți gratuit",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Image to Text (OCR) - OCR pentru mai multe limbi.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "O aplicație rapidă și simplă de scanare a documentelor cu ieșire de text de înaltă calitate.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "Confidențialitate", "description": "Privacy" },
+  "linkSupport": { "message": "A sustine", "description": "Support" },
+  "linkDonate": { "message": "Donează", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Descărcați pentru Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Tutorial", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Termeni si conditii",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Caracteristici cheie",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "Caracteristici", "description": "Features" },
+  "subHeadOne": {
+    "message": "Scanați imaginea din folderul dvs. sau de pe Internet.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Scanați imaginea pe orice pagină web [folosind extensia browserului] de pe internet sau încărcați imaginea pe site-ul nostru web pentru a obține text folosind cea mai bună precizie a tehnologiei OCR.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Suport pentru mai multe limbi.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Suportă peste 100 de limbi și variantele sale. Scanați documentul din orice limbă și obțineți text utilizând aplicația noastră Image to Text (OCR).",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Noțiuni de bază",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "Scanați PDF-uri.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "Ecranul de decupare și scanare.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Joaca. Traduceți.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Faceți clic pe opțiunea „încărcați pdf pentru a face OCR” din meniul contextual pentru a face scanarea documentelor pe Pdf-uri și pentru a obține text.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Faceți clic pe pictograma extensiei din Screen cropper. apoi Faceți clic pe butonul +, ecranul decupat va fi scanat și veți obține textul.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Redați textul OCR folosind tehnologia noastră Text to Speech. Traduceți text OCR în orice limbă doriți.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Link-uri", "description": "Links" },
+  "labelLegal": { "message": "Legal", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Urmăriți Tutorial",
+    "description": "Watch Tutorial"
   }
 }

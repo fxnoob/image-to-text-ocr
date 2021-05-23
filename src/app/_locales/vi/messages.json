@@ -57,8 +57,76 @@
     "message": "Hình ảnh thành Văn bản (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Bắt đầu miễn phí",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Image to Text (OCR) - OCR cho nhiều ngôn ngữ.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "Một ứng dụng máy quét tài liệu nhanh chóng và đơn giản với đầu ra văn bản chất lượng cao.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "Riêng tư", "description": "Privacy" },
+  "linkSupport": { "message": "Ủng hộ", "description": "Support" },
+  "linkDonate": { "message": "Quyên góp", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Tải xuống cho Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Hướng dẫn", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Các điều khoản và điều kiện",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Các tính năng chính",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "Đặc trưng", "description": "Features" },
+  "subHeadOne": {
+    "message": "Quét hình ảnh từ thư mục hoặc Internet của bạn.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Thực hiện quét Hình ảnh trên bất kỳ trang web nào [sử dụng tiện ích mở rộng trình duyệt của bạn] trên internet hoặc tải hình ảnh của bạn lên trang web của chúng tôi để lấy văn bản bằng công nghệ OCR có độ chính xác tốt nhất của chúng tôi.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Hỗ trợ nhiều ngôn ngữ.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Hỗ trợ hơn 100 ngôn ngữ và các biến thể của nó. Quét tài liệu bằng bất kỳ ngôn ngữ nào và tải Văn bản bằng ứng dụng Chuyển hình ảnh sang văn bản (OCR) của chúng tôi.",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Bắt đầu",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "Quét Pdf.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "Cắt và quét màn hình.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Chơi. Phiên dịch.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Nhấp vào tùy chọn \"tải lên pdf để thực hiện OCR\" từ menu ngữ cảnh để thực hiện quét Tài liệu trên Pdfs và lấy Văn bản.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Nhấp vào biểu tượng tiện ích mở rộng từ Trình cắt màn hình sẽ xuất hiện. sau đó Nhấp vào nút +, màn hình đã cắt sẽ được quét và bạn sẽ nhận được Văn bản.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Phát Văn bản OCR bằng Công nghệ chuyển văn bản thành giọng nói của chúng tôi. Dịch Văn bản OCR sang bất kỳ ngôn ngữ nào bạn muốn.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Liên kết", "description": "Links" },
+  "labelLegal": { "message": "Hợp pháp", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Xem hướng dẫn",
+    "description": "Watch Tutorial"
   }
 }

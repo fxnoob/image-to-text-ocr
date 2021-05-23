@@ -46,7 +46,7 @@ const constants = {
     terms: "https://imagetext.xyz/terms",
     privacyPolicy: "https://imagetext.xyz/privacy",
     donate: "https://www.patreon.com/fxnoob",
-    howToVideoLink: "https://www.youtube.com/watch?v=0BnUis2H_Kc",
+    howToVideoLink: "https://www.youtube.com/watch?v=c9hvz21ESys",
     uninstallFeedbackForm: "https://forms.gle/iaFrarBtMp2YDFhB6",
   },
   promotion: {

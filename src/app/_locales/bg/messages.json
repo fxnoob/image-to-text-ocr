@@ -60,8 +60,79 @@
     "message": "Изображение в текст (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Започнете безплатно",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Изображение в текст (OCR) - OCR за множество езици.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "Бързо и просто приложение за скенер на документи с висококачествено извеждане на текст.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "поверителност", "description": "Privacy" },
+  "linkSupport": { "message": "поддържа", "description": "Support" },
+  "linkDonate": { "message": "Дарете", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Изтеглете за Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Урок", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Правила и условия",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Основни функции",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "Характеристика", "description": "Features" },
+  "subHeadOne": {
+    "message": "Сканирайте изображение от вашата папка или интернет.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Направете сканиране на изображения на която и да е уеб страница [с помощта на разширението на вашия браузър] в интернет или качете вашето изображение на нашия уебсайт, за да получите текст, използвайки нашата най-добра точност OCR технология.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Поддръжка на множество езици.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Поддържа 100+ езика и неговите варианти. Сканирайте документ на всеки език и вземете текст с помощта на нашето приложение Image to Text (OCR).",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Приготвяме се да започнем",
+    "description": "Getting Started"
+  },
+  "headF1": {
+    "message": "Сканиране на PDF файлове.",
+    "description": "Scan Pdfs."
+  },
+  "headF2": {
+    "message": "Екран за изрязване и сканиране.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Възпроизвеждане. Превод.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Щракнете върху опцията \"качване на pdf за OCR\" от контекстното меню, за да направите сканиране на документи в Pdfs и да получите текст",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Щракнете върху иконата на разширението от Screen cropper ще се появи. след това кликнете върху бутона +, изрязаният екран ще бъде сканиран и ще получите текста.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Възпроизведете OCR текста, използвайки нашата технология за преобразуване на текст в реч. Преведете OCR текст на всеки език, който искате.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Връзки", "description": "Links" },
+  "labelLegal": { "message": "Правна", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Гледайте урок",
+    "description": "Watch Tutorial"
   }
 }

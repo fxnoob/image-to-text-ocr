@@ -60,8 +60,73 @@
     "message": "صورة إلى نص (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "ابدأ مجانًا",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "صورة إلى نص (OCR) - التعرف الضوئي على الحروف للغات متعددة.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "تطبيق ماسح ضوئي سريع وبسيط للوثائق مع إخراج نصي عالي الجودة.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "خصوصية", "description": "Privacy" },
+  "linkSupport": { "message": "الدعم", "description": "Support" },
+  "linkDonate": { "message": "يتبرع", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "تنزيل لمتصفح Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "درس تعليمي", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "الأحكام والشروط",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "دلائل الميزات",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "سمات", "description": "Features" },
+  "subHeadOne": {
+    "message": "مسح الصورة من مجلدك أو الإنترنت.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "قم بإجراء مسح للصور على أي صفحة ويب [باستخدام امتداد المتصفح الخاص بك] على الإنترنت أو قم بتحميل صورتك على موقعنا للحصول على نص باستخدام أفضل تقنيات التعرف الضوئي على الحروف لدينا.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "دعم متعدد اللغات.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "يدعم أكثر من 100 لغة ومتغيراتها. امسح المستند ضوئيًا بأي لغة واحصل على نص باستخدام تطبيق Image to Text (OCR) الخاص بنا.",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "ابدء",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "مسح ملفات PDF.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "شاشة المحاصيل والمسح الضوئي.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": { "message": "لعب. يترجم.", "description": "Play. Translate." },
+  "headF1Desc": {
+    "message": "انقر فوق الخيار \"تحميل pdf للقيام بالتعرّف الضوئي على الحروف\" من قائمة السياق لإجراء مسح ضوئي للمستند على ملفات PDF والحصول على نص.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "انقر فوق أيقونة الامتداد من شاشة الاقتصاص ستظهر. ثم انقر فوق الزر + ، سيتم مسح الشاشة المقصوصة وستحصل على النص.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "قم بتشغيل نص OCR باستخدام تقنية تحويل النص إلى كلام. ترجمة نص OCR بأي لغة تريدها.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "الروابط", "description": "Links" },
+  "labelLegal": { "message": "قانوني", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "مشاهدة البرنامج التعليمي",
+    "description": "Watch Tutorial"
   }
 }

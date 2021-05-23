@@ -60,8 +60,76 @@
     "message": "Obrázek na text (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Začněte zdarma",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Obrázek na text (OCR) - OCR pro více jazyků.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "Rychlá a jednoduchá aplikace pro skenování dokumentů s vysoce kvalitním textovým výstupem.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "Soukromí", "description": "Privacy" },
+  "linkSupport": { "message": "Podpěra, podpora", "description": "Support" },
+  "linkDonate": { "message": "Darovat", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Stáhnout pro Chrome",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Tutorial", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Pravidla a podmínky",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Klíčové vlastnosti",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "Funkce", "description": "Features" },
+  "subHeadOne": {
+    "message": "Naskenujte obrázek ze své složky nebo z Internetu.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Proveďte skenování obrázků na libovolné webové stránce [pomocí rozšíření prohlížeče] na internetu nebo nahrajte svůj obrázek na náš web a získejte text pomocí naší nejpřesnější technologie OCR.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Podpora více jazyků.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Podporuje více než 100 jazyků a jejich variant. Naskenujte dokument v jakémkoli jazyce a získejte text pomocí naší aplikace Image to Text (OCR).",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Začínáme",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "Skenovat dokumenty.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "Obrazovka Oříznout a skenovat.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Hrát si. Přeložit.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Kliknutím na možnost „nahrát soubor PDF provést OCR“ v místní nabídce provedete skenování dokumentu do souboru PDF a získáte text.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Klikněte na ikonu rozšíření v ořezávači obrazovky. poté klikněte na tlačítko +, oříznutá obrazovka bude naskenována a dostanete text.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Přehrajte text OCR pomocí naší technologie převodu textu na řeč. Přeložte text OCR do libovolného jazyka, který chcete.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Odkazy", "description": "Links" },
+  "labelLegal": { "message": "Právní", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Podívejte se na výukový program",
+    "description": "Watch Tutorial"
   }
 }

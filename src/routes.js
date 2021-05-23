@@ -1,7 +1,12 @@
 import MessagePassingService from "./services/messagePassing";
 import MessagePassingExternalService from "./services/messagePassingExternal";
 import Constants from "../constants";
-import { loadImage, generateGuid, DataStore } from "./services/helper";
+import {
+  loadImage,
+  generateGuid,
+  DataStore,
+  getBrowserLocale,
+} from "./services/helper";
 
 const Routes = async () => {
   // set extra options
@@ -10,7 +15,8 @@ const Routes = async () => {
   MessagePassingService.on("/open_tab", async (req, res, options) => {
     const uid = generateGuid();
     DataStore.set(uid, req.imgSrc);
-    const url = `${Constants.appConfig.endpoint}/screen?id=${uid}`;
+    const locale = getBrowserLocale();
+    const url = `${Constants.appConfig.endpoint}/screen?id=${uid}&hl=${locale}`;
     chrome.tabs.query({ url: "https://imagetext.xyz/*" }, (tabs) => {
       const [tab] = tabs;
       if (tab) {

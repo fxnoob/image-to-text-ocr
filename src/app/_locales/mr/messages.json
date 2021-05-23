@@ -57,8 +57,76 @@
     "message": "मजकूर ते मजकूर (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "विनामूल्य प्रारंभ करा",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "इमेज टू टेक्स्ट (ओसीआर) - एकाधिक भाषांसाठी ओसीआर.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "उच्च दर्जाचे मजकूर आउटपुटसह एक जलद आणि साधे दस्तऐवज स्कॅनर अॅप.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "गोपनीयता", "description": "Privacy" },
+  "linkSupport": { "message": "आधार", "description": "Support" },
+  "linkDonate": { "message": "दान करा", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Chrome साठी डाउनलोड करा",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "प्रशिक्षण", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "नियम आणि अटी",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "महत्वाची वैशिष्टे",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "वैशिष्ट्ये", "description": "Features" },
+  "subHeadOne": {
+    "message": "आपल्या फोल्डर किंवा इंटरनेटवरून प्रतिमा स्कॅन करा.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "इंटरनेटवर कोणत्याही वेबपृष्ठावर [आपला ब्राउझर विस्तार वापरुन] प्रतिमा स्कॅन करा किंवा आमच्या सर्वोत्तम अचूकता ओसीआर तंत्रज्ञानाचा वापर करून मजकूर मिळविण्यासाठी आपली प्रतिमा आमच्या वेबसाइटवर अपलोड करा.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "एकाधिक भाषा समर्थन.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "100+ भाषा आणि त्याचे रूपे समर्थित करते. कोणत्याही भाषेचे दस्तऐवज स्कॅन करा आणि आमच्या प्रतिमेचा मजकूर (ओसीआर) अ‍ॅप वापरुन मजकूर मिळवा.",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "प्रारंभ करणे",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "पीडीएफ स्कॅन करा.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "क्रॉप आणि स्कॅन स्क्रीन.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "खेळा. भाषांतर करा.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "पीडीएफवर डॉक्युमेंट स्कॅन करण्यासाठी मजकूर मिळविण्यासाठी संदर्भ मेनूमधील “पीडीएफ अपलोड करण्यासाठी ओडीआर करा” या पर्यायावर क्लिक करा आणि मजकूर मिळवा.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "स्क्रीन क्रॉपरवरील विस्तार चिन्हावर क्लिक करा दिसेल. त्यानंतर + बटणावर क्लिक करा, क्रॉप केलेली स्क्रीन स्कॅन केली जाईल आणि आपल्याला मजकूर मिळेल.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "आमचे मजकूर ते भाषण तंत्रज्ञान वापरून ओसीआर मजकूर प्ले करा. आपल्याला पाहिजे असलेल्या कोणत्याही भाषेत ओसीआर मजकूराचे भाषांतर करा.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "दुवे", "description": "Links" },
+  "labelLegal": { "message": "कायदेशीर", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "ट्यूटोरियल पहा",
+    "description": "Watch Tutorial"
   }
 }

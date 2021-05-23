@@ -60,8 +60,76 @@
     "message": "Bild zu Text (OCR)",
     "description": "Image to Text (OCR)"
   },
+  "getStarted": {
+    "message": "Kostenlos loslegen",
+    "description": "Get Started for Free"
+  },
   "appDescription": {
-    "message": "Bild zu Text (OCR) - OCR für mehrere Sprachen.",
-    "description": "Image to Text (OCR) - OCR for multiple languages."
+    "message": "Eine schnelle und einfache Dokumentenscanner-App mit hochwertiger Textausgabe.",
+    "description": "A Fast and simple document scanner app with high quality text output."
+  },
+  "linkPrivacy": { "message": "Privatsphäre", "description": "Privacy" },
+  "linkSupport": { "message": "Unterstützung", "description": "Support" },
+  "linkDonate": { "message": "Spenden", "description": "Donate" },
+  "linkDownloadForChrome": {
+    "message": "Für Chrome herunterladen",
+    "description": "Download for Chrome"
+  },
+  "linkTutorial": { "message": "Lernprogramm", "description": "Tutorial" },
+  "linkTermsAndConditions": {
+    "message": "Geschäftsbedingungen",
+    "description": "Terms and Conditions"
+  },
+  "headKeyFeatures": {
+    "message": "Hauptmerkmale",
+    "description": "Key Features"
+  },
+  "headFeatures": { "message": "Eigenschaften", "description": "Features" },
+  "subHeadOne": {
+    "message": "Scannen Sie das Bild aus Ihrem Ordner oder Internet.",
+    "description": "Scan Image from your folder or Internet."
+  },
+  "subHeadOneDesc": {
+    "message": "Führen Sie einen Bildscan auf einer beliebigen Webseite [mit Ihrer Browser-Erweiterung] im Internet durch oder laden Sie Ihr Bild auf unsere Website hoch, um Text mit unserer OCR-Technologie mit der besten Genauigkeit zu erhalten.",
+    "description": "Do Image scan on any webpage [using our browser extenion] on the internet or uplaod your image on our website to get text using our best accuracy OCR technology."
+  },
+  "subHeadTwo": {
+    "message": "Unterstützung für mehrere Sprachen.",
+    "description": "Multiple Language Support."
+  },
+  "subHeadTwoDesc": {
+    "message": "Unterstützt mehr als 100 Sprachen und deren Varianten. Scannen Sie Dokumente in jeder Sprache und erhalten Sie Text mithilfe unserer OCR-App (Image to Text).",
+    "description": "Supports 100+ language and its variants. Scan document of any language and get Text using our Image to Text (OCR) app."
+  },
+  "labelGettingStarted": {
+    "message": "Einstieg",
+    "description": "Getting Started"
+  },
+  "headF1": { "message": "Pdfs scannen.", "description": "Scan Pdfs." },
+  "headF2": {
+    "message": "Bildschirm zuschneiden und scannen.",
+    "description": "Crop and Scan Screen."
+  },
+  "headF3": {
+    "message": "Abspielen. Übersetzen.",
+    "description": "Play. Translate."
+  },
+  "headF1Desc": {
+    "message": "Klicken Sie im Kontextmenü auf die Option \"PDF hochladen, um OCR auszuführen\", um einen Dokumentenscan in PDFs durchzuführen und Text abzurufen.",
+    "description": "Click on the option \"upload pdf to do OCR\" from context menu to do Document scan on Pdfs and get Text."
+  },
+  "headF2Desc": {
+    "message": "Klicken Sie auf das Erweiterungssymbol. Der Bildschirmausschnitt wird angezeigt. Klicken Sie dann auf die Schaltfläche +. Der zugeschnittene Bildschirm wird gescannt und Sie erhalten den Text.",
+    "description": "Click on the extension icon from Screen cropper will appear. then Click on the + button, cropped screen will be scanned and you will get the Text."
+  },
+  "headF3Desc": {
+    "message": "Spielen Sie den OCR-Text mit unserer Text-to-Speech-Technologie. Übersetzen Sie OCR-Text in eine beliebige Sprache.",
+    "description": "Play the the OCR Text using our Text to Speech Technology. Translate OCR Text in any language you want."
+  },
+  "labelLinks": { "message": "Links", "description": "Links" },
+  "labelLegal": { "message": "Legal", "description": "Legal" },
+  "labelWatchTutorial": {
+    "message": "Schaue das Tutorial an",
+    "description": "Watch Tutorial"
   }
 }

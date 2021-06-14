@@ -16,6 +16,10 @@
 
 [https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo](https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo)
 
+#### Opera Store
+
+[https://addons.opera.com/en/extensions/details/image-to-text-ocr/](https://addons.opera.com/en/extensions/details/image-to-text-ocr/)
+
 #### Firefox Store
 
 [https://addons.mozilla.org/en-US/firefox/addon/image-to-text-ocr/](https://addons.mozilla.org/en-US/firefox/addon/image-to-text-ocr/)

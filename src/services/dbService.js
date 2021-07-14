@@ -9,6 +9,7 @@ class Schema {
     this.data = {
       isAuthenticated: true,
       promotionalTileShown: false,
+      endpoint: "https://imagetext.xyz",
     };
   }
 }

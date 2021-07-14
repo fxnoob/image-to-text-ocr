@@ -7,6 +7,7 @@ import {
   DataStore,
   getBrowserLocale,
 } from "./services/helper";
+import dbService from "./services/dbService";
 
 const Routes = async () => {
   // set extra options
@@ -16,8 +17,9 @@ const Routes = async () => {
     const uid = generateGuid();
     DataStore.set(uid, req.imgSrc);
     const locale = getBrowserLocale();
-    const url = `${Constants.appConfig.endpoint}/screen?id=${uid}&hl=${locale}`;
-    chrome.tabs.query({ url: "https://imagetext.xyz/*" }, (tabs) => {
+    const { endpoint } = await dbService.get("endpoint");
+    const url = `${endpoint}/screen?id=${uid}&hl=${locale}`;
+    chrome.tabs.query({ url: `${endpoint}/*` }, (tabs) => {
       const [tab] = tabs;
       if (tab) {
         chrome.tabs.update(tab.id, { url, active: true });
@@ -39,6 +41,12 @@ const Routes = async () => {
       }
     }
   );
+  MessagePassingExternalService.on("/upgrade", async (req, res, options) => {
+    const { endpoint } = req;
+    await dbService.set({
+      endpoint: endpoint ? endpoint : "https://imagetext.xyz",
+    });
+  });
   MessagePassingService.on("/get_image_data", async (req, res, options) => {
     const { id } = req;
     const imgData = DataStore.get(id);

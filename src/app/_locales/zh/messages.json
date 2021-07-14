@@ -119,5 +119,6 @@
   "labelWatchTutorial": {
     "message": "观看教程",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "购买高级版", "description": "Buy Premium" }
 }

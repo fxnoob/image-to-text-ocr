@@ -131,5 +131,9 @@
   "labelWatchTutorial": {
     "message": "Urmăriți Tutorial",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Cumpărați Premium",
+    "description": "Buy Premium"
   }
 }

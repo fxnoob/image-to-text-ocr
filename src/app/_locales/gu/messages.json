@@ -125,5 +125,9 @@
   "labelWatchTutorial": {
     "message": "ટ્યુટોરિયલ જુઓ",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "પ્રીમિયમ ખરીદો",
+    "description": "Buy Premium"
   }
 }

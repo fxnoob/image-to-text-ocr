@@ -122,5 +122,9 @@
   "labelWatchTutorial": {
     "message": "ดูบทแนะนำ",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "ซื้อพรีเมี่ยม",
+    "description": "Buy Premium"
   }
 }

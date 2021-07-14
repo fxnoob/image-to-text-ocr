@@ -128,5 +128,6 @@
   "labelWatchTutorial": {
     "message": "Tonton Tutorial",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "Beli Premium", "description": "Buy Premium" }
 }

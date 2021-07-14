@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "チュートリアルを見る",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "プレミアムを購入する",
+    "description": "Buy Premium"
   }
 }

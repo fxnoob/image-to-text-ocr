@@ -128,5 +128,6 @@
   "labelWatchTutorial": {
     "message": "Погледајте туторијал",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "Купи Премиум", "description": "Buy Premium" }
 }

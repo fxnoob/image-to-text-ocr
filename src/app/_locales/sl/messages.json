@@ -134,5 +134,9 @@
   "labelWatchTutorial": {
     "message": "Oglejte si vadnico",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Nakup Premium",
+    "description": "Buy Premium"
   }
 }

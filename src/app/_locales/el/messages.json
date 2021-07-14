@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Παρακολουθήστε το φροντιστήριο",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Αγορά Premium",
+    "description": "Buy Premium"
   }
 }

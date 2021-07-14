@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Skatīties apmācību",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Pērciet Premium",
+    "description": "Buy Premium"
   }
 }

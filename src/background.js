@@ -34,9 +34,9 @@ class Main {
    * @memberof Main
    */
   initDb = async () => {
-    const res = await db.get("___loaded");
-    if (!res.hasOwnProperty("___loaded")) {
-      await db.set({ ___loaded: true, ...schema.data });
+    const res = await db.get("____loaded");
+    if (!res.hasOwnProperty("____loaded")) {
+      await db.set({ ____loaded: true, ...schema.data });
       chromeService.openHelpPage("welcome");
       this.mountCSOnPreviouslyOpenedTabs().catch(() => {});
     }

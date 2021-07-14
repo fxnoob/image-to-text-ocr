@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Дивіться підручник",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Придбайте Преміум",
+    "description": "Buy Premium"
   }
 }

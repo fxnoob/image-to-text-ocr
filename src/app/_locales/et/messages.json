@@ -125,5 +125,6 @@
   "labelWatchTutorial": {
     "message": "Vaadake õpetust",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "Osta Premium", "description": "Buy Premium" }
 }

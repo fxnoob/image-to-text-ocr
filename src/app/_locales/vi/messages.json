@@ -128,5 +128,6 @@
   "labelWatchTutorial": {
     "message": "Xem hướng dẫn",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "Mua cao cấp", "description": "Buy Premium" }
 }

@@ -128,5 +128,6 @@
   "labelWatchTutorial": {
     "message": "Se opplæringen",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "Kjøp Premium", "description": "Buy Premium" }
 }

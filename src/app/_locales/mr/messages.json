@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "ट्यूटोरियल पहा",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "प्रीमियम खरेदी करा",
+    "description": "Buy Premium"
   }
 }

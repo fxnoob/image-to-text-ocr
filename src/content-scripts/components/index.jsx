@@ -5,6 +5,7 @@ import IFrame from "./IFrame";
 import messagePassing from "../../services/messagePassing";
 import mediaControl from "../../services/MediaControl";
 import { isFirefox } from "../../services/helper";
+import dbService from "../../services/dbService";
 
 const queryString = require("query-string");
 
@@ -16,12 +17,10 @@ export default class Index extends React.Component {
       isModalOpen: false,
     };
   }
-  componentDidMount() {
+  init = async () => {
+    const { endpoint } = await dbService.get("endpoint");
     /** logic specific to firefox browser */
-    if (
-      isFirefox &&
-      window.location.href.startsWith("https://imagetext.xyz/screen")
-    ) {
+    if (isFirefox && window.location.href.startsWith(`${endpoint}/screen`)) {
       const parsed = queryString.parse(window.location.search);
       const uId = decodeURIComponent(parsed.id ? parsed.id : "");
       messagePassing.sendMessage(
@@ -51,6 +50,9 @@ export default class Index extends React.Component {
         this.setState({ isModalOpen: !this.state.isModalOpen });
       }
     });
+  };
+  componentDidMount() {
+    this.init().catch((e) => {});
   }
   handleClose = () => {
     mediaControl.unmutePage();

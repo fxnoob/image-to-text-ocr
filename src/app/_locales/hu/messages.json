@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Nézze meg a bemutatót",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Prémium vásárlás",
+    "description": "Buy Premium"
   }
 }

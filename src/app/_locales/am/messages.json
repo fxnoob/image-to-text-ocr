@@ -119,5 +119,6 @@
   "labelWatchTutorial": {
     "message": "ትምህርትን ይመልከቱ",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "ፕሪሚየም ይግዙ", "description": "Buy Premium" }
 }

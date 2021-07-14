@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Pozrieť si návod",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Kúpte si prémiové",
+    "description": "Buy Premium"
   }
 }

@@ -137,5 +137,9 @@
   "labelWatchTutorial": {
     "message": "டுடோரியலைப் பாருங்கள்",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "பிரீமியம் வாங்கவும்",
+    "description": "Buy Premium"
   }
 }

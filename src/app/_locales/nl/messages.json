@@ -131,5 +131,6 @@
   "labelWatchTutorial": {
     "message": "Bekijk de tutorial",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "Koop Premium", "description": "Buy Premium" }
 }

@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Pogledajte Vodič",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Kupite Premium",
+    "description": "Buy Premium"
   }
 }

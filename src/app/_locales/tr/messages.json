@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Eğitimi izleyin",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Premium Satın Al",
+    "description": "Buy Premium"
   }
 }

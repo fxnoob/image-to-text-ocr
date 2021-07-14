@@ -134,5 +134,9 @@
   "labelWatchTutorial": {
     "message": "ട്യൂട്ടോറിയൽ കാണുക",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "പ്രീമിയം വാങ്ങുക",
+    "description": "Buy Premium"
   }
 }

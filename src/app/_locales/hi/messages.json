@@ -125,5 +125,9 @@
   "labelWatchTutorial": {
     "message": "शैक्षणिक - कार्यक्रम देखें",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "प्रीमियम खरीदें",
+    "description": "Buy Premium"
   }
 }

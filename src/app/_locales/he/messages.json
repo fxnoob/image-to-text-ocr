@@ -125,5 +125,6 @@
   "labelWatchTutorial": {
     "message": "צפה בהדרכה",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "קנו פרימיום", "description": "Buy Premium" }
 }

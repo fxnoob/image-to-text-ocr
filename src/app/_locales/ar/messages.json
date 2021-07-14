@@ -128,5 +128,6 @@
   "labelWatchTutorial": {
     "message": "مشاهدة البرنامج التعليمي",
     "description": "Watch Tutorial"
-  }
+  },
+  "labelBuyPremium": { "message": "شراء قسط", "description": "Buy Premium" }
 }

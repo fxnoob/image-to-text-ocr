@@ -125,5 +125,9 @@
   "labelWatchTutorial": {
     "message": "Tazama Mafunzo",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Nunua Premium",
+    "description": "Buy Premium"
   }
 }

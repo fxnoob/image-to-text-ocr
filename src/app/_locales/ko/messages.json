@@ -122,5 +122,9 @@
   "labelWatchTutorial": {
     "message": "튜토리얼보기",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "프리미엄 구매",
+    "description": "Buy Premium"
   }
 }

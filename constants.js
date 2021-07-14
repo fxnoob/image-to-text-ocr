@@ -30,6 +30,7 @@ const constants = {
     },
   },
   support: {
+    premium: "https://app.imagetext.xyz/login",
     terms: "https://imagetext.xyz/terms",
     privacyPolicy: "https://imagetext.xyz/privacy",
     donate: "https://www.patreon.com/fxnoob",

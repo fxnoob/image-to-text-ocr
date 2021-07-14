@@ -17,9 +17,9 @@ export default function Welcome() {
   const appDescription = t("appDescription"); // A Fast and simple document scanner app with high quality text output
   const linkPrivacy = t("linkPrivacy"); // Privacy
   const linkSupport = t("linkSupport"); // Support
-  const linkDonate = t("linkDonate"); // Donate
   const linkTutorial = t("linkTutorial"); // Tutorial
   const labelWatchTutorial = t("labelWatchTutorial"); // Watch Tutorial
+  const labelBuyPremium = t("labelBuyPremium"); // Buy Premium
   const linkTermsAndConditions = t("linkTermsAndConditions"); // Terms and Conditions
   const headKeyFeatures = t("headKeyFeatures"); // Key Features
   const headFeatures = t("headFeatures"); // Features
@@ -105,15 +105,6 @@ export default function Welcome() {
                     {linkSupport}
                   </a>
                 </li>
-                <li className="mr-3">
-                  <a
-                    className="text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
-                    target="_blank"
-                    href="https://www.patreon.com/fxnoob"
-                  >
-                    {linkDonate}
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -127,12 +118,21 @@ export default function Welcome() {
             <p className="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8">
               {appDescription}
             </p>
-            <a
-              className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
-              href={constants.support.howToVideoLink}
-            >
-              {labelWatchTutorial}
-            </a>
+            <div>
+              <a
+                className="shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+                href={constants.support.howToVideoLink}
+              >
+                {labelWatchTutorial}
+              </a>
+              <a
+                style={{ marginLeft: "1rem" }}
+                className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+                href={constants.support.premium}
+              >
+                {labelBuyPremium}
+              </a>
+            </div>
           </div>
 
           <div
@@ -721,12 +721,21 @@ export default function Welcome() {
           <h3 className="my-4 text-3xl font-extrabold" spellCheck="true">
             {getStarted}
           </h3>
-          <a
-            className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
-            href={constants.support.howToVideoLink}
-          >
-            {labelWatchTutorial}
-          </a>
+          <div>
+            <a
+              className="shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+              href={constants.support.howToVideoLink}
+            >
+              {labelWatchTutorial}
+            </a>
+            <a
+              style={{ marginLeft: "1rem" }}
+              className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+              href={constants.support.premium}
+            >
+              {labelBuyPremium}
+            </a>
+          </div>
         </section>
 
         <footer className="bg-white">

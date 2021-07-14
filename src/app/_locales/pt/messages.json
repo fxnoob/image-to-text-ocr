@@ -128,5 +128,9 @@
   "labelWatchTutorial": {
     "message": "Veja o tutorial",
     "description": "Watch Tutorial"
+  },
+  "labelBuyPremium": {
+    "message": "Compre Premium",
+    "description": "Buy Premium"
   }
 }

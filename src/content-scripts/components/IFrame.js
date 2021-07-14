@@ -39,9 +39,7 @@ export default (props) => {
         src={props.imgSrc}
         minCropBoxWidth={100}
         minCropBoxHeight={100}
-        zoomable={false}
         zoomOnWheel={false}
-        dragMode="none"
         style={{
           height: "100%",
           width: "100%",

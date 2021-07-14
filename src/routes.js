@@ -1,6 +1,5 @@
 import MessagePassingService from "./services/messagePassing";
 import MessagePassingExternalService from "./services/messagePassingExternal";
-import Constants from "../constants";
 import {
   loadImage,
   generateGuid,

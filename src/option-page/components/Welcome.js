@@ -120,17 +120,10 @@ export default function Welcome() {
             </p>
             <div>
               <a
-                className="shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+                className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
                 href={constants.support.howToVideoLink}
               >
                 {labelWatchTutorial}
-              </a>
-              <a
-                style={{ marginLeft: "1rem" }}
-                className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
-                href={constants.support.premium}
-              >
-                {labelBuyPremium}
               </a>
             </div>
           </div>
@@ -723,17 +716,10 @@ export default function Welcome() {
           </h3>
           <div>
             <a
-              className="shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
+              className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
               href={constants.support.howToVideoLink}
             >
               {labelWatchTutorial}
-            </a>
-            <a
-              style={{ marginLeft: "1rem" }}
-              className="gradient2 shadow rounded-md text-base inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4 gredient-2"
-              href={constants.support.premium}
-            >
-              {labelBuyPremium}
             </a>
           </div>
         </section>

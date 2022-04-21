@@ -1,4 +1,5 @@
 import constants from "../../constants";
+
 const generateGuid = () => {
   var result, i, j;
   result = "";
@@ -69,32 +70,7 @@ const extractHostname = (url) => {
 
   return hostname;
 };
-/**
- * return browser name. if it's google chrome than return false.
- * */
-const isBadBrowser =
-  window.navigator.userAgent.indexOf("Edg") > -1
-    ? "Microsoft Edge"
-    : window.navigator.userAgent.indexOf("Firefox") > -1
-    ? "Firefox"
-    : void 0 !== window.navigator.brave
-    ? "Brave"
-    : void 0 !== window.safari
-    ? "Safari"
-    : !!(function () {
-        for (let a = 0; a < navigator.plugins.length; a += 1)
-          if (
-            null != navigator.plugins[a].name &&
-            -1 !== navigator.plugins[a].name.indexOf("Chromium")
-          )
-            return !0;
-        return !1;
-      })() && "Chromium";
-const isGoogleChrome = isBadBrowser == false;
-const isBrave = isBadBrowser == "Brave";
-const isFirefox = isBadBrowser == "Firefox";
-const isMicrosoftEdge = isBadBrowser == "Microsoft Edge";
-const isChromium = isBadBrowser == "Chromium";
+
 const getExtensionStoreLink = () => {
   let link;
   if (isFirefox) {
@@ -130,25 +106,13 @@ class DataUtility {
   }
 }
 const DataStore = new DataUtility();
-/**
- * Detect browser language id
- * */
-const getBrowserLangId = () => {
-  let language;
-  if (window.navigator.languages) {
-    language = window.navigator.languages[0];
-  } else {
-    language = window.navigator.userLanguage || window.navigator.language;
-  }
-  return language;
-};
+
 /**
  * Get browser Locale
  * */
 const getBrowserLocale = () => {
-  const langId = getBrowserLangId();
-  const locale = langId.split("-");
-  return locale[0];
+  const langId = chrome.i18n.getUILanguage();
+  return langId.split("-")[0];
 };
 export {
   generateGuid,
@@ -156,11 +120,6 @@ export {
   loadImage,
   urlWithoutQueryParameters,
   extractHostname,
-  isGoogleChrome,
-  isBrave,
-  isFirefox,
-  isMicrosoftEdge,
-  isChromium,
   getExtensionStoreLink,
   DataStore,
   getBrowserLocale,

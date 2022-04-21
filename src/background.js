@@ -23,8 +23,8 @@ class Main {
     this.setFeedbackFormUrl();
   }
   init = async () => {
-    await this.initDb();
-    await Routes();
+    Routes();
+    this.initDb();
     this.initContextMenu();
     this.popUpClickSetup();
   };
@@ -73,7 +73,7 @@ class Main {
     });
   };
   popUpClickSetup = () => {
-    chrome.browserAction.onClicked.addListener(this.openCropWindow);
+    chrome.action.onClicked.addListener(this.openCropWindow);
   };
   /**
    * Context menu option initialization

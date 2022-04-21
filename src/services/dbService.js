@@ -1,3 +1,4 @@
+import constants from "../../constants";
 /**
  * Schema class object
  *
@@ -9,7 +10,7 @@ class Schema {
     this.data = {
       isAuthenticated: true,
       promotionalTileShown: false,
-      endpoint: "https://imagetext.xyz",
+      endpoint: constants.appConfig.endpoint,
     };
   }
 }

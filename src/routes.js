@@ -8,11 +8,12 @@ import {
 } from "./services/helper";
 import dbService from "./services/dbService";
 
-const Routes = async () => {
+const Routes = () => {
   // set extra options
   MessagePassingService.setOptions({});
   //open new tab
   MessagePassingService.on("/open_tab", async (req, res, options) => {
+    console.log({ req });
     const uid = generateGuid();
     DataStore.set(uid, req.imgSrc);
     const locale = getBrowserLocale();

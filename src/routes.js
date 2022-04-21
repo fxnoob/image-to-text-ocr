@@ -1,11 +1,6 @@
 import MessagePassingService from "./services/messagePassing";
 import MessagePassingExternalService from "./services/messagePassingExternal";
-import {
-  loadImage,
-  generateGuid,
-  DataStore,
-  getBrowserLocale,
-} from "./services/helper";
+import { generateGuid, DataStore, getBrowserLocale } from "./services/helper";
 import dbService from "./services/dbService";
 
 const Routes = () => {
@@ -34,8 +29,7 @@ const Routes = () => {
       const { id } = req;
       const imgData = DataStore.get(id);
       if (imgData) {
-        const imageb64Data = await loadImage(imgData);
-        res(imageb64Data);
+        res(imgData.replace(/^data:image\/(png|jpg);base64,/, ""));
       } else {
         res(null);
       }
@@ -51,8 +45,7 @@ const Routes = () => {
     const { id } = req;
     const imgData = DataStore.get(id);
     if (imgData) {
-      const imageb64Data = await loadImage(imgData);
-      res(imageb64Data);
+      res(imgData.replace(/^data:image\/(png|jpg);base64,/, ""));
     } else {
       res(null);
     }

@@ -1,16 +1,17 @@
 import MessagePassingService from "./services/messagePassing";
 import MessagePassingExternalService from "./services/messagePassingExternal";
-import { generateGuid, DataStore, getBrowserLocale } from "./services/helper";
+import { generateGuid, getBrowserLocale } from "./services/helper";
 import dbService from "./services/dbService";
+import { LruCacheLinear } from "./services/cache";
 
 const Routes = () => {
+  const cache = new LruCacheLinear(3)
   // set extra options
   MessagePassingService.setOptions({});
   //open new tab
   MessagePassingService.on("/open_tab", async (req, res, options) => {
-    console.log({ req });
     const uid = generateGuid();
-    DataStore.set(uid, req.imgSrc);
+    cache.set(uid, req.imgSrc);
     const locale = getBrowserLocale();
     const { endpoint } = await dbService.get("endpoint");
     const url = `${endpoint}/screen?id=${uid}&hl=${locale}`;
@@ -27,7 +28,7 @@ const Routes = () => {
     "/get_image_data",
     async (req, res, options) => {
       const { id } = req;
-      const imgData = DataStore.get(id);
+      const imgData = cache.get(id);
       if (imgData) {
         res(imgData.replace(/^data:image\/(png|jpg);base64,/, ""));
       } else {
@@ -43,7 +44,7 @@ const Routes = () => {
   });
   MessagePassingService.on("/get_image_data", async (req, res, options) => {
     const { id } = req;
-    const imgData = DataStore.get(id);
+    const imgData = cache.get(id);
     if (imgData) {
       res(imgData.replace(/^data:image\/(png|jpg);base64,/, ""));
     } else {
@@ -52,9 +53,6 @@ const Routes = () => {
   });
   MessagePassingExternalService.on("/clear_image_data", (req, res, options) => {
     const { id } = req;
-    if (DataStore[id]) {
-      delete DataStore[id];
-    }
   });
 };
 

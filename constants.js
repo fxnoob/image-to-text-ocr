@@ -5,7 +5,7 @@ const constants = {
     appName: "Image to Text (OCR)",
     urls: {
       chrome:
-        "https://chrome.google.com/webstore/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo",
+        "https://chromewebstore.google.com/detail/image-to-text/jgjlejdhmfpimggbicpffmpbnalcnhoo",
       firefox: "https://addons.mozilla.org/addon/image-to-text-pro-ocr/",
       edge:
         "https://microsoftedge.microsoft.com/addons/detail/icgbomdceijejlokdmjpmgkojiliphma",
@@ -41,7 +41,7 @@ const constants = {
   promotion: {
     ocrWebsite: "http://imagetext.xyz/",
     voiceTypingExtension:
-      "https://chrome.google.com/webstore/detail/voice-typing/hmpihaioaacpehkghnkmnmgmihalkmdf",
+      "https://chromewebstore.google.com/detail/voice-typing/hmpihaioaacpehkghnkmnmgmihalkmdf",
   },
 };
 
